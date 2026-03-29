@@ -115,46 +115,23 @@ GitHub Pages에 자동으로 배포됩니다:
 4. `docs/` 디렉토리에 빌드 결과 저장
 5. GitHub Pages 자동 배포
 
----
+## 🌐 배포
 
-## 🌐 배포 환경
+| 플랫폼 | URL | 상태 |
+|--------|-----|------|
+| GitHub Pages | https://42kitrun.github.io | [![Pages deployment](https://github.com/42kitrun/42kitrun.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/42kitrun/42kitrun.github.io/actions) |
 
-| 플랫폼          | URL                                                                                | 상태                                                                                                                                                        |
-| ------------ | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| GitHub Pages | [https://42kitrun.github.io](https://42kitrun.github.io) | [![Pages deployment](https://github.com/42kitrun/42kitrun.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/42kitrun/42kitrun.github.io/actions) |
-| Dev.to       | [@42kitrun](https://dev.to/42kitrun)                                               | 자동 동기화                                                                                                                                                    |
+## 📖 추가 자료
 
----
+- [GitHub Pages 문서](https://docs.github.com/en/pages)
+- [Markdown 가이드](https://www.markdownguide.org/)
+- [Obsidian 문서](https://obsidian.md/help)
 
-## 📊 시스템 구성도
-
-### 시스템 다이어그램
-
-![System Architecture Diagram](assets/images/blog_pipeline.png)
-
----
-
-## 📚 학습 자료
-
-- [Jekyll 공식 문서](https://jekyllrb.com/docs/)
-- [GitHub Pages 가이드](https://docs.github.com/en/pages)
-- [Anthropic Claude API](https://docs.anthropic.com/)
-- [Dev.to API 문서](https://developers.forem.com/api)
-
----
-
-## 👤 저자
+## 👨‍💻 저자
 
 **42kitrun**
 - GitHub: [@42kitrun](https://github.com/42kitrun)
-- Dev.to: [@42kitrun](https://dev.to/42kitrun)
 
----
+## 📄 라이선스
 
-## 📞 지원
-
-문제가 발생하면 [Issues](https://github.com/42kitrun/github_pages/issues) 탭에서 이슈를 작성해주세요.
-
----
-
-**⭐ 도움이 되셨나요? 이 리포지토리를 스타해주세요!**
+MIT License - 자유롭게 사용, 수정, 배포 가능합니다.
