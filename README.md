@@ -1,6 +1,5 @@
 # 42kitrun's Blog
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown)
 ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat&logo=obsidian&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat&logo=github-pages)
@@ -59,7 +58,3 @@ GitHub에 공개되는 파일 구조입니다:
 
 **42kitrun**
 - GitHub: [@42kitrun](https://github.com/42kitrun)
-
-## 📄 라이선스
-
-MIT License - 자유롭게 사용, 수정, 배포 가능합니다.
