@@ -3,13 +3,17 @@ title: nowinseoul
 date: 2026-03-25
 updated: 2026-03-20
 tags:
-  - 성능최적화
+  - performance-optimization
   - backend
   - nginx
   - gunicorn
   - flask
   - SQLite
   - docker
+  - dockerfile
+  - container
+  - image
+  - build
 status: draft
 excerpt: 한 줄 요약
 devto: true
