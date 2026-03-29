@@ -1,47 +1,50 @@
-# Jekyll build output
-_site/
-.jekyll-cache/
+# === ESSENTIAL FILES ONLY ===
+# Include only essential files for the blog
 
-# Obsidian local settings (all)
+/*
+!.gitignore
+!README.md
+!content/
+
+# Development & Build files (EXCLUDE)
+.github/
+node_modules/
+package.json
+package-lock.json
+quartz/
+quartz.config.ts
+quartz.layout.ts
+tsconfig.json
+tsconfig.tsbuildinfo
+public/
+docs/
+
+# Obsidian & IDE
 .obsidian/
+.vscode/
+.idea/
+.claude/
 
-# System files
+# Project-specific (EXCLUDE)
+Blog/
+Settings/
+Excalidraw/
+assets/
+CLAUDE.md
+
+# System & Temporary files
 .DS_Store
 ._*
 Thumbs.db
-
-# Temporary files
 *.tmp
 *.bak
 *.swp
+.env*
+*.key
+secrets/
 
-# IDE
-.vscode
-.idea
-
-# === DRAFTS SECURITY ===
-  # Draft 폴더는 NEVER public
-  Blog/Drafts/
-  Blog/Drafts/**
-
-  # 추가 보안
-  .env*
-  *.key
-  secrets/
-
-# Claude Code local session
-.claude/
-
-# Local development & configuration
-CLAUDE.md
-Settings/
-Excalidraw/
-
-# bkit & PDCA temporary files
-docs/.bkit-memory.json
-docs/.pdca-snapshots/
-docs/.pdca-status.json
-
-# Quartz build output
-public/
-quartz/.quartz-cache/
+# Screenshot files
+*.png
+*.jpg
+*.jpeg
+*.gif
