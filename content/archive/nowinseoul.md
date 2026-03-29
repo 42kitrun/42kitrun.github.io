@@ -47,4 +47,4 @@ devto_url:
 - [링크2](https://example.com)
 
 ## 관련 글
-- [[posts/|다른 포스트들]]
+- 상단 내비게이션의 `Posts`

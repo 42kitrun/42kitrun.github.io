@@ -10,7 +10,7 @@ title: 42kitrun Blog
 
 ## 📚 포스트
 
-모든 포스트는 [[posts/|여기]]에서 확인할 수 있습니다.
+모든 포스트는 상단 내비게이션의 `Posts`에서 확인할 수 있습니다.
 
 ## 🔗 Let's Connect
 
