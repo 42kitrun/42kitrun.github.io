@@ -111,6 +111,8 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   const tweens = new Map<string, TweenNode>()
   for (const [source, details] of data.entries()) {
+    if (isGraphExcluded(source, details)) continue
+
     const outgoing = details.links ?? []
 
     for (const dest of outgoing) {
