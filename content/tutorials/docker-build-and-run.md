@@ -19,7 +19,7 @@ docker build [옵션] -t 이미지명:태그 .
 **실제 예시**
 
 ```bash
-docker build --platform linux/amd64 --no-cache -t my-app:2026_03_30 .
+docker build --platform linux/amd64 --no-cache -t my-app:v1.0 .
 ```
 
 ### 주요 옵션 설명
@@ -35,7 +35,7 @@ docker build --platform linux/amd64 --no-cache -t my-app:2026_03_30 .
 
 **`-t 이미지명:태그`**
 - 빌드할 이미지에 이름과 태그를 붙입니다.
-- 예: `my-app:v1.0`, `my-app:2026_03_30`, `my-app:latest`
+- 예: `my-app:v1.0`, `my-app:v1.0`, `my-app:latest`
 - 태그는 버전 관리나 여러 버전을 구분하기 위해 사용합니다.
 
 **`.`(점)**
@@ -45,7 +45,7 @@ docker build --platform linux/amd64 --no-cache -t my-app:2026_03_30 .
 ### 빌드 후 보안 검사
 
 ```bash
-docker scout quickview my-app:2026_03_30
+docker scout quickview my-app:v1.0
 ```
 
 **docker scout quickview의 역할**
@@ -80,7 +80,7 @@ docker run [옵션] 이미지명:태그
 **기본 실행**
 
 ```bash
-docker run -d -p 5000:8000 my-app:2026_03_30
+docker run -d -p 5000:8000 my-app:v1.0
 ```
 
 이 명령어는:
@@ -94,7 +94,7 @@ docker run -d -p 5000:8000 my-app:2026_03_30
 docker run --env-file .env \
            -p 5000:8000 \
            -v /app/data:/data \
-           my-app:2026_03_30
+           my-app:v1.0
 ```
 
 호스트의 `/app/data` 디렉토리가 컨테이너의 `/data`로 마운트되어 파일을 공유합니다.
@@ -106,7 +106,7 @@ docker run --env-file .env \
 - `Ctrl + C`로 중지시키면 컨테이너도 사라집니다.
 
 ```bash
-docker run -d my-app:2026_03_30
+docker run -d my-app:v1.0
 ```
 
 **docker stop**
@@ -139,7 +139,7 @@ docker start 컨테이너ID
 ### 호스트 포트 vs 컨테이너 포트
 
 ```bash
-docker run -p 5000:8000 my-app:2026_03_30
+docker run -p 5000:8000 my-app:v1.0
         ↑        ↑      ↑
       옵션   호스트포트 컨테이너포트
 ```
@@ -182,10 +182,10 @@ API_KEY=your_api_key_here
 
 ```bash
 # .env 파일로 모든 환경변수 적용
-docker run --env-file .env my-app:2026_03_30
+docker run --env-file .env my-app:v1.0
 
 # 또는 개별적으로 지정
-docker run -e DB_HOST=localhost -e DB_PORT=5432 my-app:2026_03_30
+docker run -e DB_HOST=localhost -e DB_PORT=5432 my-app:v1.0
 ```
 
 ## 볼륨 마운트
@@ -196,19 +196,19 @@ docker run -e DB_HOST=localhost -e DB_PORT=5432 my-app:2026_03_30
 
 **정적 파일 공유**
 ```bash
-docker run -v /app/static:/app/static my-app:2026_03_30
+docker run -v /app/static:/app/static my-app:v1.0
 ```
 
 **데이터베이스 파일 공유**
 ```bash
-docker run -v /app/data:/data my-app:2026_03_30
+docker run -v /app/data:/data my-app:v1.0
 ```
 
 **여러 볼륨 마운트**
 ```bash
 docker run -v /app/static:/app/static \
            -v /app/data:/data \
-           my-app:2026_03_30
+           my-app:v1.0
 ```
 
 ### 호스트 권한 설정

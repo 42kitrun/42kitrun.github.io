@@ -44,7 +44,7 @@ Login Succeeded
 docker tag <로컬이미지명:태그> <Docker_Hub_ID>/<이미지명>:<태그>
 
 # 예시
-docker tag nowinseoul:2025_09_07_19 myusername/nowinseoul:2025_09_07_19
+docker tag nowinseoul:v1.0.0 myusername/nowinseoul:v1.0.0
 ```
 
 **Docker Hub ID 확인 방법**
@@ -60,23 +60,23 @@ docker tag nowinseoul:2025_09_07_19 myusername/nowinseoul:2025_09_07_19
 docker push <Docker_Hub_ID>/<이미지명>:<태그>
 
 # 예시
-docker push myusername/nowinseoul:2025_09_07_19
+docker push myusername/nowinseoul:v1.0.0
 ```
 
 **터미널 실행 결과 예시**
 
 ```bash
-$ docker push myusername/nowinseoul:2025_09_04_01
+$ docker push myusername/nowinseoul:v1.0.0
 The push refers to repository [docker.io/myusername/nowinseoul]
-a15746fb62d4: Pushing  15.11MB/63.39MB
-e1dbe8851ff6: Pushed
-b2231c2ea17d: Pushed
-b574e89249d2: Pushing  34.19MB/63.38MB
-951f03d204c0: Pushing  36.06MB/409.8MB
-aa1a6a6ffa05: Pushed
-4af10450afa4: Pushed
-a72c129d8f87: Mounted from library/python
-2025_09_04_01: digest: sha256:37e9fb6319429a64357084d3fdc51d178a5e77ffde1b517585c8042af1b96d1d
+abc1234def56: Pushing  15.11MB/63.39MB
+fed7890abc12: Pushed
+cba3456def78: Pushed
+efg9012abc34: Pushing  34.19MB/63.38MB
+ghi5678def90: Pushing  36.06MB/409.8MB
+jkl2345ghi67: Pushed
+mno8901jkl23: Pushed
+pqr4567mno89: Mounted from library/python
+v1.0.0: digest: sha256:a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1
 size: 2626
 ```
 
@@ -119,14 +119,14 @@ Docker Hub에 등록된 이미지를 로컬로 가져올 때는 다음 명령어
 docker pull <Docker_Hub_ID>/<이미지명>:<태그>
 
 # 예시
-docker pull myusername/nowinseoul:2025_09_07_19
+docker pull myusername/nowinseoul:v1.0.0
 ```
 
 **터미널 실행 결과 예시**
 
 ```bash
-$ docker pull myusername/nowinseoul:2025_09_04_01
-2025_09_04_01: Pulling from myusername/nowinseoul
+$ docker pull myusername/nowinseoul:v1.0.0
+v1.0.0: Pulling from myusername/nowinseoul
 9a6263cdeaa5: Pull complete
 154984c62312: Pull complete
 72eefd466169: Pull complete
@@ -139,7 +139,7 @@ eef255fb6b3e: Pull complete
 779bb3e44290: Download complete
 11c756d64020: Download complete
 
-Status: Downloaded newer image for myusername/nowinseoul:2025_09_04_01
+Status: Downloaded newer image for myusername/nowinseoul:v1.0.0
 ```
 
 ### 3단계: 다운로드된 이미지 확인
@@ -152,9 +152,9 @@ docker images
 
 ```bash
 REPOSITORY                  TAG              IMAGE ID       CREATED        SIZE
-myusername/nowinseoul       2025_09_04_01    a15746fb62d4   2 hours ago    450MB
-nowinseoul                  latest           b2231c2ea17d   1 day ago      450MB
-python                      3.13-slim        c3d4bf2e8f9d   1 week ago     125MB
+myusername/nowinseoul       v1.0.0    abc1234def56   2 hours ago    450MB
+nowinseoul                  latest           xyz9876uvw54   1 day ago      450MB
+python                      3.13-slim        fed5678abc90   1 week ago     125MB
 ```
 
 ---
@@ -167,13 +167,13 @@ python                      3.13-slim        c3d4bf2e8f9d   1 week ago     125MB
 
 ```bash
 # 빌드한 이미지
-docker tag nowinseoul:2025_09_07_19 myusername/nowinseoul:2025_09_07_19
+docker tag nowinseoul:v1.0.0 myusername/nowinseoul:v1.0.0
 
 # 최신 버전도 함께 태깅
-docker tag nowinseoul:2025_09_07_19 myusername/nowinseoul:latest
+docker tag nowinseoul:v1.0.0 myusername/nowinseoul:latest
 
 # 푸시
-docker push myusername/nowinseoul:2025_09_07_19
+docker push myusername/nowinseoul:v1.0.0
 docker push myusername/nowinseoul:latest
 ```
 
@@ -181,7 +181,7 @@ docker push myusername/nowinseoul:latest
 
 **권장 패턴**
 
-1. **날짜 기반**: `2025_09_07_19` (연_월_일_시)
+1. **날짜 기반**: `v1.0.0` (연_월_일_시)
 2. **의미 있는 버전**: `v1.0`, `v1.0.1`, `v2.0`
 3. **최신 버전**: `latest` (항상 최신 빌드 가리킴)
 
