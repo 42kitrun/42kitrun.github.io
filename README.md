@@ -1,14 +1,11 @@
 # 42kitrun's Blog
 
-[![GitHub Pages](https://github.com/42kitrun/42kitrun.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/42kitrun/42kitrun.github.io/actions/workflows/publish.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown)
 ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat&logo=obsidian&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat&logo=github-pages)
 
 개발하면서 반복해서 묻게 되는 질문들에 대한 답변과 개념을 정리한 기술 블로그입니다. 어려운 개념일수록 자주 잊기 때문에, 같은 질문이 떠오를 때마다 여기서 복습하고 더 깊게 이해하며 점진적으로 업데이트됩니다.
-
-**Live**: https://42kitrun.github.io/
 
 ---
 
@@ -50,18 +47,7 @@ GitHub에 공개되는 파일 구조입니다:
 └── .gitignore            # Git 제외 설정
 ```
 
-**로컬 개발 구조** (GitHub에 공개되지 않음):
-- `CLAUDE.md` - 블로그 작성 규칙 & AI 협업 가이드
-- `Settings/` - 블로그 설정 (blog-config.md)
-- `Blog/_templates/` - 포스트 작성 템플릿
-- `.github/` - CI/CD 파이프라인
-- 기타 개발 및 빌드 파일
-
-## 🌐 배포
-
-| 플랫폼 | URL | 상태 |
-|--------|-----|------|
-| GitHub Pages | https://42kitrun.github.io | [![Pages deployment](https://github.com/42kitrun/42kitrun.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/42kitrun/42kitrun.github.io/actions) |
+---
 
 ## 📖 추가 자료
 
