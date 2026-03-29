@@ -462,7 +462,7 @@ Hospital C /
 - [[essential-specifications|필수 표준 & 명세서 가이드]] - HL7, FHIR의 기술적 명세
 
 **관련 포스트:**
-- [[개인정보처리방침|헬스케어 앱 개인정보처리방침 작성법]] - 의료 데이터 보호와 규제
+- [[privacy-policy-healthcare|헬스케어 앱 개인정보처리방침 작성법]] - 의료 데이터 보호와 규제
 
 ---
 

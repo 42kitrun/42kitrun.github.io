@@ -86,7 +86,7 @@ Docker Hub에 로그인 후 Repositories에서 정상 업로드 여부를 확인
 
 **경로**: https://hub.docker.com/repositories/myusername
 
-![[Docker Hub Repository]](https://docs.docker.com/assets/images/hub-repositories.png)
+![Docker Hub Repository](https://docs.docker.com/assets/images/hub-repositories.png)
 
 ---
 
