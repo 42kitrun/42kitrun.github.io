@@ -1,0 +1,47 @@
+# Jekyll build output
+_site/
+.jekyll-cache/
+
+# Obsidian local settings (all)
+.obsidian/
+
+# System files
+.DS_Store
+._*
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# IDE
+.vscode
+.idea
+
+# === DRAFTS SECURITY ===
+  # Draft 폴더는 NEVER public
+  Blog/Drafts/
+  Blog/Drafts/**
+
+  # 추가 보안
+  .env*
+  *.key
+  secrets/
+
+# Claude Code local session
+.claude/
+
+# Local development & configuration
+CLAUDE.md
+Settings/
+Excalidraw/
+
+# bkit & PDCA temporary files
+docs/.bkit-memory.json
+docs/.pdca-snapshots/
+docs/.pdca-status.json
+
+# Quartz build output
+public/
+quartz/.quartz-cache/
