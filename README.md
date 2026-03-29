@@ -1,13 +1,13 @@
-# 42kitrun Blog(https://42kitrun.github.io/)
+# 42kitrun's Technical Blog
 
 [![GitHub Pages](https://github.com/42kitrun/42kitrun.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/42kitrun/42kitrun.github.io/actions/workflows/publish.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
-[![Ruby 3.2+](https://img.shields.io/badge/ruby-3.2+-CC342D.svg)](https://www.ruby-lang.org/)
-[![Jekyll](https://img.shields.io/badge/Jekyll-4.3+-CC0000.svg)](https://jekyllrb.com/)
-[![Multi-language](https://img.shields.io/badge/Languages-Korean%20%7C%20English-green.svg)](#-다국어-지원)
 
-한국어와 영어를 지원하는 **자동화된 기술 블로그 플랫폼**입니다. Claude API를 활용한 자동 번역, GitHub Actions를 통한 원클릭 배포, Dev.to 자동 발행 기능을 제공합니다.
+🇰🇷 **한국어** | 🇺🇸 **English**
+
+개인 기술 블로그입니다. 프로그래밍, 데이터 구조, 시스템 아키텍처 등 다양한 기술 주제를 다룹니다.
+
+**Live**: https://42kitrun.github.io/
 
 ---
 
