@@ -5,6 +5,7 @@
 !.gitignore
 !README.md
 !content/
+!.github/
 
 # Exclude development files inside content/
 content/docs/.bkit-memory.json
@@ -13,7 +14,9 @@ content/.obsidian/
 content/docs/.pdca-snapshots/
 
 # Development & Build files (EXCLUDE)
-.github/
+.github/*
+!.github/workflows/
+!.github/workflows/*.yml
 node_modules/
 package.json
 package-lock.json
