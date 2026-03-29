@@ -478,6 +478,5 @@ app.get('/users', (req, res) => {
 
 **관련 포스트:**
 - [[database-engine|데이터베이스 엔진이란?]]
-- [[fundamentals-index|개발자 기초 개념 학습 가이드]]
 
 ---

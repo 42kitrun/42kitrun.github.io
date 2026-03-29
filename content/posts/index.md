@@ -111,7 +111,6 @@ unix-domain-socket (IPC)
 
 | 제목 | 날짜 | 태그 |
 |------|------|------|
-| [[fundamentals-index\|개발자 기초 개념 학습 가이드]] | 2026-03-28 | #learning #fundamentals |
 | [[database-engine\|데이터베이스 엔진이란?]] | 2026-03-28 | #database #engine #architecture |
 | [[program-driver-engine\|프로그램, 드라이버, 엔진의 관계]] | 2026-03-28 | #architecture #layers #driver |
 | [[c-language-compilation\|C 언어 프로그램은 어떻게 실행될까?]] | 2026-03-28 | #c #compilation #machine-code |
@@ -123,4 +122,3 @@ unix-domain-socket (IPC)
 | [[unix-domain-socket\|Unix Domain Socket (유닉스) 이해하기]] | 2026-03-24 | #ipc #networking #unix |
 | [[snomed-ct\|국제 의료표준 코드(SNOMED-CT) 도입기]] | 2026-03-26 | #healthcare #snomed-ct #medical-code #data-standards |
 | [[privacy-policy-healthcare\|헬스케어 앱 개인정보처리방침 작성법]] | 2026-03-25 | #privacy #healthcare #data-protection #compliance |
-

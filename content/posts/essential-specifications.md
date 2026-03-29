@@ -263,8 +263,6 @@ O(1) < O(log n) < O(n) < O(n log n) < O(n²) < O(2ⁿ) < O(n!)
 - [[snomed-ct|국제 의료표준 코드(SNOMED-CT) 도입기]] - 의료 데이터의 표준 코드 체계
 
 **기초 개념:**
-- [[fundamentals-index|개발자 기초 개념 학습 가이드]] - 표준 이해를 위한 기초 개념들
 - [[c-language-compilation|C 언어 프로그램은 어떻게 실행될까?]] - 언어 표준과 구현의 관계
 
 ---
-
