@@ -6,6 +6,12 @@
 !README.md
 !content/
 
+# Exclude development files inside content/
+content/docs/.bkit-memory.json
+content/docs/.pdca-status.json
+content/.obsidian/
+content/docs/.pdca-snapshots/
+
 # Development & Build files (EXCLUDE)
 .github/
 node_modules/
