@@ -1,5 +1,5 @@
 ---
-title: 의료 데이터 교환 표준: HL7, FHIR, DICOM 비교
+title: "의료 데이터 교환 표준: HL7, FHIR, DICOM 비교"
 date: 2026-03-28
 updated: 2026-03-28
 tags:
