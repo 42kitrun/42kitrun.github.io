@@ -23,50 +23,80 @@
 
 ---
 
-## 🔄 자동 번역 및 발행 프로세스
+## 📁 프로젝트 구조
 
-### 1단계: 블로그 포스트 작성
-```markdown
-Blog/Published/2026-03-21-my-post.md
----
-title: "내 첫 기술 블로그 포스트"
-lang: ko
-date: 2026-03-21
----
-
-포스트 내용...
+```
+42kitrun.github.io/
+├── content/
+│   ├── posts/              # 📝 기술 블로그 포스트
+│   │   └── index.md       # 포스트 인덱스
+│   ├── tutorials/         # 📚 튜토리얼 & 가이드
+│   │   └── index.md
+│   ├── archive/           # 🗂️ 아카이브
+│   │   └── index.md
+│   ├── docs/              # 📖 프로젝트 문서
+│   └── index.md           # 홈페이지
+├── .github/
+│   └── workflows/
+│       └── publish.yml    # CI/CD 파이프라인
+├── docs/                  # 빌드 결과물 (GitHub Pages)
+├── .obsidian/             # Obsidian 설정
+├── README.md              # 이 파일
+└── .gitignore
 ```
 
-### 2단계: GitHub에 푸시
+## 🚀 블로그 포스트 작성 가이드
+
+### 1단계: 포스트 파일 생성
+`content/posts/` 디렉토리에 마크다운 파일 생성:
+
+```markdown
+---
+title: "포스트 제목"
+date: 2026-03-30
+updated: 2026-03-30
+tags: [tag1, tag2]
+description: "간단한 설명"
+---
+
+# 포스트 본문
+여기부터 내용을 작성하세요.
+
+## 하위 섹션
+내용...
+
+## 참고 자료
+[[다른-포스트|참조]]
+```
+
+### 2단계: 메타데이터 설정
+- **title**: 포스트 제목
+- **date**: 작성일 (YYYY-MM-DD)
+- **updated**: 최종 수정일
+- **tags**: 태그 배열 (소문자, 하이픈)
+- **description**: SEO 설명
+
+### 3단계: Wiki-link 사용 (선택사항)
+포스트 간 상호 참조:
+```markdown
+[[unix-domain-socket|Unix Domain Socket 설명 보기]]
+```
+
+### 4단계: 커밋 및 푸시
 ```bash
-git add Blog/Published/
-git commit -m "feat: add new blog post"
+git add content/posts/
+git commit -m "feat: add new blog post about topic"
 git push origin main
 ```
 
-### 3단계: 자동 처리 (GitHub Actions)
-1. **보안 검증** ✅
-   - Drafts 폴더 미포함 확인
-   - 민감 정보(API 키, 환경변수) 누수 확인
+## 📤 자동 배포
 
-2. **자동 번역** 🤖
-   - Claude API로 한국어 → 영어 번역
-   - `Blog/Published/_en/` 디렉토리에 자동 생성
-   - 원본 포스트와 동일한 메타데이터 유지
-
-3. **Dev.to 발행** 📱
-   - 한국어/영어 두 버전 모두 발행
-   - Dev.to API로 자동 교차 포스팅
-   - 포스트 메타데이터에 Dev.to 링크 자동 추가
-
-4. **Jekyll 빌드 및 배포** 🚀
-   - 정적 사이트 생성
-   - GitHub Pages에 자동 배포
-   - OIDC 토큰을 통한 안전한 인증
-
-5. **Frontmatter 업데이트** 🔗
-   - Dev.to 발행 완료 후 포스트 메타데이터 자동 업데이트
-   - 원본 리포지토리에 자동 커밋
+GitHub Pages에 자동으로 배포됩니다:
+1. 마크다운 파일이 `content/posts/`에 추가됨
+2. GitHub Actions가 자동으로 트리거됨
+3. HTML로 빌드되어 `docs/` 디렉토리에 생성
+4. GitHub Pages에서 자동 배포
+5. 약 1-2분 후 라이브 사이트에 반영
 
 ---
 
