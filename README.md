@@ -100,61 +100,20 @@ GitHub Pages에 자동으로 배포됩니다:
 
 ---
 
-## 🔧 GitHub Actions 워크플로우
+## 🔧 CI/CD 파이프라인
 
-### 워크플로우 트리거
-- **자동**: `Blog/Published/**.md` 파일 변경 시
-- **수동**: GitHub Actions 대시보드에서 `workflow_dispatch` 실행
+자동 배포는 `.github/workflows/publish.yml`에서 관리됩니다.
 
-### 워크플로우 구성
+**트리거 조건:**
+- `content/posts/` 디렉토리의 마크다운 파일 변경
+- GitHub Actions 수동 실행
 
-```yaml
-┌─────────────────────────────────────────────┐
-│   GitHub Actions: Auto-Publish Blog         │
-└─────────────────────────────────────────────┘
-         ↓
-┌─────────────────────────────────────────────┐
-│  🔒 Security Check Job                      │
-│  ├─ Verify no Drafts in repository         │
-│  └─ Verify no secrets exposed              │
-└─────────────────────────────────────────────┘
-         ↓ (needs: security-check)
-┌─────────────────────────────────────────────┐
-│  📤 Publish Job                             │
-│  ├─ Checkout repository                    │
-│  ├─ Set up Ruby 3.2 + bundler cache       │
-│  ├─ Set up Python 3.10                    │
-│  ├─ 🤖 Translate to English (Claude API)  │
-│  ├─ 📱 Publish to Dev.to                  │
-│  ├─ 🔨 Build Jekyll site                  │
-│  ├─ 🔒 Verify no Drafts in build output  │
-│  ├─ 📦 Upload artifact to GitHub          │
-│  ├─ 🚀 Deploy to GitHub Pages             │
-│  └─ 🔗 Update frontmatter with Dev.to links
-└─────────────────────────────────────────────┘
-```
-
-### 언어 설정
-- `lang: ko` - 한국어 (자동 번역됨)
-- `lang: en` - 영어 (번역 대상 파일)
-
----
-
-## 🔐 보안 기능
-
-### 자동 검증
-
-1. **Drafts 폴더 보호**
-   - 임시 파일(`Blog/Drafts/`)은 배포되지 않음
-   - 실수로 커밋되면 워크플로우 자동 실패
-
-2. **민감 정보 검증**
-   - `.env`, `.key`, `.pem` 파일 자동 검사
-   - API 키, 개인 정보 누수 방지
-
-3. **빌드 출력 검증**
-   - Jekyll 빌드 후 Drafts 포함 여부 재확인
-   - 추가 보안 계층
+**처리 과정:**
+1. 리포지토리 체크아웃
+2. 마크다운 파일 처리
+3. 정적 사이트 생성
+4. `docs/` 디렉토리에 빌드 결과 저장
+5. GitHub Pages 자동 배포
 
 ---
 
