@@ -1,13 +1,12 @@
-# 42kitrun's Technical Blog
+# 42kitrun's Blog
 
 [![GitHub Pages](https://github.com/42kitrun/42kitrun.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/42kitrun/42kitrun.github.io/actions/workflows/publish.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown)
+![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat&logo=obsidian&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat&logo=github-pages)
 
-🇰🇷 **한국어** | 🇺🇸 **English**
-
-개발하면서 반복해서 묻게 되는 질문들에 대한 답변과 개념을 정리한 기술 블로그입니다.
-
-어려운 개념일수록 자주 잊게 되는 법. 이곳의 포스트들은 **"왜 그럴까?", "어떻게 동작할까?"**라는 반복되는 질문에 대한 답을 담고 있습니다. 나중에 같은 질문이 떠오를 때마다 여기서 복습하고 더 깊게 이해하며 점진적으로 업데이트됩니다.
+개발하면서 반복해서 묻게 되는 질문들에 대한 답변과 개념을 정리한 기술 블로그입니다. 어려운 개념일수록 자주 잊기 때문에, 같은 질문이 떠오를 때마다 여기서 복습하고 더 깊게 이해하며 점진적으로 업데이트됩니다.
 
 **Live**: https://42kitrun.github.io/
 
