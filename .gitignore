@@ -59,3 +59,5 @@ secrets/
 *.jpg
 *.jpeg
 *.gif
+!quartz/static/icon.png
+!quartz/static/og-image.png
