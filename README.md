@@ -25,25 +25,36 @@
 
 ## 📁 프로젝트 구조
 
+GitHub에 공개되는 파일 구조입니다:
+
 ```
 42kitrun.github.io/
-├── content/
-│   ├── posts/              # 📝 기술 블로그 포스트
-│   │   └── index.md       # 포스트 인덱스
-│   ├── tutorials/         # 📚 튜토리얼 & 가이드
+├── content/               # 블로그 콘텐츠
+│   ├── posts/            # 📝 기술 블로그 포스트 (9개)
+│   │   ├── index.md
+│   │   ├── database-engine.md
+│   │   ├── unix-domain-socket.md
+│   │   └── ...
+│   ├── tutorials/        # 📚 튜토리얼 & 가이드 (6개)
+│   │   ├── index.md
+│   │   ├── docker-architecture.md
+│   │   ├── docker-build-and-run.md
+│   │   └── ...
+│   ├── archive/          # 🗂️ 아카이브 페이지
 │   │   └── index.md
-│   ├── archive/           # 🗂️ 아카이브
+│   ├── docs/             # 📖 콘텐츠 인덱스
 │   │   └── index.md
-│   ├── docs/              # 📖 프로젝트 문서
-│   └── index.md           # 홈페이지
-├── .github/
-│   └── workflows/
-│       └── publish.yml    # CI/CD 파이프라인
-├── docs/                  # 빌드 결과물 (GitHub Pages)
-├── .obsidian/             # Obsidian 설정
-├── README.md              # 이 파일
-└── .gitignore
+│   └── index.md          # 블로그 홈페이지
+├── README.md             # 이 파일
+└── .gitignore            # Git 제외 설정
 ```
+
+**로컬 개발 구조** (GitHub에 공개되지 않음):
+- `CLAUDE.md` - 블로그 작성 규칙 & AI 협업 가이드
+- `Settings/` - 블로그 설정 (blog-config.md)
+- `Blog/_templates/` - 포스트 작성 템플릿
+- `.github/` - CI/CD 파이프라인
+- 기타 개발 및 빌드 파일
 
 ## 🚀 블로그 포스트 작성 가이드
 
