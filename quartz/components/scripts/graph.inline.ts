@@ -95,9 +95,19 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       v,
     ]),
   )
+  const isGraphExcluded = (nodeSlug: SimpleSlug, details?: ContentDetails) => {
+    if (!details) return false
+
+    // Exclude folder landing pages like /, /posts, /archive, /tutorials from the graph.
+    return nodeSlug === "/" || details.filePath.endsWith("/index.md")
+  }
   const links: SimpleLinkData[] = []
   const tags: SimpleSlug[] = []
-  const validLinks = new Set(data.keys())
+  const validLinks = new Set(
+    [...data.entries()]
+      .filter(([nodeSlug, details]) => !isGraphExcluded(nodeSlug, details))
+      .map(([nodeSlug]) => nodeSlug),
+  )
 
   const tweens = new Map<string, TweenNode>()
   for (const [source, details] of data.entries()) {
