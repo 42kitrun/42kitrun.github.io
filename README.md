@@ -4,7 +4,8 @@
 ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat&logo=obsidian&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat&logo=github-pages)
 
-개발하면서 반복해서 묻게 되는 질문들에 대한 답변과 개념을 정리한 기술 블로그입니다. 어려운 개념일수록 자주 잊기 때문에, 같은 질문이 떠오를 때마다 여기서 복습하고 더 깊게 이해하며 점진적으로 업데이트됩니다.
+개발하면서 반복해서 묻게 되는 질문들에 대한 답변과 개념을 정리한 블로그입니다.  
+어려운 개념일수록 자주 잊기 때문에, 같은 질문이 떠오를 때마다 여기서 복습하고 더 깊게 이해하며 점진적으로 업데이트됩니다.
 
 ---
 
