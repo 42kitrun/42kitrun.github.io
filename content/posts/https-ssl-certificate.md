@@ -55,22 +55,44 @@ HTTPS : 클라이언트 ──── 암호화된 데이터 ──→ 서버
 
 ### DNS & A레코드
 
+**A레코드는 도메인 등록 서비스(Registrar) 또는 DNS 호스팅 업체의 관리 콘솔에서 설정한다.**
+(GoDaddy, Cloudflare, AWS Route 53, Gabia 등 — 도메인을 구매한 곳 또는 네임서버를 위임한 곳)
+
 ```
-사용자가 브라우저에 입력
-  example.com
-       │
-       ▼
-  DNS 서버 조회
-  "example.com의 IP는?"
-       │
-       ▼
-  A레코드: example.com → 123.456.789.0  (서버 IP)
-       │
-       ▼
-  해당 IP 서버에 접속
+[브라우저]  example.com 입력
+     │
+     ▼
+[내 PC / OS]  로컬 캐시 & hosts 파일 확인 → 없으면 아래로
+     │
+     ▼
+[Recursive DNS]  통신사(ISP) 또는 8.8.8.8(Google)
+     │  "example.com 누가 알아?"
+     ▼
+[Root DNS]  .com 담당 TLD 서버 알려줌
+     │
+     ▼
+[TLD DNS]  .com 서버 → "example.com 담당 네임서버는 ns1.registrar.com"
+     │
+     ▼
+[Authoritative DNS]  ← A레코드가 여기 있음
+  (도메인 등록업체 or Cloudflare 등 NS 위임처)
+  A레코드: example.com → 123.456.789.0
+     │
+     ▼
+[내 서버]  IP 123.456.789.0 로 최종 접속
 ```
 
-**A레코드** = 도메인 → IP 주소 매핑. 인증서를 발급하려면 도메인이 **실제 서버 IP를 가리키고 있어야** 한다.
+> 라우터는 이 과정에 관여하지 않는다. 라우터는 내부 네트워크 패킷을 외부로 내보내는 역할이고, A레코드는 **인터넷상의 DNS 서버**에 저장된다.
+
+**A레코드 설정 예시** (Cloudflare 기준)
+
+```
+Type   Name          Content          TTL
+A      example.com   123.456.789.0    Auto
+A      www           123.456.789.0    Auto
+```
+
+인증서를 발급하려면 이 A레코드가 **현재 인증서를 받을 서버 IP를 가리키고 있어야** 한다.
 
 ---
 
