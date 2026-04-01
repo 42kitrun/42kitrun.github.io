@@ -34,6 +34,8 @@ devto_url:
 | [W3C Specifications](https://www.w3.org/TR) | 웹 표준 (HTML, CSS, DOM) |
 | [WHATWG Living Standards](https://spec.whatwg.org) | 브라우저 표준 (현재 진행형) |
 | [MDN Web Docs](https://developer.mozilla.org) | 표준을 쉽게 설명한 문서 |
+| [MDN HTTP Headers Reference](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) | HTTP 헤더 목록 및 설명 |
+| [IANA HTTP Field Name Registry](https://www.iana.org/assignments/http-fields/http-fields.xhtml) | 표준 HTTP 헤더 공식 등록소 |
 
 ---
 
@@ -42,10 +44,11 @@ devto_url:
 ### HTTP & 프로토콜
 | 표준 | RFC | 핵심 |
 |------|-----|------|
-| **HTTP/1.1** | [RFC 7230-7237](https://tools.ietf.org/html/rfc7230) | GET, POST, 상태코드, 헤더 |
-| **HTTP/2** | [RFC 7540](https://tools.ietf.org/html/rfc7540) | 멀티플렉싱, 헤더 압축 |
-| **HTTP/3** | [RFC 9000](https://tools.ietf.org/html/rfc9000) | QUIC 기반, 최신 표준 |
-| **TLS 1.3** | [RFC 8446](https://tools.ietf.org/html/rfc8446) | 안전한 통신 |
+| **HTTP/1.1** | [RFC 2068](https://www.rfc-editor.org/rfc/rfc2068) → [RFC 2616](https://www.rfc-editor.org/rfc/rfc2616) → [RFC 7230-7237](https://www.rfc-editor.org/rfc/rfc7230) → [RFC 9110](https://www.rfc-editor.org/rfc/rfc9110) ✅ | 메서드, 헤더, 상태코드 |
+| **HTTP/2** | [RFC 7540](https://www.rfc-editor.org/rfc/rfc7540) → [RFC 9113](https://www.rfc-editor.org/rfc/rfc9113) ✅ | 멀티플렉싱, 헤더 압축 |
+| **HTTP/3** | [RFC 9000](https://www.rfc-editor.org/rfc/rfc9000) ✅ | QUIC 기반 |
+| **WebSocket** | [RFC 6455](https://www.rfc-editor.org/rfc/rfc6455) ✅ | 양방향 전이중 통신, HTTP Upgrade 기반 |
+| **TLS** | [RFC 5246](https://www.rfc-editor.org/rfc/rfc5246) (1.2) → [RFC 8446](https://www.rfc-editor.org/rfc/rfc8446) (1.3) ✅ | 안전한 통신 |
 
 ### 데이터 포맷
 | 표준 | 링크 | 핵심 |
