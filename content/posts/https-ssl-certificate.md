@@ -98,6 +98,10 @@ A      www           123.456.789.0    Auto
 
 ### SSL 인증서 파일 3종
 
+**CA(Certificate Authority, 인증기관)** = 인증서가 진짜임을 보증해주는 공인 제3자 기관.
+브라우저는 CA 목록을 내장하고 있어, 해당 CA가 서명한 인증서만 신뢰한다.
+대표적으로 Let's Encrypt(무료), DigiCert, Sectigo 등이 있다.
+
 | 파일 | 역할 |
 |------|------|
 | `private.key` | 서버만 가진 비밀키. 절대 외부 노출 금지 |
