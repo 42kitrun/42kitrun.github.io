@@ -1,5 +1,5 @@
 ---
-title: 웹 인프라 완전 해부 - CDN, 로드밸런서, Gateway API, 웹서버의 역할과 헤더 기반 트래픽 분기
+title: 웹 인프라 - CDN, 로드밸런서, Gateway API, 웹서버의 역할과 헤더 기반 트래픽 분기
 date: 2026-03-31
 updated: 2026-03-31
 tags:
@@ -15,7 +15,7 @@ devto_id:
 devto_url:
 ---
 
-# 웹 인프라 완전 해부 - CDN, 로드밸런서, Gateway API, 웹서버의 역할과 헤더 기반 트래픽 분기
+# 웹 인프라 - CDN, 로드밸런서, Gateway API, 웹서버의 역할과 헤더 기반 트래픽 분기
 
 ## 한 문장 요약
 
@@ -197,7 +197,7 @@ Gateway API가 하는 일:
     │                                   │
     │ GET /home                         │ GET /home
     │ Cookie: session=abc123            │ Cookie: session=xyz789
-    │ (실험군 아님)                      │ (실험군으로 분류됨)
+    │ (실험군 아님)                        │ (실험군으로 분류됨)
     ▼                                   ▼
 ┌─────────────────── Gateway API / L7 로드밸런서 ───────────────────┐
 │                                                                   │
