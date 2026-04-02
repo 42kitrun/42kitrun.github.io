@@ -15,7 +15,7 @@ devto_url:
 ---
 # Unix Domain Socket (유닉스 도메인 소켓)
 
-## 1. 왜 알아야 할까? (Why)
+## 1. 왜 궁금 할까? (Why)
 
 **상황 :** [[nowinseoul]] 프로젝트 t3.small 단일 서버에서 `nginx → gunicorn → flask` 구성 시, 기본값은 TCP 소켓(`localhost:8000`)이다. 
 
