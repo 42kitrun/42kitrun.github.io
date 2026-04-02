@@ -6,7 +6,7 @@ title: Posts
 
 프로그래밍의 기초부터 고급 최적화까지, **자주 마주하는 핵심 개념들**을 다룬 포스트 모음입니다.
 
-**아키텍처 & 시스템**, **성능 & 최적화**, **의료 데이터 표준**, **보안 & 규정** 등 다양한 주제별로 정리되어 있습니다. 각 포스트는 서로 연결되어 있어 관심 분야의 다른 글들도 함께 학습할 수 있습니다.
+**아키텍처 & 시스템**, **성능 & 최적화**, **네트워킹 & 인프라**, **의료 데이터 표준**, **보안 & 규정** 등 다양한 주제별로 정리되어 있습니다. 각 포스트는 서로 연결되어 있어 관심 분야의 다른 글들도 함께 학습할 수 있습니다.
 
 ---
 
@@ -55,6 +55,41 @@ title: Posts
 
 ---
 
+## 🌐 네트워킹 & 인프라
+
+**[[web-infrastructure-loadbalancer-gateway-cdn-webserver|웹 인프라 - CDN, 로드밸런서, Gateway API, 웹서버]]**
+- CDN, 로드밸런서, Gateway API, 웹서버의 계층적 역할
+- 헤더 기반 트래픽 분기 원리
+- ↔ [[https-ssl-certificate|HTTPS와 SSL 인증서 적용 흐름]]
+
+**[[websocket-protocol|WebSocket 프로토콜과 HTTP 비교]]**
+- WebSocket 개념과 OSI 동작 방식
+- ↔ [[unix-domain-socket|Unix Domain Socket 이해하기]]
+- ↔ [[web-infrastructure-loadbalancer-gateway-cdn-webserver|웹 인프라]]
+
+**[[https-ssl-certificate|HTTPS와 SSL 인증서 적용 흐름]]**
+- HTTP → HTTPS 전환, TLS, DNS, SSL 인증서 갱신 흐름
+- ↔ [[web-infrastructure-loadbalancer-gateway-cdn-webserver|웹 인프라]]
+
+**[[unix-domain-socket|Unix Domain Socket (유닉스) 이해하기]]**
+- IPC 통신 방식과 TCP/IP 비교
+- ↔ [[websocket-protocol|WebSocket 프로토콜과 HTTP 비교]]
+
+---
+
+## 🔧 개발 & 운영
+
+**[[dev-vs-production-environment|개발 환경 vs 프로덕션 환경, 무엇이 다른가?]]**
+- dev/prod의 목적, 빌드 차이, 에러 처리, 환경 변수 관리
+- ↔ [[software-testing-types-load-stress-ddos|소프트웨어 테스트 종류]]
+
+**[[software-testing-types-load-stress-ddos|소프트웨어 테스트 종류 - 부하, 스트레스, 침투, DDoS 시뮬레이션]]**
+- 성능/안정성 테스트와 보안 테스트 계열 전체 지도
+- 스트레스 테스트 vs DDoS 시뮬레이션 차이
+- ↔ [[dev-vs-production-environment|개발 환경 vs 프로덕션 환경]]
+
+---
+
 ## 📖 표준 & 명세
 
 **[[essential-specifications|필수 표준 & 명세서 가이드]]**
@@ -65,13 +100,6 @@ title: Posts
 - 병원/의료기관 데이터 교환 표준
 - HL7 v2 vs FHIR, DICOM 영상 표준
 - 한국 의료 현황과 최근 트렌드
-
----
-
-## 🔧 기술 가이드
-
-**[[unix-domain-socket|Unix Domain Socket (유닉스) 이해하기]]**
-- IPC 통신 방식과 TCP/IP 비교
 
 **[[snomed-ct|국제 의료표준 코드(SNOMED-CT) 도입기]]**
 - 의료 데이터의 표준 코드 체계와 실무 도입 전략
@@ -97,12 +125,17 @@ custom-vs-built-in-functions ←→ database-engine
     ↓
 c-level-optimization ←→ c-language-compilation
 
+web-infrastructure ←→ https-ssl-certificate
+    ↑
+websocket-protocol ←→ unix-domain-socket
+
+dev-vs-production-environment ←→ software-testing-types
+
 essential-specifications (기초 레퍼런스)
     ↔ healthcare-data-exchange-standards (의료 표준)
     ↔ snomed-ct (의료 코드)
 
-unix-domain-socket (IPC)
-개인정보처리방침 (프라이버시)
+privacy-policy-healthcare (프라이버시)
 ```
 
 ---
@@ -111,14 +144,19 @@ unix-domain-socket (IPC)
 
 | 제목 | 날짜 | 태그 |
 |------|------|------|
+| [[dev-vs-production-environment\|개발 환경 vs 프로덕션 환경, 무엇이 다른가?]] | 2026-04-01 | #deployment #devops #environment |
+| [[software-testing-types-load-stress-ddos\|소프트웨어 테스트 종류 - 부하, 스트레스, 침투, DDoS]] | 2026-04-01 | #testing #security #performance #ddos |
+| [[https-ssl-certificate\|HTTPS와 SSL 인증서 적용 흐름]] | 2026-04-01 | #https #ssl #networking #security |
+| [[websocket-protocol\|WebSocket 프로토콜과 HTTP 비교]] | 2026-04-01 | #websocket #networking #protocol #real-time |
+| [[web-infrastructure-loadbalancer-gateway-cdn-webserver\|웹 인프라 - CDN, 로드밸런서, Gateway API, 웹서버]] | 2026-03-31 | #networking #infrastructure #load-balancer #cdn |
 | [[database-engine\|데이터베이스 엔진이란?]] | 2026-03-28 | #database #engine #architecture |
 | [[program-driver-engine\|프로그램, 드라이버, 엔진의 관계]] | 2026-03-28 | #architecture #layers #driver |
 | [[c-language-compilation\|C 언어 프로그램은 어떻게 실행될까?]] | 2026-03-28 | #c #compilation #machine-code |
 | [[software-architecture-terms\|소프트웨어 아키텍처 용어 정리]] | 2026-03-28 | #architecture #terminology #design |
+| [[healthcare-data-exchange-standards\|의료 데이터 교환 표준: HL7, FHIR, DICOM 비교]] | 2026-03-28 | #healthcare #hl7 #fhir #dicom |
+| [[snomed-ct\|국제 의료표준 코드(SNOMED-CT) 도입기]] | 2026-03-26 | #healthcare #snomed-ct #medical-code |
+| [[privacy-policy-healthcare\|헬스케어 앱 개인정보처리방침 작성법]] | 2026-03-25 | #privacy #healthcare #data-protection |
+| [[unix-domain-socket\|Unix Domain Socket (유닉스) 이해하기]] | 2026-03-24 | #ipc #networking #unix |
 | [[c-level-optimization\|Python C 레벨 최적화란?]] | 2026-03-27 | #performance #optimization #python |
 | [[custom-vs-built-in-functions\|SQL/Python 사용자 정의 함수 vs 내장함수]] | 2026-03-27 | #functions #sql #python #performance |
 | [[essential-specifications\|필수 표준 & 명세서 가이드]] | 2026-03-27 | #standards #reference #specification |
-| [[healthcare-data-exchange-standards\|의료 데이터 교환 표준: HL7, FHIR, DICOM 비교]] | 2026-03-28 | #healthcare #hl7 #fhir #dicom #standards #interoperability |
-| [[unix-domain-socket\|Unix Domain Socket (유닉스) 이해하기]] | 2026-03-24 | #ipc #networking #unix |
-| [[snomed-ct\|국제 의료표준 코드(SNOMED-CT) 도입기]] | 2026-03-26 | #healthcare #snomed-ct #medical-code #data-standards |
-| [[privacy-policy-healthcare\|헬스케어 앱 개인정보처리방침 작성법]] | 2026-03-25 | #privacy #healthcare #data-protection #compliance |
