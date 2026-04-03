@@ -1,19 +1,23 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
 
-const CategoryNav: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
+const CategoryNav: QuartzComponent = ({ displayClass, fileData }: QuartzComponentProps) => {
+  const slug = fileData.slug ?? ""
+  const links = [
+    { href: "/posts", label: "Posts" },
+    { href: "/archive", label: "Archive" },
+    { href: "/tutorials", label: "Tutorials" },
+  ]
   return (
     <nav class={classNames(displayClass, "category-nav")}>
       <ul>
-        <li>
-          <a href="/posts">Posts</a>
-        </li>
-        <li>
-          <a href="/archive">Archive</a>
-        </li>
-        <li>
-          <a href="/tutorials">Tutorials</a>
-        </li>
+        {links.map(({ href, label }) => (
+          <li>
+            <a href={href} class={slug.startsWith(href.slice(1)) ? "active" : ""}>
+              {label}
+            </a>
+          </li>
+        ))}
       </ul>
     </nav>
   )
@@ -48,6 +52,11 @@ CategoryNav.css = `
 }
 
 .category-nav a:hover {
+  background-color: var(--secondary);
+  color: var(--light);
+}
+
+.category-nav a.active {
   background-color: var(--secondary);
   color: var(--light);
 }
