@@ -82,6 +82,11 @@ title: Posts
 **[[dev-vs-production-environment|개발 환경 vs 프로덕션 환경, 무엇이 다른가?]]**
 - dev/prod의 목적, 빌드 차이, 에러 처리, 환경 변수 관리
 - ↔ [[software-testing-types-load-stress-ddos|소프트웨어 테스트 종류]]
+- ↔ [[sourcemap-files-explained|소스맵(Sourcemap)이란?]]
+
+**[[sourcemap-files-explained|소스맵(Sourcemap)이란?]]**
+- 소스맵의 역할, 구조, 프로덕션 노출 시 보안 위험
+- ↔ [[dev-vs-production-environment|개발 환경 vs 프로덕션 환경]]
 
 **[[software-testing-types-load-stress-ddos|소프트웨어 테스트 종류 - 부하, 스트레스, 침투, DDoS 시뮬레이션]]**
 - 성능/안정성 테스트와 보안 테스트 계열 전체 지도
@@ -130,6 +135,7 @@ web-infrastructure ←→ https-ssl-certificate
 websocket-protocol ←→ unix-domain-socket
 
 dev-vs-production-environment ←→ software-testing-types
+    ↔ sourcemap-files-explained
 
 essential-specifications (기초 레퍼런스)
     ↔ healthcare-data-exchange-standards (의료 표준)
@@ -144,6 +150,7 @@ privacy-policy-healthcare (프라이버시)
 
 | 제목 | 날짜 | 태그 |
 |------|------|------|
+| [[sourcemap-files-explained\|소스맵(Sourcemap)이란?]] | 2026-04-02 | #javascript #build-tools #security #devops |
 | [[dev-vs-production-environment\|개발 환경 vs 프로덕션 환경, 무엇이 다른가?]] | 2026-04-01 | #deployment #devops #environment |
 | [[software-testing-types-load-stress-ddos\|소프트웨어 테스트 종류 - 부하, 스트레스, 침투, DDoS]] | 2026-04-01 | #testing #security #performance #ddos |
 | [[https-ssl-certificate\|HTTPS와 SSL 인증서 적용 흐름]] | 2026-04-01 | #https #ssl #networking #security |
