@@ -8,6 +8,12 @@ tags:
   - security
   - aes
   - rsa
+  - cryptography
+  - data-transformation
+  - data-formats
+  - fundamentals
+  - https
+  - tls
 summary: "대칭키 암호화, 비대칭키 암호화, 해시 함수의 동작 원리와 실무 사용처를 비교하고, 상황에 맞는 선택 기준을 정리한다"
 devto: false
 devto_id:

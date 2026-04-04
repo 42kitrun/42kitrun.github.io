@@ -7,6 +7,11 @@ tags:
   - build-tools
   - security
   - devops
+  - compilation
+  - debugging
+  - build-process
+  - deployment
+  - web
 summary: "소스맵 파일의 역할과 구조를 이해하고, 프로덕션에서 소스맵 노출이 왜 보안 문제인지 설명"
 devto: false
 devto_id:

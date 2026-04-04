@@ -7,7 +7,10 @@ tags:
   - compilation
   - fundamentals
   - machine-code
+  - native-code
+  - build-process
   - interpreter-vs-compiler
+  - systems
 summary: "소스 코드에서 기계어까지: 컴파일 과정 이해하기. PostgreSQL, CPython이 C로 작성된 이유"
 devto: false
 devto_id:

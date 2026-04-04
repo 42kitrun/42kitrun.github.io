@@ -7,6 +7,10 @@ tags:
   - devops
   - environment
   - best-practices
+  - build-process
+  - infrastructure
+  - security
+  - debugging
 summary: "개발(dev)과 프로덕션(prod) 환경의 핵심 차이점과 각 환경에서 고려해야 할 사항을 구체적으로 정리"
 devto: false
 devto_id:

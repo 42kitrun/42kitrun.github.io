@@ -7,6 +7,12 @@ tags:
   - ssl
   - networking
   - security
+  - tls
+  - protocol
+  - encryption
+  - web
+  - dns
+  - infrastructure
 summary: "HTTP에서 HTTPS로 전환하는 개념과 DNS, A레코드, SSL 인증서 적용 및 갱신 전체 흐름 정리"
 devto: false
 devto_id:

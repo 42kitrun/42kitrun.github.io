@@ -7,6 +7,10 @@ tags:
   - osi
   - loopback
   - ip-address
+  - fundamentals
+  - protocol
+  - dns
+  - web
 summary: "localhost와 127.0.0.1의 개념적 차이를 OSI 7계층 기반으로 명확히 구분하고, 자주 쓰이는 특수 IP 주소를 함께 정리"
 devto: false
 devto_id:

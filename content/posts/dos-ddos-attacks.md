@@ -7,6 +7,10 @@ tags:
   - networking
   - ddos
   - infrastructure
+  - attacks
+  - performance
+  - web
+  - protocol
 summary: "보안 공격의 전체 지형을 파악하고, DoS/DDoS의 정의·차이·유형·대응법을 구조도 중심으로 정리한다"
 devto: false
 devto_id:

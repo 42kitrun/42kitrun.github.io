@@ -9,6 +9,11 @@ tags:
   - cdn
   - gateway
   - experiment-platform
+  - security
+  - web
+  - deployment
+  - devops
+  - http
 summary: CDN, 로드밸런서, Gateway API, 웹서버 각각의 역할과 계층적 관계를 구조도로 이해하고, 같은 URL로 서로 다른 페이지를 제공하는 헤더 기반 트래픽 분기 원리까지 정리한다
 devto: false
 devto_id:

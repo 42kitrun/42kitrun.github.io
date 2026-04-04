@@ -7,6 +7,11 @@ tags:
   - standards
   - rfc
   - specification
+  - web
+  - networking
+  - security
+  - protocol
+  - fundamentals
 summary: "웹, 데이터베이스, 보안, 아키텍처 표준: HTTP RFC, SQL, ACID, OAuth, REST, SOLID 등 개발자가 알아야 할 필수 표준들"
 devto: false
 devto_id:

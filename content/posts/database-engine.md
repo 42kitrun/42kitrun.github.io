@@ -8,6 +8,10 @@ tags:
   - fundamentals
   - sql
   - c-language
+  - architecture
+  - performance
+  - systems
+  - native-code
 summary: "데이터베이스 엔진의 역할, 동작 원리, 그리고 왜 내장함수가 애플리케이션보다 빠른지 이해하기"
 devto: false
 devto_id:

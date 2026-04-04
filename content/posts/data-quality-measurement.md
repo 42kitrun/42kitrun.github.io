@@ -6,6 +6,11 @@ tags:
   - data-quality
   - data-engineering
   - data-governance
+  - data-management
+  - measurement
+  - fundamentals
+  - database
+  - standards
 summary: "데이터 품질을 6가지 차원으로 측정하는 방법과, 팀이 공유하는 품질 정의서를 실무 수준으로 작성하는 방법을 정리한다"
 devto: false
 devto_id:

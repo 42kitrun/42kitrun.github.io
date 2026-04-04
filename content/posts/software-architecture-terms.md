@@ -9,6 +9,9 @@ tags:
   - library
   - middleware
   - fundamentals
+  - systems
+  - layers
+  - design-patterns
 summary: "드라이버, 라이브러리, 미들웨어, 어댑터 등 비슷하지만 다른 개념들을 명확하게 정리"
 devto: false
 devto_id:

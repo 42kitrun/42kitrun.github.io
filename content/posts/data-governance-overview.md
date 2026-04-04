@@ -6,6 +6,11 @@ tags:
   - data-governance
   - data-engineering
   - data-management
+  - data-quality
+  - compliance
+  - fundamentals
+  - standards
+  - database
 summary: "데이터 관리 전체 지형을 한눈에 파악하고, 데이터 거버넌스가 왜 필요한지 구조도 중심으로 정리한다"
 devto: false
 devto_id:

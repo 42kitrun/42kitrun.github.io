@@ -7,6 +7,10 @@ tags:
   - python
   - functions
   - performance
+  - database
+  - optimization
+  - c-language
+  - fundamentals
 summary: "SQL/Python에서 사용자 정의 함수와 내장함수의 차이점, 성능, 언제 사용해야 하는지 핵심 비교"
 devto: false
 devto_id:

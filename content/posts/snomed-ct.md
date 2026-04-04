@@ -8,6 +8,10 @@ tags:
   - medical-code
   - validation
   - data-standards
+  - standards
+  - interoperability
+  - database
+  - data-governance
 summary: "SNOMED-CT 코드 도입기: 의료표준 선택 기준부터 검증, 버전 관리까지"
 devto: false
 devto_id:

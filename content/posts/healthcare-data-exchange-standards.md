@@ -9,6 +9,10 @@ tags:
   - fhir
   - dicom
   - interoperability
+  - data-formats
+  - data-governance
+  - medical-code
+  - api
 summary: "병원과 의료기관들이 환자 데이터를 주고받을 때 사용하는 통신 표준들: HL7 v2, FHIR, DICOM의 차이점과 최근 트렌드"
 devto: false
 devto_id:

@@ -8,6 +8,9 @@ tags:
   - engine
   - fundamentals
   - layers
+  - systems
+  - database
+  - c-language
 summary: "애플리케이션, 드라이버, 데이터베이스 엔진의 세 계층 구조와 데이터 흐름 완전 이해"
 devto: false
 devto_id:

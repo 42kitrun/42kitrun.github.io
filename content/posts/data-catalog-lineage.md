@@ -7,6 +7,10 @@ tags:
   - data-lineage
   - data-engineering
   - data-governance
+  - data-management
+  - metadata
+  - database
+  - fundamentals
 summary: "데이터 카탈로그와 계보(Lineage)가 무엇인지 이해하고, 실무에서 쓰이는 도구를 선택 기준과 함께 비교한다"
 devto: false
 devto_id:

@@ -7,6 +7,10 @@ tags:
   - networking
   - protocol
   - real-time
+  - http
+  - web
+  - ipc
+  - osi
 summary: "WebSocket 개념과 OSI 동작 방식, HTTP와의 차이, Unix Domain Socket과의 비교를 핵심만 정리"
 devto: false
 devto_id:

@@ -7,6 +7,10 @@ tags:
   - healthcare
   - data-protection
   - compliance
+  - data-governance
+  - security
+  - mobile
+  - standards
 summary: "헬스케어 앱 개인정보처리방침: 구글 플레이 심사 거절 경험으로 배운 필수 작성법 및 체크리스트"
 devto: false
 devto_id:

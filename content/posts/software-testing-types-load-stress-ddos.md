@@ -8,6 +8,9 @@ tags:
   - performance
   - infrastructure
   - ddos
+  - devops
+  - attacks
+  - deployment
 summary: 성능/안정성 테스트와 보안 테스트 계열을 전체 지도로 정리하고, 스트레스 테스트와 DDoS 시뮬레이션의 공통점과 차이점을 명확히 구분한다
 devto: false
 devto_id:

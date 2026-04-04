@@ -7,6 +7,10 @@ tags:
   - performance
   - c-language
   - optimization
+  - native-code
+  - fundamentals
+  - build-process
+  - systems
 summary: "Python 내장함수가 빠른 이유: C 언어로 구현된 최적화"
 devto: false
 devto_id:

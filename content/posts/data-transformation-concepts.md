@@ -7,6 +7,11 @@ tags:
   - encryption
   - hashing
   - security
+  - data-formats
+  - data-transformation
+  - fundamentals
+  - cryptography
+  - web
 summary: "인코딩, 암호화, 해시를 혼동 없이 구분하고, 각 개념을 실무 맥락에서 언제 어떻게 선택하는지 정리한다"
 devto: false
 devto_id:

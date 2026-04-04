@@ -8,6 +8,10 @@ tags:
   - networking
   - optimization
   - nginx
+  - protocol
+  - performance
+  - systems
+  - osi
 summary: "같은 호스트 내 프로세스 간 통신을 TCP/IP 스택 없이 파일 경로로 처리하는 IPC 메커니즘"
 devto: true
 devto_id:

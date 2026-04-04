@@ -7,6 +7,11 @@ tags:
   - base64
   - utf-8
   - web
+  - data-formats
+  - data-transformation
+  - fundamentals
+  - http
+  - api
 summary: "문자 인코딩, Base64, URL 인코딩의 목적과 동작 원리를 실무 중심으로 정리하고, 언제 어떤 인코딩을 써야 하는지 판단 기준을 제공한다"
 devto: false
 devto_id:
