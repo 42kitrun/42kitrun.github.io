@@ -41,6 +41,36 @@ title: Posts
 - ↔ 소프트웨어 아키텍처 용어 정리
 - ↔ React Native 빌드 생태계
 
+**HW부터 네이티브 코드까지 — C/C++/Rust/Go 실행 구조**
+- 컴파일러, 링커, OS 로더, CPU 실행 흐름
+- ↔ HW부터 Python 스크립트까지
+- ↔ HW부터 JavaScript까지
+
+**HW부터 Python 스크립트까지 — CPython 실행 구조**
+- Python 바이트코드와 CPython VM, GIL, PyObject 구조
+- ↔ HW부터 네이티브 코드까지
+- ↔ HW부터 JavaScript까지
+
+**HW부터 JavaScript까지 — V8 엔진 실행 구조**
+- Ignition, TurboFan, Hidden Class, JIT 흐름
+- ↔ HW부터 Python 스크립트까지
+- ↔ HW부터 Node.js + Fastify/NestJS까지
+
+**HW부터 Node.js + Fastify/NestJS까지 — 서버 실행 구조**
+- NIC부터 libuv 이벤트 루프와 NestJS 요청 처리까지
+- ↔ HW부터 JavaScript까지
+- ↔ HW부터 JVM + Spring까지
+
+**HW부터 React Native까지 — 모바일 앱 실행 구조**
+- Metro, Hermes, JSI, Fabric, 네이티브 UI 렌더링
+- ↔ React Native 빌드 생태계
+- ↔ HW부터 JavaScript까지
+
+**HW부터 JVM + Spring까지 — 서버 실행 구조**
+- JVM 바이트코드, JIT, Tomcat, DispatcherServlet 처리 흐름
+- ↔ HW부터 Node.js + Fastify/NestJS까지
+- ↔ HW부터 네이티브 코드까지
+
 ### 용어 & 개념
 
 **소프트웨어 아키텍처 용어 정리**
