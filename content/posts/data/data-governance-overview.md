@@ -167,7 +167,7 @@ Level 5 — 최적화 (Optimized)
 ```
 1편 (이 글)  데이터 거버넌스 전체 지형과 필요성
      ↓
-2편          [[data-quality-measurement|데이터 품질 — 측정 방법과 품질 정의서]]
+2편          [[data/data-quality-measurement|데이터 품질 — 측정 방법과 품질 정의서]]
      ↓
-3편          [[data-catalog-lineage|데이터 카탈로그와 계보 — 실무 도구]]
+3편          [[data/data-catalog-lineage|데이터 카탈로그와 계보 — 실무 도구]]
 ```

@@ -96,7 +96,7 @@ devto_url:
 │                                                     │
 │  HTTP 파싱 → Fastify/NestJS 콜백 함수 호출          │
 │  JIT 컴파일 (핫 코드는 기계어로 최적화)              │
-│  → [[how-javascript-runs|JS 실행 구조]] 참조         │
+│  → [[javascript/how-javascript-runs|JS 실행 구조]] 참조         │
 └──────────────────────┬──────────────────────────────┘
                        │
                        ▼

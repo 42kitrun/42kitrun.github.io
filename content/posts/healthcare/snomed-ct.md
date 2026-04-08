@@ -735,11 +735,11 @@ MediDaily가 SNOMED-CT를 선택한 이유:
 ## 🔗 관련 개념
 
 **다음 단계:**
-- [[healthcare-data-exchange-standards|의료 데이터 교환 표준: HL7, FHIR, DICOM 비교]] - SNOMED-CT와 함께 사용되는 의료 표준들
-- [[essential-specifications|필수 표준 & 명세서 가이드]] - 의료 데이터 교환의 기반이 되는 표준들
+- [[healthcare/healthcare-data-exchange-standards|의료 데이터 교환 표준: HL7, FHIR, DICOM 비교]] - SNOMED-CT와 함께 사용되는 의료 표준들
+- [[cs/essential-specifications|필수 표준 & 명세서 가이드]] - 의료 데이터 교환의 기반이 되는 표준들
 
 **관련 포스트:**
-- [[privacy-policy-healthcare|헬스케어 앱 개인정보처리방침 작성법]] - 의료 데이터 수집과 보호
+- [[healthcare/privacy-policy-healthcare|헬스케어 앱 개인정보처리방침 작성법]] - 의료 데이터 수집과 보호
 
 ---
 

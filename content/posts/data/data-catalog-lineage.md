@@ -19,7 +19,7 @@ devto_url:
 
 # [신뢰할 수 있는 데이터 3편] 데이터 카탈로그와 계보 — 실무 도구
 
-← [[data-quality-measurement|2편: 데이터 품질 — 측정 방법과 품질 정의서]]
+← [[data/data-quality-measurement|2편: 데이터 품질 — 측정 방법과 품질 정의서]]
 
 ---
 

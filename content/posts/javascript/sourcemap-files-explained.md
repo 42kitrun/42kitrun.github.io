@@ -180,4 +180,4 @@ module.exports = {
 
 ---
 
-→ 관련 글: [[dev-vs-production-environment|개발 환경 vs 프로덕션 환경, 무엇이 다른가?]]
+→ 관련 글: [[infrastructure/dev-vs-production-environment|개발 환경 vs 프로덕션 환경, 무엇이 다른가?]]

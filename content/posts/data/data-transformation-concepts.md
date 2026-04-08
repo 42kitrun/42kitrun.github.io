@@ -144,7 +144,7 @@ devto_url:
 ```
 1편 (이 글)  인코딩 · 암호화 · 해시 — 세 개념의 차이
      ↓
-2편          [[data-encoding-types|인코딩 유형 — 문자 인코딩, Base64, URL 인코딩]]
+2편          [[data/data-encoding-types|인코딩 유형 — 문자 인코딩, Base64, URL 인코딩]]
      ↓
-3편          [[data-encryption-types|암호화 유형 — 대칭키, 비대칭키, 해시 함수]]
+3편          [[security/data-encryption-types|암호화 유형 — 대칭키, 비대칭키, 해시 함수]]
 ```

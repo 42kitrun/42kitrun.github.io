@@ -215,11 +215,11 @@ const total = result.reduce((sum, row) => sum + row.amount, 0);
 ## 🔗 관련 개념
 
 **다음 단계:**
-- [[program-driver-engine|프로그램, 드라이버, 엔진의 관계]] - 계층 구조 이해하기
-- [[c-language-compilation|C 언어는 어떻게 실행될까?]] - 엔진이 C로 만들어진 이유
+- [[runtime/program-driver-engine|프로그램, 드라이버, 엔진의 관계]] - 계층 구조 이해하기
+- [[runtime/c-language-compilation|C 언어는 어떻게 실행될까?]] - 엔진이 C로 만들어진 이유
 
 **관련 포스트:**
-- [[custom-vs-built-in-functions|사용자 정의 함수 vs 내장함수]]
-- [[c-level-optimization|C 레벨 최적화란?]]
+- [[cs/custom-vs-built-in-functions|사용자 정의 함수 vs 내장함수]]
+- [[runtime/c-level-optimization|C 레벨 최적화란?]]
 
 ---

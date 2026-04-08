@@ -313,4 +313,4 @@ DDoS 시뮬레이션 성공:
 
 ## 관련 글
 
-- [[web-infrastructure-loadbalancer-gateway-cdn-webserver|웹 인프라 완전 해부 - CDN, 로드밸런서, Gateway API, 웹서버]]
+- [[infrastructure/web-infrastructure-loadbalancer-gateway-cdn-webserver|웹 인프라 완전 해부 - CDN, 로드밸런서, Gateway API, 웹서버]]

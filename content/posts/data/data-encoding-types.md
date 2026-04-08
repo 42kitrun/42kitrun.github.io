@@ -20,7 +20,7 @@ devto_url:
 
 # [데이터 변환 이해 2편] 인코딩 유형 — 문자 인코딩, Base64, URL 인코딩
 
-← [[data-transformation-concepts|1편: 인코딩 · 암호화 · 해시 — 세 개념의 차이]]
+← [[data/data-transformation-concepts|1편: 인코딩 · 암호화 · 해시 — 세 개념의 차이]]
 
 ---
 
@@ -241,4 +241,4 @@ JWT 생성                          Base64URL (Base64 변형)
 
 ---
 
-→ [[data-encryption-types|3편: 암호화 유형 — 대칭키, 비대칭키, 해시 함수]]
+→ [[security/data-encryption-types|3편: 암호화 유형 — 대칭키, 비대칭키, 해시 함수]]

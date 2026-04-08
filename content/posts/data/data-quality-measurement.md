@@ -19,7 +19,7 @@ devto_url:
 
 # [신뢰할 수 있는 데이터 2편] 데이터 품질 — 측정 방법과 품질 정의서
 
-← [[data-governance-overview|1편: 데이터 거버넌스 — 전체 지형과 왜 필요한가]]
+← [[data/data-governance-overview|1편: 데이터 거버넌스 — 전체 지형과 왜 필요한가]]
 
 ---
 
@@ -229,4 +229,4 @@ dbt test --select orders
 
 데이터 품질을 관리하려면 데이터가 어디 있고 어떻게 흘러오는지 알아야 한다.
 
-→ [[data-catalog-lineage|3편: 데이터 카탈로그와 계보 — 실무 도구]]
+→ [[data/data-catalog-lineage|3편: 데이터 카탈로그와 계보 — 실무 도구]]

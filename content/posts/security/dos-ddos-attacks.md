@@ -203,4 +203,4 @@ SYN Flood 공격:
 이론만으로는 체감이 어렵다.  
 실제로 테스트 환경을 구성하고 DDoS 시뮬레이션을 해보면 대응 방법의 효과를 직접 확인할 수 있다.
 
-→ [[software-testing-types-load-stress-ddos|소프트웨어 테스트 종류 - 부하, 스트레스, 침투, DDoS 시뮬레이션]]
+→ [[security/software-testing-types-load-stress-ddos|소프트웨어 테스트 종류 - 부하, 스트레스, 침투, DDoS 시뮬레이션]]

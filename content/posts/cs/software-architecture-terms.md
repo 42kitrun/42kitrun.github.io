@@ -476,10 +476,10 @@ app.get('/users', (req, res) => {
 ## 🔗 관련 개념
 
 **다음 단계:**
-- [[program-driver-engine|프로그램, 드라이버, 엔진의 관계]] - 실제 아키텍처 적용
-- [[c-language-compilation|C 언어 프로그램 실행]] - 컴파일러도 일종의 미들웨어
+- [[runtime/program-driver-engine|프로그램, 드라이버, 엔진의 관계]] - 실제 아키텍처 적용
+- [[runtime/c-language-compilation|C 언어 프로그램 실행]] - 컴파일러도 일종의 미들웨어
 
 **관련 포스트:**
-- [[database-engine|데이터베이스 엔진이란?]]
+- [[data/database-engine|데이터베이스 엔진이란?]]
 
 ---

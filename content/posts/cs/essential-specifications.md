@@ -267,10 +267,10 @@ O(1) < O(log n) < O(n) < O(n log n) < O(n²) < O(2ⁿ) < O(n!)
 ## 🔗 관련 개념
 
 **다음 단계:**
-- [[healthcare-data-exchange-standards|의료 데이터 교환 표준: HL7, FHIR, DICOM 비교]] - RFC와 명세서 기반의 의료 표준
-- [[snomed-ct|국제 의료표준 코드(SNOMED-CT) 도입기]] - 의료 데이터의 표준 코드 체계
+- [[healthcare/healthcare-data-exchange-standards|의료 데이터 교환 표준: HL7, FHIR, DICOM 비교]] - RFC와 명세서 기반의 의료 표준
+- [[healthcare/snomed-ct|국제 의료표준 코드(SNOMED-CT) 도입기]] - 의료 데이터의 표준 코드 체계
 
 **기초 개념:**
-- [[c-language-compilation|C 언어 프로그램은 어떻게 실행될까?]] - 언어 표준과 구현의 관계
+- [[runtime/c-language-compilation|C 언어 프로그램은 어떻게 실행될까?]] - 언어 표준과 구현의 관계
 
 ---

@@ -462,11 +462,11 @@ Hospital C /
 ## 🔗 관련 개념
 
 **다음 단계:**
-- [[snomed-ct|국제 의료표준 코드(SNOMED-CT) 도입기]] - 의료 데이터의 표준 코드 체계
-- [[essential-specifications|필수 표준 & 명세서 가이드]] - HL7, FHIR의 기술적 명세
+- [[healthcare/snomed-ct|국제 의료표준 코드(SNOMED-CT) 도입기]] - 의료 데이터의 표준 코드 체계
+- [[cs/essential-specifications|필수 표준 & 명세서 가이드]] - HL7, FHIR의 기술적 명세
 
 **관련 포스트:**
-- [[privacy-policy-healthcare|헬스케어 앱 개인정보처리방침 작성법]] - 의료 데이터 보호와 규제
+- [[healthcare/privacy-policy-healthcare|헬스케어 앱 개인정보처리방침 작성법]] - 의료 데이터 보호와 규제
 
 ---
 

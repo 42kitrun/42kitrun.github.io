@@ -242,11 +242,11 @@ df['value'].sum()  # C 최적화
 ## 🔗 관련 개념
 
 **다음 단계:**
-- [[c-language-compilation|C 언어 프로그램은 어떻게 실행될까?]] - C 컴파일의 기본 원리 이해
-- [[custom-vs-built-in-functions|SQL/Python 사용자 정의 함수 vs 내장함수]] - 실전 성능 비교
+- [[runtime/c-language-compilation|C 언어 프로그램은 어떻게 실행될까?]] - C 컴파일의 기본 원리 이해
+- [[cs/custom-vs-built-in-functions|SQL/Python 사용자 정의 함수 vs 내장함수]] - 실전 성능 비교
 
 **관련 포스트:**
-- [[database-engine|데이터베이스 엔진이란?]] - 데이터베이스 내장함수의 최적화
-- [[program-driver-engine|프로그램, 드라이버, 엔진의 관계]] - 계층별 성능 특성
+- [[data/database-engine|데이터베이스 엔진이란?]] - 데이터베이스 내장함수의 최적화
+- [[runtime/program-driver-engine|프로그램, 드라이버, 엔진의 관계]] - 계층별 성능 특성
 
 ---

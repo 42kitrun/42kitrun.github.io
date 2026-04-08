@@ -241,5 +241,5 @@ Let's Encrypt 인증서는 **90일** 유효기간.
 
 - [Let's Encrypt 공식](https://letsencrypt.org/docs/)
 - [RFC 8446 — TLS 1.3](https://www.rfc-editor.org/rfc/rfc8446)
-- [[websocket-protocol|WebSocket 프로토콜]] — wss:// 도 동일한 TLS 위에서 동작
-- [[essential-specifications|필수 표준 & 명세서 가이드]] — TLS RFC 버전 히스토리
+- [[javascript/websocket-protocol|WebSocket 프로토콜]] — wss:// 도 동일한 TLS 위에서 동작
+- [[cs/essential-specifications|필수 표준 & 명세서 가이드]] — TLS RFC 버전 히스토리

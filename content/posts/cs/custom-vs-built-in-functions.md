@@ -78,7 +78,7 @@ text.upper()           # C 레벨 최적화
 text.split()           # 최적화된 구현
 ```
 
-**장점:** [[c-level-optimization|C 레벨 최적화]], 매우 빠름, 안정적
+**장점:** [[runtime/c-level-optimization|C 레벨 최적화]], 매우 빠름, 안정적
 
 ### 사용자 정의 함수
 ```python
@@ -209,10 +209,10 @@ df[(df['age'] > 30) & (df['status'] == 'active')]
 ## 🔗 관련 개념
 
 **다음 단계:**
-- [[c-level-optimization|Python C 레벨 최적화란?]] - 내장함수가 빠른 이유 깊이 있게 이해하기
-- [[database-engine|데이터베이스 엔진이란?]] - SQL 내장함수와 UDF 비교
+- [[runtime/c-level-optimization|Python C 레벨 최적화란?]] - 내장함수가 빠른 이유 깊이 있게 이해하기
+- [[data/database-engine|데이터베이스 엔진이란?]] - SQL 내장함수와 UDF 비교
 
 **관련 포스트:**
-- [[c-language-compilation|C 언어 프로그램은 어떻게 실행될까?]] - 성능 차이의 근본 원인
+- [[runtime/c-language-compilation|C 언어 프로그램은 어떻게 실행될까?]] - 성능 차이의 근본 원인
 
 ---

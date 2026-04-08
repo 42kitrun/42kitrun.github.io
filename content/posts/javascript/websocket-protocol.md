@@ -158,7 +158,7 @@ WebSocket (양방향 지속 연결)
 
 ## 3. Unix Domain Socket과의 비교
 
-> UDS에 대한 자세한 내용은 [[unix-domain-socket|Unix Domain Socket]] 포스트 참고.
+> UDS에 대한 자세한 내용은 [[infrastructure/unix-domain-socket|Unix Domain Socket]] 포스트 참고.
 
 ```
 통신 범위 기준

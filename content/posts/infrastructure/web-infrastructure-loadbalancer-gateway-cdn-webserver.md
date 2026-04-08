@@ -380,6 +380,6 @@ spec:
 
 ## 관련 글
 
-- [[database-engine|데이터베이스 엔진이란?]]
-- [[unix-domain-socket|Unix Domain Socket이란?]]
-- [[software-architecture-terms|소프트웨어 아키텍처 용어 정리]]
+- [[data/database-engine|데이터베이스 엔진이란?]]
+- [[infrastructure/unix-domain-socket|Unix Domain Socket이란?]]
+- [[cs/software-architecture-terms|소프트웨어 아키텍처 용어 정리]]

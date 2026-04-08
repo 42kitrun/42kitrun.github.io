@@ -22,7 +22,7 @@ devto_url:
 
 # [데이터 변환 이해 3편] 암호화 유형 — 대칭키, 비대칭키, 해시 함수
 
-← [[data-encoding-types|2편: 인코딩 유형 — 문자 인코딩, Base64, URL 인코딩]]
+← [[data/data-encoding-types|2편: 인코딩 유형 — 문자 인코딩, Base64, URL 인코딩]]
 
 ---
 
@@ -255,7 +255,7 @@ bcrypt.checkpw(b"wrongpassword", hashed)  # False
 ## 시리즈 마무리
 
 ```
-1편  [[data-transformation-concepts|인코딩 · 암호화 · 해시 — 세 개념의 차이]]
-2편  [[data-encoding-types|인코딩 유형 — 문자 인코딩, Base64, URL 인코딩]]
+1편  [[data/data-transformation-concepts|인코딩 · 암호화 · 해시 — 세 개념의 차이]]
+2편  [[data/data-encoding-types|인코딩 유형 — 문자 인코딩, Base64, URL 인코딩]]
 3편  (이 글) 암호화 유형 — 대칭키, 비대칭키, 해시 함수
 ```
