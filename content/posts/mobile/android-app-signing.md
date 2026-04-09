@@ -12,6 +12,8 @@ tags:
   - public-key
   - certificate
   - pem
+  - lymphedema
+  - iCON
 summary: "앱 서명의 개념, 비대칭 암호화 원리, Keystore와 PEM 파일의 관계를 논리적으로 정리한다. keystore를 잃어버릴 뻔한 사건의 산물."
 devto: false
 devto_id:

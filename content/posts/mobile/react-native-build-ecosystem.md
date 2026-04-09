@@ -15,6 +15,8 @@ tags:
   - c-language
   - performance
   - systems
+  - lymphedema
+  - iCON
 summary: "RN 앱이 소스코드에서 APK까지 만들어지는 과정과 핵심 용어를 한눈에 정리"
 devto: false
 devto_id:

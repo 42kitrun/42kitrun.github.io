@@ -9,6 +9,8 @@ tags:
   - runtime
   - jsc
   - mobile
+  - lymphedema
+  - iCON
 summary: "React Native에서 Hermes가 무엇인지, 런타임 개념, JSC와의 차이, JS 코드가 앱에서 실행되는 전체 흐름을 핵심만 정리"
 devto: false
 devto_id:
