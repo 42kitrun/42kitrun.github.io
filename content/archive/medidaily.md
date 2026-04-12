@@ -1,7 +1,7 @@
 ---
 title: MediDaily — 의학적으로 검증된 헬스케어 루틴 API 설계 및 구현
 date: 2026-04-05
-updated: 2026-04-05
+updated: 2026-04-12
 tags:
   - fastify
   - typescript
@@ -69,16 +69,17 @@ excerpt: Fastify 5 + Prisma 기반 헬스케어 플랫폼 백엔드 — SNOMED-C
 Client (Kotlin/Android)
         │ camelCase JSON
         ▼
-Handler / Schema (Fastify)   ← JSON Schema 자동 직렬화
+Handler / Schema (Fastify)       ← JSON Schema 자동 직렬화
         │ camelCase
         ▼
-Service Layer                ← 비즈니스 로직, camelCase ↔ snake_case 변환
-        │ snake_case
+Service Layer  ──── (비동기) ───▶  AWS Lambda (임베딩 생성)
+        │ snake_case                          │
+        ▼                                     ▼
+Repository (Prisma)                       Qdrant
+        │                            (벡터 저장 · 유사도 검색)
         ▼
-Repository (Prisma)          ← DB 쿼리만 담당
-        │
-        ▼
-PostgreSQL (사용자 · 칼럼 · 자가진단)
+PostgreSQL
+(사용자 · 칼럼 · 자가진단)
 ```
 
 **핵심 원칙**
