@@ -9,7 +9,6 @@
 
 # Exclude development files inside content/
 content/.obsidian/
-content/assets/
 
 # Development & Build files (EXCLUDE)
 .github/*
@@ -51,10 +50,12 @@ Thumbs.db
 *.key
 secrets/
 
-# Screenshot files
+# Screenshot files (exclude root-level and non-content images)
 *.png
 *.jpg
 *.jpeg
 *.gif
 !quartz/static/icon.png
 !quartz/static/og-image.png
+!content/assets/**
+content/assets/**/._*
