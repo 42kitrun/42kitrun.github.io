@@ -8,10 +8,8 @@
 !.github/
 
 # Exclude development files inside content/
-content/docs/.bkit-memory.json
-content/docs/.pdca-status.json
 content/.obsidian/
-content/docs/.pdca-snapshots/
+content/assets/
 
 # Development & Build files (EXCLUDE)
 .github/*
@@ -40,7 +38,6 @@ docs/
 Blog/
 Settings/
 Excalidraw/
-assets/
 CLAUDE.md
 
 # System & Temporary files
