@@ -35,12 +35,14 @@ devto_url:
 
 **실제 앱 실행** (왼쪽)과 **테스트 실행** (오른쪽)은 OS 위에 아예 다른 환경이 올라간다.
 
-| | 실제 앱 실행 | 테스트 실행 (`npm test`) |
-|---|---|---|
-| JS 실행 주체 | Hermes (경량 JS 엔진) | Node.js + Jest |
-| Native 레이어 | 있음 (Java/Kotlin, Swift) | **없음** |
-| 실기기 필요 | 있음 | 없음 |
-| 카메라, 센서 등 | Bridge/JSI로 직접 호출 | mock으로 대체해야 함 |
+|            | 실제 앱 실행                 | 디버그 번들              | 테스트 실행 (`npm test`) |
+| ---------- | ----------------------- | ------------------ | ------------------- |
+| JS 실행 주체   | Hermes (AOT)            | Hermes (인터프리터)     | Node.js + Jest      |
+| JS 번들 위치   | APK 내부                 | Metro 서버 (PC)      | 없음                  |
+| Native 레이어 | 있음 (Java/Kotlin, Swift) | 있음                 | **없음**              |
+| 실기기 필요     | 있음                      | 있음                 | 없음                  |
+| 카메라, 센서 등  | Bridge/JSI로 직접 호출       | Bridge/JSI로 직접 호출  | mock으로 대체해야 함       |
+| Source Map  | ❌                       | ✅                  | ❌                   |
 
 테스트 환경에서 PNG 이미지나 `@react-navigation` 같은 라이브러리를 mock 처리해야 하는 이유가 여기에 있다. **Native 레이어 자체가 없으니 처리할 주체가 없다.**
 
