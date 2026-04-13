@@ -65,9 +65,13 @@ npx react-native build-android --mode=release
 npx react-native run-android
 ```
 
+![Debug Build 스택 구조|697](/assets/posts/mobile/rn-execution-modes/debug_build_stack.svg)
+
 - Metro 서버(`localhost:8081`)가 JS 번들을 실시간으로 제공
 - 기기가 앱 시작 시 Metro에서 번들을 HTTP로 받아 실행
 - Hermes는 인터프리터 모드 — 프로덕션보다 느림
+- Flipper / DevTools로 로그·네트워크·레이아웃 검사 가능
+- Source Map이 활성화되어 에러 발생 시 원본 파일·라인 추적 가능
 - 개발 중 기본 모드. **PC와 기기가 같은 네트워크에 있어야 함**
 
 ### 3. Fast Refresh
