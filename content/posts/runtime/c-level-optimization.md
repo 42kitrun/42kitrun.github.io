@@ -15,6 +15,7 @@ summary: "Python 내장함수가 빠른 이유: C 언어로 구현된 최적화"
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
 
 ## 🎯 핵심
@@ -64,6 +65,8 @@ def my_sum(numbers):
     return result
 
 # 100만 개 원소
+
+_written by Claude-Code_
 import time
 start = time.time()
 my_sum(range(1000000))

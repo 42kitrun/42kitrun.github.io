@@ -15,8 +15,11 @@ summary: "localhost와 127.0.0.1의 개념적 차이를 OSI 7계층 기반으로
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
 # localhost와 127.0.0.1은 같은가? 루프백과 OSI 7계층으로 이해하기
+
+_written by Claude-Code_
 
 결론부터: **보통은 같다, 하지만 항상 같지는 않다.**  
 둘은 계층이 다른 개념이다.

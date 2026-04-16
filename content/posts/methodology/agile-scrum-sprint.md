@@ -17,9 +17,12 @@ summary: "Agile은 철학, Scrum은 프레임워크, Sprint는 실행 단위 —
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
 
 # Agile, Scrum, Sprint란?
+
+_written by Claude-Code_
 
 ## 한 문장 요약
 

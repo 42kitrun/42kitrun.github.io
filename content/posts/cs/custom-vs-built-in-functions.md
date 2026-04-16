@@ -15,6 +15,7 @@ summary: "SQL/Python에서 사용자 정의 함수와 내장함수의 차이점,
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
 
 ## 🎯 핵심 차이
@@ -65,6 +66,8 @@ SELECT user_id, calc_age(birth_date) FROM users;
 ### 내장함수 사용
 ```python
 # 빠른 성능 (C로 구현됨)
+
+_written by Claude-Code_
 numbers = [3, 1, 4, 1, 5]
 
 len(numbers)           # O(1)

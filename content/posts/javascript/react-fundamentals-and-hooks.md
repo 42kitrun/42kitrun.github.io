@@ -22,8 +22,11 @@ summary: "React 기능 전체 구조와 훅의 등장 배경, 대표 훅 실무 
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
 # React 기능 구조와 훅 완전 정리 — useState부터 useMemo까지
+
+_written by Claude-Code_
 
 ---
 

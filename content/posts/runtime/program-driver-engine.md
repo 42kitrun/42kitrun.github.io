@@ -15,9 +15,12 @@ summary: "애플리케이션, 드라이버, 데이터베이스 엔진의 세 계
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
 
 # 프로그램, 드라이버, 엔진의 관계
+
+_written by Claude-Code_
 
 ## 한 문장 요약
 

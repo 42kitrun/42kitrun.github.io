@@ -16,9 +16,12 @@ summary: "인코딩, 암호화, 해시를 혼동 없이 구분하고, 각 개념
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
 
 # [데이터 변환 이해 1편] 인코딩 · 암호화 · 해시 — 세 개념의 차이
+
+_written by Claude-Code_
 
 ## 왜 이 셋이 헷갈리는가?
 

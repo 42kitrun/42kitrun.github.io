@@ -21,9 +21,12 @@ summary: "디버깅과 기능 개선을 반복하다 보면 마주치는 4가지
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
 
 # RN 앱 실행 모드 4가지 — 실제 앱, 디버그, Fast Refresh, 테스트
+
+_written by Claude-Code_
 
 앱을 고치다 보면 모드를 섞어 쓰게 된다. `npm test`도 돌리고, 기기에서 확인도 하고, 코드 저장하면 화면이 바뀌기도 한다. 이게 다 같은 방식으로 동작한다고 생각하기 쉬운데, **스택이 완전히 다르다.**
 

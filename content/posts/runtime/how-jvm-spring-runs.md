@@ -22,9 +22,12 @@ summary: "하드웨어 네트워크 카드부터 JVM 위의 Spring Boot HTTP 요
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
 
 # HW부터 JVM + Spring까지 — 서버 실행 구조
+
+_written by Claude-Code_
 
 ## 한 문장 요약
 

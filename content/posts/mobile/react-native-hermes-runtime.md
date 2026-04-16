@@ -15,9 +15,12 @@ summary: "React Native에서 Hermes가 무엇인지, 런타임 개념, JSC와의
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
 
 # React Native에서 Hermes란? 런타임, JSC 차이, 실행 흐름까지
+
+_written by Claude-Code_
 
 React Native를 보다 보면 `Hermes`, `런타임`, `JSC`라는 말을 자주 보게 된다.  
 이 셋은 결국 **React Native 앱 안에서 JavaScript가 어떻게 실행되는가**를 설명하는 핵심 개념이다.

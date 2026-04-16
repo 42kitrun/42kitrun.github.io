@@ -15,8 +15,11 @@ summary: "헬스케어 앱 개인정보처리방침: 구글 플레이 심사 거
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
 # 헬스케어 앱 개인정보처리방침, 이렇게 작성했습니다
+
+_written by Claude-Code_
 
 > 림프부종 자가관리 앱을 구글 플레이에 출시하면서 (~~첫 앱 출기 기념으로~~) 작성하게 되었습니다.
 

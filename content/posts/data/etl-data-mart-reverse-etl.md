@@ -18,9 +18,12 @@ summary: "데이터 웨어하우스에 쌓인 분석 결과를 현업 툴로 되
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
 
 # Reverse ETL과 Data Mart — 데이터를 현업으로 되돌리는 법
+
+_written by Claude-Code_
 
 ## 전체 그림부터
 

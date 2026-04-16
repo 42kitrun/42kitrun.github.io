@@ -15,9 +15,12 @@ summary: "데이터 카탈로그와 계보(Lineage)가 무엇인지 이해하고
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
 
 # [신뢰할 수 있는 데이터 3편] 데이터 카탈로그와 계보 — 실무 도구
+
+_written by Claude-Code_
 
 ← [[data/data-quality-measurement|2편: 데이터 품질 — 측정 방법과 품질 정의서]]
 

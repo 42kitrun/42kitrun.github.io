@@ -17,8 +17,11 @@ summary: "HTTP에서 HTTPS로 전환하는 개념과 DNS, A레코드, SSL 인증
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
 # HTTPS와 SSL 인증서 적용 흐름
+
+_written by Claude-Code_
 
 ## 1. HTTPS가 뭔가? (HTTP vs HTTPS)
 

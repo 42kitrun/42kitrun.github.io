@@ -19,9 +19,12 @@ summary: "SOP(표준 운영 절차)와 SBOM(소프트웨어 자재 명세서)의
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
 
 # SOP와 SBOM — 표준 운영 절차와 소프트웨어 자재 명세서
+
+_written by Claude-Code_
 
 둘 다 "무엇을, 어떻게 관리할 것인가"에 대한 답이지만, 대상이 다르다.
 

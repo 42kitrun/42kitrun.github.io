@@ -22,9 +22,12 @@ summary: "GoF 디자인 패턴 23가지를 생성, 구조, 행동 세 범주로 
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
 
 # 디자인 패턴 완전 정리 — 생성, 구조, 행동 패턴의 개요와 실전 예시
+
+_written by Claude-Code_
 
 ## 디자인 패턴이란?
 

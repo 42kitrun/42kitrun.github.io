@@ -15,9 +15,12 @@ summary: "소스 코드에서 기계어까지: 컴파일 과정 이해하기. Po
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
 
 # C 언어 프로그램은 어떻게 실행될까?
+
+_written by Claude-Code_
 
 ## 한 문장 요약
 

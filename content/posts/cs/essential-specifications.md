@@ -16,7 +16,10 @@ summary: "웹, 데이터베이스, 보안, 아키텍처 표준: HTTP RFC, SQL, A
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
+
+_written by Claude-Code_
 
 ## 🎯 기본 표준이 중요한 이유
 

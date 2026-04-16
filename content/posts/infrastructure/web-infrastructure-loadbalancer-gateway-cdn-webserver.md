@@ -18,9 +18,12 @@ summary: CDN, 로드밸런서, Gateway API, 웹서버 각각의 역할과 계층
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
 
 # 웹 인프라 - CDN, 로드밸런서, Gateway API, 웹서버의 역할과 헤더 기반 트래픽 분기
+
+_written by Claude-Code_
 
 ## 한 문장 요약
 

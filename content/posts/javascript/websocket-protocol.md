@@ -15,8 +15,11 @@ summary: "WebSocket 개념과 OSI 동작 방식, HTTP와의 차이, Unix Domain 
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
 # WebSocket 프로토콜과 HTTP 비교
+
+_written by Claude-Code_
 
 ## 1.  왜 궁금할까? (Why)
 

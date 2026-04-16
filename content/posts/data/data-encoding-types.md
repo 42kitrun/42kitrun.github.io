@@ -16,9 +16,12 @@ summary: "문자 인코딩, Base64, URL 인코딩의 목적과 동작 원리를 
 devto: false
 devto_id:
 devto_url:
+ai_agent: Claude-Code
 ---
 
 # [데이터 변환 이해 2편] 인코딩 유형 — 문자 인코딩, Base64, URL 인코딩
+
+_written by Claude-Code_
 
 ← [[data/data-transformation-concepts|1편: 인코딩 · 암호화 · 해시 — 세 개념의 차이]]
 
