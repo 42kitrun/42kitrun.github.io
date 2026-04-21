@@ -1,0 +1,169 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --sp:#EEEDFE;--sb:#AFA9EC;--st:#3C3489;--ss:#534AB7;--sc:#fff;--scb:#CECBF6;
+  --ap:#E1F5EE;--ab:#5DCAA5;--at:#085041;--as:#0F6E56;--ac:#fff;--acb:#9FE1CB;
+  --gp:#F1EFE8;--gb:#B4B2A9;--gt:#2C2C2A;
+}
+@media(prefers-color-scheme:dark){:root{
+  --sp:#26215C;--sb:#7F77DD;--st:#CECBF6;--ss:#AFA9EC;--sc:#3C3489;--scb:#534AB7;
+  --ap:#04342C;--ab:#1D9E75;--at:#9FE1CB;--as:#5DCAA5;--ac:#085041;--acb:#0F6E56;
+  --gp:#2C2C2A;--gb:#5F5E5A;--gt:#D3D1C7;
+}}
+body{font-family:var(--font-sans);padding:16px 0}
+.header{text-align:center;margin-bottom:20px}
+.header-row{display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:6px}
+.badge{font-size:11px;font-weight:500;padding:3px 10px;border-radius:20px}
+.badge-seo{background:var(--sp);color:var(--st);border:1px solid var(--sb)}
+.badge-aso{background:var(--ap);color:var(--at);border:1px solid var(--ab)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.panel{border-radius:12px;padding:14px}
+.panel-seo{background:var(--sp);border:1px solid var(--sb)}
+.panel-aso{background:var(--ap);border:1px solid var(--ab)}
+.panel-head{display:flex;align-items:center;gap:8px;margin-bottom:3px}
+.dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.dot-seo{background:var(--ss)}
+.dot-aso{background:var(--as)}
+.panel-title{font-size:14px;font-weight:500}
+.panel-title-seo{color:var(--st)}
+.panel-title-aso{color:var(--at)}
+.panel-sub{font-size:11px;color:var(--color-text-secondary);margin-bottom:12px;padding-left:18px}
+.card{border-radius:8px;padding:11px 12px;margin-bottom:9px}
+.card-seo{background:var(--sc);border:1px solid var(--scb);border-left:3px solid var(--sb)}
+.card-aso{background:var(--ac);border:1px solid var(--acb);border-left:3px solid var(--ab)}
+.card-title{font-size:12px;font-weight:500;margin-bottom:7px}
+.card-title-seo{color:var(--ss)}
+.card-title-aso{color:var(--as)}
+.tags{display:flex;flex-wrap:wrap;gap:5px}
+.tag{font-size:11px;padding:3px 8px;border-radius:20px;line-height:1.4}
+.tag-seo{background:var(--sp);color:var(--st);border:1px solid var(--scb)}
+.tag-aso{background:var(--ap);color:var(--at);border:1px solid var(--acb)}
+.divider-wrap{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.divider-line{flex:1;height:1px;background:var(--color-border-tertiary)}
+.divider-text{font-size:11px;color:var(--color-text-secondary);white-space:nowrap}
+.shared{background:var(--gp);border:1px solid var(--gb);border-radius:12px;padding:14px;margin-bottom:14px}
+.shared-title{font-size:12px;font-weight:500;color:var(--gt);margin-bottom:9px;display:flex;align-items:center;gap:6px}
+.shared-bar{width:3px;height:12px;background:var(--gb);border-radius:2px}
+.shared-tags{display:flex;flex-wrap:wrap;gap:7px}
+.shared-tag{font-size:11px;padding:4px 11px;border-radius:20px;border:1px solid var(--gb);background:var(--color-background-primary);color:var(--color-text-secondary)}
+.goal-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.goal{border-radius:10px;padding:12px 14px;text-align:center}
+.goal-seo{background:var(--ss);border:1px solid var(--sb)}
+.goal-aso{background:var(--as);border:1px solid var(--ab)}
+.goal-label{font-size:11px;font-weight:500;margin-bottom:3px}
+.goal-seo .goal-label{color:#CECBF6}
+.goal-aso .goal-label{color:#9FE1CB}
+.goal-val{font-size:13px;font-weight:500}
+.goal-seo .goal-val{color:#EEEDFE}
+.goal-aso .goal-val{color:#E1F5EE}
+.arrow-row{display:flex;justify-content:center;gap:14px;margin-bottom:6px}
+.arrow-col{display:flex;flex-direction:column;align-items:center;gap:3px;flex:1}
+.arrow-line{width:1px;height:12px;background:var(--color-border-secondary)}
+.arrow-head{width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:6px solid var(--color-border-secondary)}
+</style>
+<div>
+  <div class="cols">
+    <div class="panel panel-seo">
+      <div class="panel-head"><div class="dot dot-seo"></div><div class="panel-title panel-title-seo">SEO — 검색엔진 최적화</div></div>
+      <div class="panel-sub">웹사이트 · 검색결과 상위 노출</div>
+      <div class="card card-seo">
+        <div class="card-title card-title-seo">On-page SEO</div>
+        <div class="tags">
+          <span class="tag tag-seo">키워드 리서치</span>
+          <span class="tag tag-seo">메타 태그</span>
+          <span class="tag tag-seo">콘텐츠 품질</span>
+          <span class="tag tag-seo">URL 구조</span>
+          <span class="tag tag-seo">내부 링크</span>
+          <span class="tag tag-seo">이미지 alt</span>
+        </div>
+      </div>
+      <div class="card card-seo">
+        <div class="card-title card-title-seo">Technical SEO</div>
+        <div class="tags">
+          <span class="tag tag-seo">Core Web Vitals</span>
+          <span class="tag tag-seo">모바일 최적화</span>
+          <span class="tag tag-seo">Schema 마크업</span>
+          <span class="tag tag-seo">사이트맵</span>
+          <span class="tag tag-seo">크롤링 설정</span>
+        </div>
+      </div>
+      <div class="card card-seo">
+        <div class="card-title card-title-seo">Off-page SEO</div>
+        <div class="tags">
+          <span class="tag tag-seo">백링크 구축</span>
+          <span class="tag tag-seo">E-E-A-T</span>
+          <span class="tag tag-seo">소셜 시그널</span>
+          <span class="tag tag-seo">브랜드 신뢰도</span>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-aso">
+      <div class="panel-head"><div class="dot dot-aso"></div><div class="panel-title panel-title-aso">ASO — 앱스토어 최적화</div></div>
+      <div class="panel-sub">앱 노출 순위 · 다운로드 전환율</div>
+      <div class="card card-aso">
+        <div class="card-title card-title-aso">메타데이터 최적화</div>
+        <div class="tags">
+          <span class="tag tag-aso">앱 이름</span>
+          <span class="tag tag-aso">부제목</span>
+          <span class="tag tag-aso">키워드 필드</span>
+          <span class="tag tag-aso">앱 설명문</span>
+          <span class="tag tag-aso">카테고리</span>
+        </div>
+      </div>
+      <div class="card card-aso">
+        <div class="card-title card-title-aso">시각적 최적화</div>
+        <div class="tags">
+          <span class="tag tag-aso">앱 아이콘</span>
+          <span class="tag tag-aso">스크린샷</span>
+          <span class="tag tag-aso">프리뷰 영상</span>
+          <span class="tag tag-aso">피처드 그래픽</span>
+        </div>
+      </div>
+      <div class="card card-aso">
+        <div class="card-title card-title-aso">사용자 신호 최적화</div>
+        <div class="tags">
+          <span class="tag tag-aso">평점 & 리뷰</span>
+          <span class="tag tag-aso">전환율(CVR)</span>
+          <span class="tag tag-aso">유지율</span>
+          <span class="tag tag-aso">참여도</span>
+          <span class="tag tag-aso">업데이트 주기</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider-wrap">
+    <div class="divider-line"></div>
+    <div class="divider-text">공통 핵심 요소</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <div class="shared">
+    <div class="shared-title"><div class="shared-bar"></div>SEO & ASO 공통 전략</div>
+    <div class="shared-tags">
+      <span class="shared-tag">A/B 테스트</span>
+      <span class="shared-tag">경쟁사 분석</span>
+      <span class="shared-tag">데이터 분석 & 모니터링</span>
+      <span class="shared-tag">지속적 업데이트</span>
+      <span class="shared-tag">사용자 경험(UX)</span>
+      <span class="shared-tag">현지화(Localization)</span>
+      <span class="shared-tag">전환율 최적화(CRO)</span>
+    </div>
+  </div>
+
+  <div class="arrow-row">
+    <div class="arrow-col"><div class="arrow-line"></div><div class="arrow-head"></div></div>
+    <div class="arrow-col"><div class="arrow-line"></div><div class="arrow-head"></div></div>
+  </div>
+  <div class="goal-row">
+    <div class="goal goal-seo">
+      <div class="goal-label">SEO 목표</div>
+      <div class="goal-val">검색 순위 상승 & 유기적 트래픽 증가</div>
+    </div>
+    <div class="goal goal-aso">
+      <div class="goal-label">ASO 목표</div>
+      <div class="goal-val">앱스토어 노출 & 다운로드 전환율 향상</div>
+    </div>
+  </div>
+</div>
