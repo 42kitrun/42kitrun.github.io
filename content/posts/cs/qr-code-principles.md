@@ -14,8 +14,8 @@ tags:
   - ecc
   - mobile
   - app-distribution
-summary: "QR Code가 데이터를 인코딩하고 오류를 복구하는 원리를 Reed-Solomon ECC, 마스킹 패턴, 버전별 용량 구조와 함께 설명한다."
-ai_agent: Claude-Code
+summary: QR Code가 데이터를 인코딩하고 오류를 복구하는 원리를 Reed-Solomon ECC, 마스킹 패턴, 버전별 용량 구조와 함께 설명한다.
+ai_agent: Claude-Code, ChatGPT
 devto: false
 devto_id:
 devto_url:
@@ -25,7 +25,7 @@ devto_url:
 
 _written by Claude-Code_
 
-회사에서 개발한 __림프부종 자가관리__ 앱과 **iCON** 의 홈페이지를 정비하면서 앱 설치 안내를 위한 QR Code를 생성했다. QR Code를 만드는 것 자체는 어렵지 않다. 하지만 그 작은 사각형 패턴 안에서 어떤 일이 벌어지는지 궁금해졌다. 왜 일부가 훼손되어도 스캔이 되는지, 어떻게 그 많은 데이터를 넣는지 — 이 글은 그 구조를 파헤친 기록이다.
+회사에서 개발한 `림프부종 자가관리` 앱과 `iCON` 앱의 홈페이지를 정비하면서 앱 설치 안내를 위한 QR Code를 생성했다. QR Code를 만드는 것 자체는 어렵지 않다. 하지만 그 작은 사각형 패턴 안에서 어떤 일이 벌어지는지 궁금해졌다. 왜 일부가 훼손되어도 스캔이 되는지, 어떻게 그 많은 데이터를 넣는지 — 이 글은 그 구조를 파헤친 기록이다.
 
 ---
 
