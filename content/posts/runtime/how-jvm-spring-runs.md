@@ -1,7 +1,7 @@
 ---
 title: HW부터 JVM + Spring까지 — 서버 실행 구조
-date: 2026-04-05
-updated: 2026-04-05
+date: '2026-04-05'
+updated: '2026-04-05'
 tags:
   - java
   - jvm
@@ -18,10 +18,11 @@ tags:
   - systems
   - hardware
   - kernel
-summary: "하드웨어 네트워크 카드부터 JVM 위의 Spring Boot HTTP 요청이 처리되기까지의 전 과정 도식화"
+related_projects: []
+summary: 하드웨어 네트워크 카드부터 JVM 위의 Spring Boot HTTP 요청이 처리되기까지의 전 과정 도식화
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 헬스케어 앱 개인정보처리방침 작성법
-date: 2026-03-25
-updated: 2026-03-25
+date: '2026-03-25'
+updated: '2026-03-25'
 tags:
   - privacy
   - healthcare
@@ -11,10 +11,12 @@ tags:
   - security
   - mobile
   - standards
-summary: "헬스케어 앱 개인정보처리방침: 구글 플레이 심사 거절 경험으로 배운 필수 작성법 및 체크리스트"
+related_projects:
+  - medidaily
+summary: '헬스케어 앱 개인정보처리방침: 구글 플레이 심사 거절 경험으로 배운 필수 작성법 및 체크리스트'
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 # 헬스케어 앱 개인정보처리방침, 이렇게 작성했습니다

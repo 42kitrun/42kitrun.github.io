@@ -1,7 +1,7 @@
 ---
-title: "[신뢰할 수 있는 데이터 2편] 데이터 품질 — 측정 방법과 품질 정의서"
-date: 2026-04-03
-updated: 2026-04-03
+title: '[신뢰할 수 있는 데이터 2편] 데이터 품질 — 측정 방법과 품질 정의서'
+date: '2026-04-03'
+updated: '2026-04-03'
 tags:
   - data-quality
   - data-engineering
@@ -11,10 +11,11 @@ tags:
   - fundamentals
   - database
   - standards
-summary: "데이터 품질을 6가지 차원으로 측정하는 방법과, 팀이 공유하는 품질 정의서를 실무 수준으로 작성하는 방법을 정리한다"
+related_projects: []
+summary: 데이터 품질을 6가지 차원으로 측정하는 방법과, 팀이 공유하는 품질 정의서를 실무 수준으로 작성하는 방법을 정리한다
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: HTTPS와 SSL 인증서 적용 흐름
-date: 2026-04-01
-updated: 2026-04-01
+date: '2026-04-01'
+updated: '2026-04-01'
 tags:
   - https
   - ssl
@@ -13,10 +13,11 @@ tags:
   - web
   - dns
   - infrastructure
-summary: "HTTP에서 HTTPS로 전환하는 개념과 DNS, A레코드, SSL 인증서 적용 및 갱신 전체 흐름 정리"
+related_projects: []
+summary: HTTP에서 HTTPS로 전환하는 개념과 DNS, A레코드, SSL 인증서 적용 및 갱신 전체 흐름 정리
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 # HTTPS와 SSL 인증서 적용 흐름

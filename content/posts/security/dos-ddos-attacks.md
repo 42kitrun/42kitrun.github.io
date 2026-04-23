@@ -1,7 +1,7 @@
 ---
 title: DoS와 DDoS — 서비스 거부 공격의 원리와 대응
-date: 2026-04-03
-updated: 2026-04-03
+date: '2026-04-03'
+updated: '2026-04-03'
 tags:
   - security
   - networking
@@ -11,10 +11,11 @@ tags:
   - performance
   - web
   - protocol
-summary: "보안 공격의 전체 지형을 파악하고, DoS/DDoS의 정의·차이·유형·대응법을 구조도 중심으로 정리한다"
+related_projects: []
+summary: 보안 공격의 전체 지형을 파악하고, DoS/DDoS의 정의·차이·유형·대응법을 구조도 중심으로 정리한다
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

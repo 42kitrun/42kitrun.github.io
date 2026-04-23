@@ -1,7 +1,7 @@
 ---
-title: "[신뢰할 수 있는 데이터 3편] 데이터 카탈로그와 계보 — 실무 도구"
-date: 2026-04-03
-updated: 2026-04-03
+title: '[신뢰할 수 있는 데이터 3편] 데이터 카탈로그와 계보 — 실무 도구'
+date: '2026-04-03'
+updated: '2026-04-03'
 tags:
   - data-catalog
   - data-lineage
@@ -11,10 +11,11 @@ tags:
   - metadata
   - database
   - fundamentals
-summary: "데이터 카탈로그와 계보(Lineage)가 무엇인지 이해하고, 실무에서 쓰이는 도구를 선택 기준과 함께 비교한다"
+related_projects: []
+summary: 데이터 카탈로그와 계보(Lineage)가 무엇인지 이해하고, 실무에서 쓰이는 도구를 선택 기준과 함께 비교한다
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

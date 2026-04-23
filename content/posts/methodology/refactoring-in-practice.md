@@ -1,7 +1,7 @@
 ---
 title: 리팩토링이란 무엇인가 — 정의, 유형, 실무적 유효성
-date: 2026-04-20
-updated: 2026-04-20
+date: '2026-04-20'
+updated: '2026-04-20'
 tags:
   - refactoring
   - code-quality
@@ -17,11 +17,12 @@ tags:
   - react-native
   - lymphedema
   - iCON
-summary: "리팩토링의 정의와 버그 픽스와의 차이, 대표적인 유형 다섯 가지, 실무에서 리팩토링이 왜 필요한지 효과성 기준으로 정리한다."
+related_projects: []
+summary: 리팩토링의 정의와 버그 픽스와의 차이, 대표적인 유형 다섯 가지, 실무에서 리팩토링이 왜 필요한지 효과성 기준으로 정리한다.
 ai_agent: Claude-Code
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ---
 
 # 리팩토링이란 무엇인가 — 정의, 유형, 실무적 유효성

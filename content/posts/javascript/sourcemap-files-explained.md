@@ -1,7 +1,7 @@
 ---
 title: 소스맵(Sourcemap)이란? — 빌드 코드와 원본 코드를 잇는 다리
-date: 2026-04-02
-updated: 2026-04-02
+date: '2026-04-02'
+updated: '2026-04-02'
 tags:
   - javascript
   - build-tools
@@ -12,10 +12,11 @@ tags:
   - build-process
   - deployment
   - web
-summary: "소스맵 파일의 역할과 구조를 이해하고, 프로덕션에서 소스맵 노출이 왜 보안 문제인지 설명"
+related_projects: []
+summary: 소스맵 파일의 역할과 구조를 이해하고, 프로덕션에서 소스맵 노출이 왜 보안 문제인지 설명
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 # 소스맵(Sourcemap)이란? — 빌드 코드와 원본 코드를 잇는 다리

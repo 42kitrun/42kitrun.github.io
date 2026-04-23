@@ -1,9 +1,15 @@
 ---
-title: "Docker 명령어 레퍼런스"
-date: 2026-03-30
-updated: 2026-03-30
-tags: [docker, commands, reference, cli]
-description: "자주 사용하는 Docker 명령어 정리"
+title: Docker 명령어 레퍼런스
+date: '2026-03-30'
+updated: '2026-03-30'
+tags:
+  - docker
+  - commands
+  - reference
+  - cli
+related_projects:
+  - nowinseoul
+description: 자주 사용하는 Docker 명령어 정리
 ---
 
 # Docker 명령어 레퍼런스

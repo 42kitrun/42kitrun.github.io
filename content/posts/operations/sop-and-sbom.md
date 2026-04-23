@@ -1,7 +1,7 @@
 ---
 title: SOP와 SBOM — 표준 운영 절차와 소프트웨어 자재 명세서
-date: 2026-04-11
-updated: 2026-04-11
+date: '2026-04-11'
+updated: '2026-04-11'
 tags:
   - security
   - sop
@@ -15,10 +15,11 @@ tags:
   - operations
   - documentation
   - devops
-summary: "SOP(표준 운영 절차)와 SBOM(소프트웨어 자재 명세서)의 개념·구조·실무 활용을 핵심 위주로 정리한다."
+related_projects: []
+summary: SOP(표준 운영 절차)와 SBOM(소프트웨어 자재 명세서)의 개념·구조·실무 활용을 핵심 위주로 정리한다.
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

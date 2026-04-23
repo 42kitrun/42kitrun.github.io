@@ -1,7 +1,7 @@
 ---
 title: 필수 표준 & 명세서 가이드
-date: 2026-03-27
-updated: 2026-03-27
+date: '2026-03-27'
+updated: '2026-03-27'
 tags:
   - reference
   - standards
@@ -12,10 +12,11 @@ tags:
   - security
   - protocol
   - fundamentals
-summary: "웹, 데이터베이스, 보안, 아키텍처 표준: HTTP RFC, SQL, ACID, OAuth, REST, SOLID 등 개발자가 알아야 할 필수 표준들"
+related_projects: []
+summary: '웹, 데이터베이스, 보안, 아키텍처 표준: HTTP RFC, SQL, ACID, OAuth, REST, SOLID 등 개발자가 알아야 할 필수 표준들'
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

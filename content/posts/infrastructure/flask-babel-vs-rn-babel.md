@@ -1,7 +1,7 @@
 ---
 title: 이름이 같은 두 Babel — Flask-Babel vs React Native Babel
-date: 2026-04-08
-updated: 2026-04-12
+date: '2026-04-08'
+updated: '2026-04-12'
 tags:
   - python
   - flask
@@ -18,10 +18,12 @@ tags:
   - jinja2
   - metro
   - nowinseoul
+related_projects:
+  - nowinseoul
 summary: 같은 이름이지만 목적이 전혀 다른 Flask-Babel(서버 사이드 i18n)과 React Native Babel(빌드 타임 트랜스파일러)을 비교한다.
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

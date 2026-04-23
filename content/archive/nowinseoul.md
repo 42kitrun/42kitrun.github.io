@@ -1,7 +1,7 @@
 ---
 title: Now in Seoul — 서울 실시간 관광 정보 플랫폼
-date: 2026-04-05
-updated: 2026-04-12
+date: '2026-04-05'
+updated: '2026-04-12'
 tags:
   - python
   - flask
@@ -23,6 +23,8 @@ tags:
   - unix-domain-socket
   - ipc
   - performance
+related_projects:
+  - nowinseoul
 status: published
 excerpt: 서울 120개 주요 명소의 실시간 인구밀도·교통·날씨를 한/영/일 3개 언어로 제공하는 관광 정보 플랫폼 — Flask-Babel 다국어, 공공 API 데이터 파이프라인, AWS 인프라 구성까지
 ---

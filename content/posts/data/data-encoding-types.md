@@ -1,7 +1,7 @@
 ---
-title: "[데이터 변환 이해 2편] 인코딩 유형 — 문자 인코딩, Base64, URL 인코딩"
-date: 2026-04-03
-updated: 2026-04-03
+title: '[데이터 변환 이해 2편] 인코딩 유형 — 문자 인코딩, Base64, URL 인코딩'
+date: '2026-04-03'
+updated: '2026-04-03'
 tags:
   - encoding
   - base64
@@ -12,10 +12,11 @@ tags:
   - fundamentals
   - http
   - api
-summary: "문자 인코딩, Base64, URL 인코딩의 목적과 동작 원리를 실무 중심으로 정리하고, 언제 어떤 인코딩을 써야 하는지 판단 기준을 제공한다"
+related_projects: []
+summary: 문자 인코딩, Base64, URL 인코딩의 목적과 동작 원리를 실무 중심으로 정리하고, 언제 어떤 인코딩을 써야 하는지 판단 기준을 제공한다
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

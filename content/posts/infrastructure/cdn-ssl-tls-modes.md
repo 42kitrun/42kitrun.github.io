@@ -1,7 +1,7 @@
 ---
 title: CDN 서비스의 SSL/TLS 암호화 모드 정리 — Flexible, Full, Full (Strict)
-date: 2026-04-23
-updated: 2026-04-23
+date: '2026-04-23'
+updated: '2026-04-23'
 tags:
   - cdn
   - ssl
@@ -13,10 +13,13 @@ tags:
   - reverse-proxy
   - origin
   - networking
+related_projects:
+  - nowinseoul
+  - medidaily
 summary: CDN 앞단을 쓰는 서비스에서 SSL/TLS 암호화 모드가 무엇을 바꾸는지, Flexible·Full·Full (Strict)의 차이와 실무 체크포인트를 정리한다.
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Codex, Claude
 ---
 

@@ -1,9 +1,14 @@
 ---
-title: "Docker 아키텍처와 기본 개념"
-date: 2026-03-30
-updated: 2026-03-30
-tags: [docker, architecture, containerization]
-description: "Docker의 클라이언트-서버 구조, 네임스페이스, Cgroup 등 핵심 개념 설명"
+title: Docker 아키텍처와 기본 개념
+date: '2026-03-30'
+updated: '2026-03-30'
+tags:
+  - docker
+  - architecture
+  - containerization
+related_projects:
+  - nowinseoul
+description: Docker의 클라이언트-서버 구조, 네임스페이스, Cgroup 등 핵심 개념 설명
 ---
 
 # Docker 아키텍처와 기본 개념

@@ -1,7 +1,7 @@
 ---
 title: React 기능 구조와 훅 완전 정리 — useState부터 useMemo까지
-date: 2026-04-16
-updated: 2026-04-16
+date: '2026-04-16'
+updated: '2026-04-16'
 tags:
   - react
   - react-native
@@ -18,10 +18,11 @@ tags:
   - virtual-dom
   - performance
   - optimization
-summary: "React 기능 전체 구조와 훅의 등장 배경, 대표 훅 실무 사용법을 핵심만 정리. React Native도 동일한 훅을 그대로 사용한다."
+related_projects: []
+summary: React 기능 전체 구조와 훅의 등장 배경, 대표 훅 실무 사용법을 핵심만 정리. React Native도 동일한 훅을 그대로 사용한다.
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 # React 기능 구조와 훅 완전 정리 — useState부터 useMemo까지

@@ -1,9 +1,16 @@
 ---
-title: "Docker 이미지 빌드 및 컨테이너 실행"
-date: 2026-03-30
-updated: 2026-03-30
-tags: [docker, build, container, run, execution]
-description: "Dockerfile로 이미지 빌드하기, 컨테이너 실행 및 포트 바인딩"
+title: Docker 이미지 빌드 및 컨테이너 실행
+date: '2026-03-30'
+updated: '2026-03-30'
+tags:
+  - docker
+  - build
+  - container
+  - run
+  - execution
+related_projects:
+  - nowinseoul
+description: Dockerfile로 이미지 빌드하기, 컨테이너 실행 및 포트 바인딩
 ---
 
 # Docker 이미지 빌드 및 컨테이너 실행

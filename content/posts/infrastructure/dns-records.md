@@ -1,7 +1,7 @@
 ---
 title: 이메일이 스팸함으로 가는 이유 — DNS 레코드와 SPF, DKIM, DMARC
-date: 2026-04-16
-updated: 2026-04-16
+date: '2026-04-16'
+updated: '2026-04-16'
 tags:
   - dns
   - spf
@@ -17,10 +17,13 @@ tags:
   - txt-record
   - spam
   - authentication
-summary: "이메일이 스팸함으로 분류되지 않으려면 DNS TXT 레코드에 SPF, DKIM, DMARC를 설정해야 한다. 그 배경인 DNS 구조와 레코드 종류를 먼저 짚는다."
+related_projects:
+  - nowinseoul
+  - medidaily
+summary: 이메일이 스팸함으로 분류되지 않으려면 DNS TXT 레코드에 SPF, DKIM, DMARC를 설정해야 한다. 그 배경인 DNS 구조와 레코드 종류를 먼저 짚는다.
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 # 이메일이 스팸함으로 가는 이유 — DNS 레코드와 SPF, DKIM, DMARC

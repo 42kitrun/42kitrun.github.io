@@ -1,7 +1,7 @@
 ---
 title: 의료 데이터 동기화 설계 전략 — Local-First에서 서버 동기화까지
-date: 2026-04-17
-updated: 2026-04-17
+date: '2026-04-17'
+updated: '2026-04-17'
 tags:
   - sync
   - sync-queue
@@ -21,11 +21,13 @@ tags:
   - database
   - data-integrity
   - distributed-systems
-summary: "로컬 우선 저장 구조에서 서버 동기화를 구현할 때 필요한 전략, 충돌 해결, 신뢰성 보장 방법을 체계적으로 정리한다."
+related_projects:
+  - medidaily
+summary: 로컬 우선 저장 구조에서 서버 동기화를 구현할 때 필요한 전략, 충돌 해결, 신뢰성 보장 방법을 체계적으로 정리한다.
 ai_agent: Claude-Code
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ---
 
 # 의료 데이터 동기화 설계 전략 — Local-First에서 서버 동기화까지

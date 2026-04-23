@@ -1,7 +1,7 @@
 ---
 title: 헬스 앱 데이터 사용량 최적화 전략 — 적게, 똑똑하게, 한 번만
-date: 2026-04-17
-updated: 2026-04-17
+date: '2026-04-17'
+updated: '2026-04-17'
 tags:
   - sync
   - incremental-sync
@@ -19,11 +19,13 @@ tags:
   - data-optimization
   - performance
   - bandwidth
-summary: "헬스/의료 앱에서 모바일 데이터 사용량을 줄이는 세 가지 전략 — 보내는 양 줄이기, 타이밍 최적화, 중복·낭비 제거를 체계적으로 정리한다."
+related_projects:
+  - medidaily
+summary: 헬스/의료 앱에서 모바일 데이터 사용량을 줄이는 세 가지 전략 — 보내는 양 줄이기, 타이밍 최적화, 중복·낭비 제거를 체계적으로 정리한다.
 ai_agent: Claude-Code
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ---
 
 # 헬스 앱 데이터 사용량 최적화 전략 — 적게, 똑똑하게, 한 번만

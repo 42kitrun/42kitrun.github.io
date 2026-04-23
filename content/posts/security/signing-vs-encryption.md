@@ -1,7 +1,7 @@
 ---
 title: 서명과 암호화는 다르다
-date: 2026-04-13
-updated: 2026-04-13
+date: '2026-04-13'
+updated: '2026-04-13'
 tags:
   - security
   - cryptography
@@ -18,10 +18,11 @@ tags:
   - authentication
   - integrity
   - public-key
-summary: "암호화는 내용을 숨기는 것, 서명은 내용은 그대로 두고 출처와 무결성만 증명하는 것 — 둘은 목적이 완전히 다르다"
+related_projects: []
+summary: 암호화는 내용을 숨기는 것, 서명은 내용은 그대로 두고 출처와 무결성만 증명하는 것 — 둘은 목적이 완전히 다르다
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

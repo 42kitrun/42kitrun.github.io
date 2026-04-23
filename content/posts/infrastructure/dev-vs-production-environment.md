@@ -1,7 +1,7 @@
 ---
 title: 개발 환경 vs 프로덕션 환경, 무엇이 다른가?
-date: 2026-04-01
-updated: 2026-04-01
+date: '2026-04-01'
+updated: '2026-04-01'
 tags:
   - deployment
   - devops
@@ -11,10 +11,13 @@ tags:
   - infrastructure
   - security
   - debugging
-summary: "개발(dev)과 프로덕션(prod) 환경의 핵심 차이점과 각 환경에서 고려해야 할 사항을 구체적으로 정리"
+related_projects:
+  - nowinseoul
+  - medidaily
+summary: 개발(dev)과 프로덕션(prod) 환경의 핵심 차이점과 각 환경에서 고려해야 할 사항을 구체적으로 정리
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 # 개발 환경 vs 프로덕션 환경, 무엇이 다른가?

@@ -1,7 +1,7 @@
 ---
 title: 데이터를 묶어서 처리하는 단위들
-date: 2026-04-04
-updated: 2026-04-04
+date: '2026-04-04'
+updated: '2026-04-04'
 tags:
   - storage
   - networking
@@ -12,10 +12,11 @@ tags:
   - performance
   - data-formats
   - layers
+related_projects: []
 summary: 스토리지, 네트워크, CPU/메모리, DB, 파일시스템, 메시지큐까지 레이어별로 데이터 처리 단위를 한눈에 정리한다
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

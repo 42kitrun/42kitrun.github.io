@@ -1,7 +1,7 @@
 ---
 title: Metro 번들러와 React Native 앱 실행 구조 — 디버그 vs 프로덕션
-date: 2026-04-09
-updated: 2026-04-09
+date: '2026-04-09'
+updated: '2026-04-09'
 tags:
   - react-native
   - metro
@@ -23,10 +23,11 @@ tags:
   - build-process
   - lymphedema
   - iCON
-summary: "Metro 번들러의 역할부터 디버그·프로덕션 모드의 차이, 모바일 OS에서 JS가 화면에 그려지기까지의 전체 흐름을 정리"
+related_projects: []
+summary: Metro 번들러의 역할부터 디버그·프로덕션 모드의 차이, 모바일 OS에서 JS가 화면에 그려지기까지의 전체 흐름을 정리
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

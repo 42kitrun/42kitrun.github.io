@@ -1,7 +1,7 @@
 ---
 title: 로그인은 어떻게 동작하나 — 페이로드, 세션, 토큰, OSI 7계층
-date: 2026-04-13
-updated: 2026-04-13
+date: '2026-04-13'
+updated: '2026-04-13'
 tags:
   - authentication
   - session
@@ -20,10 +20,11 @@ tags:
   - mobile
   - lymphedema
   - iCON
-summary: "림프부종 자가관리 앱 코드에서 페이로드 개념을 발견하고, 세션·토큰 로그인 방식과 OSI 7계층 흐름을 함께 정리"
+related_projects: []
+summary: 림프부종 자가관리 앱 코드에서 페이로드 개념을 발견하고, 세션·토큰 로그인 방식과 OSI 7계층 흐름을 함께 정리
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

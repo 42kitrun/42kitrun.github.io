@@ -1,7 +1,7 @@
 ---
 title: 프로그램, 드라이버, 엔진의 관계
-date: 2026-03-28
-updated: 2026-03-28
+date: '2026-03-28'
+updated: '2026-03-28'
 tags:
   - architecture
   - driver
@@ -11,10 +11,11 @@ tags:
   - systems
   - database
   - c-language
-summary: "애플리케이션, 드라이버, 데이터베이스 엔진의 세 계층 구조와 데이터 흐름 완전 이해"
+related_projects: []
+summary: 애플리케이션, 드라이버, 데이터베이스 엔진의 세 계층 구조와 데이터 흐름 완전 이해
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: SQL/Python 사용자 정의 함수 vs 내장함수
-date: 2026-03-27
-updated: 2026-03-27
+date: '2026-03-27'
+updated: '2026-03-27'
 tags:
   - sql
   - python
@@ -11,10 +11,11 @@ tags:
   - optimization
   - c-language
   - fundamentals
-summary: "SQL/Python에서 사용자 정의 함수와 내장함수의 차이점, 성능, 언제 사용해야 하는지 핵심 비교"
+related_projects: []
+summary: SQL/Python에서 사용자 정의 함수와 내장함수의 차이점, 성능, 언제 사용해야 하는지 핵심 비교
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

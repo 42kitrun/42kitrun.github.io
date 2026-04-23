@@ -1,7 +1,7 @@
 ---
 title: React Native 빌드 생태계 핵심 용어 정리
-date: 2026-04-04
-updated: 2026-04-04
+date: '2026-04-04'
+updated: '2026-04-04'
 tags:
   - react-native
   - android
@@ -17,10 +17,11 @@ tags:
   - systems
   - lymphedema
   - iCON
-summary: "RN 앱이 소스코드에서 APK까지 만들어지는 과정과 핵심 용어를 한눈에 정리"
+related_projects: []
+summary: RN 앱이 소스코드에서 APK까지 만들어지는 과정과 핵심 용어를 한눈에 정리
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

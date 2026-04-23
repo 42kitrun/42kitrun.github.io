@@ -1,7 +1,7 @@
 ---
 title: HW부터 JavaScript까지 — V8 엔진 실행 구조
-date: 2026-04-05
-updated: 2026-04-05
+date: '2026-04-05'
+updated: '2026-04-05'
 tags:
   - javascript
   - v8
@@ -18,10 +18,11 @@ tags:
   - hardware
   - garbage-collection
   - just-in-time-compilation
-summary: "하드웨어 트랜지스터부터 JavaScript가 V8 JIT 컴파일러를 통해 실행되기까지의 전 과정 도식화"
+related_projects: []
+summary: 하드웨어 트랜지스터부터 JavaScript가 V8 JIT 컴파일러를 통해 실행되기까지의 전 과정 도식화
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

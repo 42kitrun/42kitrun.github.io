@@ -1,7 +1,7 @@
 ---
 title: HW부터 React Native까지 — 모바일 앱 실행 구조
-date: 2026-04-05
-updated: 2026-04-05
+date: '2026-04-05'
+updated: '2026-04-05'
 tags:
   - react-native
   - javascript
@@ -21,10 +21,11 @@ tags:
   - bytecode
   - lymphedema
   - iCON
-summary: "하드웨어 GPU/CPU부터 React Native 코드가 Hermes와 네이티브 렌더러를 거쳐 iOS/Android UI로 표시되기까지의 전 과정 도식화"
+related_projects: []
+summary: 하드웨어 GPU/CPU부터 React Native 코드가 Hermes와 네이티브 렌더러를 거쳐 iOS/Android UI로 표시되기까지의 전 과정 도식화
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 앱 딥링크 기반 비밀번호 재설정 흐름
-date: 2026-04-14
-updated: 2026-04-14
+date: '2026-04-14'
+updated: '2026-04-14'
 tags:
   - deep-link
   - password-reset
@@ -13,10 +13,11 @@ tags:
   - backend
   - react-native
   - url-scheme
-summary: "임시 비밀번호 발급 방식의 한계를 짚고, 딥링크 기반 비밀번호 재설정 흐름이 어떻게 동작하는지 설명한다"
+related_projects: []
+summary: 임시 비밀번호 발급 방식의 한계를 짚고, 딥링크 기반 비밀번호 재설정 흐름이 어떻게 동작하는지 설명한다
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

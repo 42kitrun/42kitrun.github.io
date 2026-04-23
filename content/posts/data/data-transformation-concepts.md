@@ -1,7 +1,7 @@
 ---
-title: "[데이터 변환 이해 1편] 인코딩 · 암호화 · 해시 — 세 개념의 차이"
-date: 2026-04-03
-updated: 2026-04-03
+title: '[데이터 변환 이해 1편] 인코딩 · 암호화 · 해시 — 세 개념의 차이'
+date: '2026-04-03'
+updated: '2026-04-03'
 tags:
   - encoding
   - encryption
@@ -12,10 +12,11 @@ tags:
   - fundamentals
   - cryptography
   - web
-summary: "인코딩, 암호화, 해시를 혼동 없이 구분하고, 각 개념을 실무 맥락에서 언제 어떻게 선택하는지 정리한다"
+related_projects: []
+summary: 인코딩, 암호화, 해시를 혼동 없이 구분하고, 각 개념을 실무 맥락에서 언제 어떻게 선택하는지 정리한다
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

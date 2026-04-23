@@ -1,7 +1,7 @@
 ---
 title: 소프트웨어 아키텍처 용어 정리
-date: 2026-03-28
-updated: 2026-03-28
+date: '2026-03-28'
+updated: '2026-03-28'
 tags:
   - architecture
   - terminology
@@ -12,10 +12,11 @@ tags:
   - systems
   - layers
   - design-patterns
-summary: "드라이버, 라이브러리, 미들웨어, 어댑터 등 비슷하지만 다른 개념들을 명확하게 정리"
+related_projects: []
+summary: 드라이버, 라이브러리, 미들웨어, 어댑터 등 비슷하지만 다른 개념들을 명확하게 정리
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

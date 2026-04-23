@@ -1,7 +1,7 @@
 ---
 title: 소프트웨어 테스트 종류 - 부하, 스트레스, 침투, DDoS 시뮬레이션
-date: 2026-04-01
-updated: 2026-04-01
+date: '2026-04-01'
+updated: '2026-04-01'
 tags:
   - testing
   - security
@@ -11,10 +11,11 @@ tags:
   - devops
   - attacks
   - deployment
+related_projects: []
 summary: 성능/안정성 테스트와 보안 테스트 계열을 전체 지도로 정리하고, 스트레스 테스트와 DDoS 시뮬레이션의 공통점과 차이점을 명확히 구분한다
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

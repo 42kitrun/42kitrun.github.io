@@ -1,7 +1,7 @@
 ---
-title: "의료 데이터 교환 표준: HL7, FHIR, DICOM 비교"
-date: 2026-03-28
-updated: 2026-03-28
+title: '의료 데이터 교환 표준: HL7, FHIR, DICOM 비교'
+date: '2026-03-28'
+updated: '2026-03-28'
 tags:
   - healthcare
   - standards
@@ -13,10 +13,12 @@ tags:
   - data-governance
   - medical-code
   - api
-summary: "병원과 의료기관들이 환자 데이터를 주고받을 때 사용하는 통신 표준들: HL7 v2, FHIR, DICOM의 차이점과 최근 트렌드"
+related_projects:
+  - medidaily
+summary: '병원과 의료기관들이 환자 데이터를 주고받을 때 사용하는 통신 표준들: HL7 v2, FHIR, DICOM의 차이점과 최근 트렌드'
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

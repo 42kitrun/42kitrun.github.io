@@ -1,7 +1,7 @@
 ---
 title: HW부터 네이티브 코드까지 — C/C++/Rust/Go 실행 구조
-date: 2026-04-05
-updated: 2026-04-05
+date: '2026-04-05'
+updated: '2026-04-05'
 tags:
   - native-code
   - c-language
@@ -17,10 +17,11 @@ tags:
   - hardware
   - process
   - kernel
-summary: "하드웨어 트랜지스터부터 C/C++/Rust/Go 네이티브 코드가 CPU 위에서 직접 실행되기까지의 전 과정 도식화"
+related_projects: []
+summary: 하드웨어 트랜지스터부터 C/C++/Rust/Go 네이티브 코드가 CPU 위에서 직접 실행되기까지의 전 과정 도식화
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

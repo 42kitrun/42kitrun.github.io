@@ -1,7 +1,7 @@
 ---
-title: "Reverse ETL과 Data Mart — 데이터를 현업으로 되돌리는 법"
-date: 2026-04-11
-updated: 2026-04-11
+title: Reverse ETL과 Data Mart — 데이터를 현업으로 되돌리는 법
+date: '2026-04-11'
+updated: '2026-04-11'
 tags:
   - reverse-etl
   - data-mart
@@ -14,10 +14,11 @@ tags:
   - marketing
   - data-integration
   - operational-analytics
-summary: "데이터 웨어하우스에 쌓인 분석 결과를 현업 툴로 되돌려 보내는 Reverse ETL과, 용도별로 데이터를 분리 저장하는 Data Mart의 개념과 관계를 정리한다"
+related_projects: []
+summary: 데이터 웨어하우스에 쌓인 분석 결과를 현업 툴로 되돌려 보내는 Reverse ETL과, 용도별로 데이터를 분리 저장하는 Data Mart의 개념과 관계를 정리한다
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

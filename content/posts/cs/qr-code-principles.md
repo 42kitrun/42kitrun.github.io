@@ -1,7 +1,7 @@
 ---
 title: QR Code의 원리 — 작은 사각형이 데이터를 담는 방법
-date: 2026-04-22
-updated: 2026-04-22
+date: '2026-04-22'
+updated: '2026-04-22'
 tags:
   - qr-code
   - encoding
@@ -14,11 +14,12 @@ tags:
   - ecc
   - mobile
   - app-distribution
+related_projects: []
 summary: QR Code가 데이터를 인코딩하고 오류를 복구하는 원리를 Reed-Solomon ECC, 마스킹 패턴, 버전별 용량 구조와 함께 설명한다.
 ai_agent: Claude-Code, ChatGPT
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ---
 
 # QR Code의 원리 — 작은 사각형이 데이터를 담는 방법

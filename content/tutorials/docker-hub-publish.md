@@ -1,9 +1,15 @@
 ---
-title: "Docker Hub에 이미지 푸시하기"
-date: 2026-03-30
-updated: 2026-03-30
-tags: [docker, docker-hub, publishing, registry]
-description: "Docker 이미지를 Docker Hub에 올리고 다운받기"
+title: Docker Hub에 이미지 푸시하기
+date: '2026-03-30'
+updated: '2026-03-30'
+tags:
+  - docker
+  - docker-hub
+  - publishing
+  - registry
+related_projects:
+  - nowinseoul
+description: Docker 이미지를 Docker Hub에 올리고 다운받기
 ---
 
 # Docker Hub에 이미지 푸시하기

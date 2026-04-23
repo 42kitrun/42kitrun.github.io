@@ -1,7 +1,7 @@
 ---
 title: C 언어 프로그램은 어떻게 실행될까?
-date: 2026-03-28
-updated: 2026-03-28
+date: '2026-03-28'
+updated: '2026-03-28'
 tags:
   - c-language
   - compilation
@@ -11,10 +11,11 @@ tags:
   - build-process
   - interpreter-vs-compiler
   - systems
-summary: "소스 코드에서 기계어까지: 컴파일 과정 이해하기. PostgreSQL, CPython이 C로 작성된 이유"
+related_projects: []
+summary: '소스 코드에서 기계어까지: 컴파일 과정 이해하기. PostgreSQL, CPython이 C로 작성된 이유'
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Flask 스케줄링 Extension vs Cron — 무엇을 선택해야 할까?
-date: 2026-04-12
-updated: 2026-04-12
+date: '2026-04-12'
+updated: '2026-04-12'
 tags:
   - flask
   - python
@@ -19,10 +19,12 @@ tags:
   - performance
   - process-management
   - nowinseoul
+related_projects:
+  - nowinseoul
 summary: Flask-APScheduler 같은 In-Process 스케줄러와 시스템 Cron의 동작 방식, 장단점, 리소스·운영 차이를 핵심 위주로 비교한다.
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: WebSocket 프로토콜과 HTTP 비교
-date: 2026-04-01
-updated: 2026-04-01
+date: '2026-04-01'
+updated: '2026-04-01'
 tags:
   - websocket
   - networking
@@ -11,10 +11,11 @@ tags:
   - web
   - ipc
   - osi
-summary: "WebSocket 개념과 OSI 동작 방식, HTTP와의 차이, Unix Domain Socket과의 비교를 핵심만 정리"
+related_projects: []
+summary: WebSocket 개념과 OSI 동작 방식, HTTP와의 차이, Unix Domain Socket과의 비교를 핵심만 정리
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 # WebSocket 프로토콜과 HTTP 비교

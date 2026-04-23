@@ -1,7 +1,7 @@
 ---
 title: Python C 레벨 최적화란?
-date: 2026-03-27
-updated: 2026-03-27
+date: '2026-03-27'
+updated: '2026-03-27'
 tags:
   - python
   - performance
@@ -11,10 +11,11 @@ tags:
   - fundamentals
   - build-process
   - systems
-summary: "Python 내장함수가 빠른 이유: C 언어로 구현된 최적화"
+related_projects: []
+summary: 'Python 내장함수가 빠른 이유: C 언어로 구현된 최적화'
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

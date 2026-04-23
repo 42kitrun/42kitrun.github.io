@@ -1,7 +1,7 @@
 ---
 title: 국제 의료표준 코드(SNOMED-CT) 도입기
-date: 2026-03-26
-updated: 2026-03-26
+date: '2026-03-26'
+updated: '2026-03-26'
 tags:
   - healthcare
   - snomed-ct
@@ -12,10 +12,12 @@ tags:
   - interoperability
   - database
   - data-governance
-summary: "SNOMED-CT 코드 도입기: 의료표준 선택 기준부터 검증, 버전 관리까지"
+related_projects:
+  - medidaily
+summary: 'SNOMED-CT 코드 도입기: 의료표준 선택 기준부터 검증, 버전 관리까지'
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

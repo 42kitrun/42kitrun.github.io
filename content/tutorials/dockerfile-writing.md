@@ -1,9 +1,15 @@
 ---
-title: "Dockerfile 작성 가이드"
-date: 2026-03-30
-updated: 2026-03-30
-tags: [docker, dockerfile, containerization, python]
-description: "Dockerfile 문법, 베이스 이미지 선택, 보안 설정 방법"
+title: Dockerfile 작성 가이드
+date: '2026-03-30'
+updated: '2026-03-30'
+tags:
+  - docker
+  - dockerfile
+  - containerization
+  - python
+related_projects:
+  - nowinseoul
+description: Dockerfile 문법, 베이스 이미지 선택, 보안 설정 방법
 ---
 
 # Dockerfile 작성 가이드

@@ -1,7 +1,14 @@
 ---
 title: nowinseoul 서버 - 성능 및 리소스 효율화 설계 분석
-tags: [backend, performance, python, flask, architecture]
-created: 2026-04-12
+tags:
+  - backend
+  - performance
+  - python
+  - flask
+  - architecture
+related_projects:
+  - nowinseoul
+created: 2026-04-12T00:00:00.000Z
 status: complete
 ---
 

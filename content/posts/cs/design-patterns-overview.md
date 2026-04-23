@@ -1,7 +1,7 @@
 ---
 title: 디자인 패턴 완전 정리 — 생성, 구조, 행동 패턴의 개요와 실전 예시
-date: 2026-04-12
-updated: 2026-04-12
+date: '2026-04-12'
+updated: '2026-04-12'
 tags:
   - design-patterns
   - software-engineering
@@ -18,10 +18,11 @@ tags:
   - refactoring
   - best-practices
   - fundamentals
-summary: "GoF 디자인 패턴 23가지를 생성, 구조, 행동 세 범주로 나눠 각 패턴의 목적, 특장점, 코드 예시까지 한눈에 정리"
+related_projects: []
+summary: GoF 디자인 패턴 23가지를 생성, 구조, 행동 세 범주로 나눠 각 패턴의 목적, 특장점, 코드 예시까지 한눈에 정리
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

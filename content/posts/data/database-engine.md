@@ -1,7 +1,7 @@
 ---
 title: 데이터베이스 엔진이란?
-date: 2026-03-28
-updated: 2026-03-28
+date: '2026-03-28'
+updated: '2026-03-28'
 tags:
   - database
   - engine
@@ -12,10 +12,11 @@ tags:
   - performance
   - systems
   - native-code
-summary: "데이터베이스 엔진의 역할, 동작 원리, 그리고 왜 내장함수가 애플리케이션보다 빠른지 이해하기"
+related_projects: []
+summary: 데이터베이스 엔진의 역할, 동작 원리, 그리고 왜 내장함수가 애플리케이션보다 빠른지 이해하기
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

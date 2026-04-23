@@ -1,7 +1,7 @@
 ---
 title: SEO와 ASO — 웹과 앱의 검색 최적화 전략 완전 정리
-date: 2026-04-21
-updated: 2026-04-21
+date: '2026-04-21'
+updated: '2026-04-21'
 tags:
   - seo
   - aso
@@ -21,11 +21,12 @@ tags:
   - localization
   - a-b-testing
   - organic-traffic
-summary: "SEO와 ASO의 개념, 핵심 전략, 차이점과 공통점을 실무 관점에서 비교 정리한 검색 최적화 완전 가이드"
+related_projects: []
+summary: SEO와 ASO의 개념, 핵심 전략, 차이점과 공통점을 실무 관점에서 비교 정리한 검색 최적화 완전 가이드
 ai_agent: Claude-Code
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ---
 
 # SEO와 ASO — 웹과 앱의 검색 최적화 전략 완전 정리

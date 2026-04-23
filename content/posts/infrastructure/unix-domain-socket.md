@@ -1,7 +1,7 @@
 ---
 title: Unix Domain Socket (유닉스 도메인 소켓)
-date: 2026-03-24
-updated: 2026-03-24
+date: '2026-03-24'
+updated: '2026-03-24'
 tags:
   - ipc
   - linux
@@ -12,10 +12,13 @@ tags:
   - performance
   - systems
   - osi
-summary: "같은 호스트 내 프로세스 간 통신을 TCP/IP 스택 없이 파일 경로로 처리하는 IPC 메커니즘"
+related_projects:
+  - nowinseoul
+  - medidaily
+summary: 같은 호스트 내 프로세스 간 통신을 TCP/IP 스택 없이 파일 경로로 처리하는 IPC 메커니즘
 devto: true
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 # Unix Domain Socket (유닉스 도메인 소켓)

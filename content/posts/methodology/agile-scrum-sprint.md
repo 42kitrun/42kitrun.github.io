@@ -1,7 +1,7 @@
 ---
 title: Agile, Scrum, Sprint란?
-date: 2026-04-11
-updated: 2026-04-11
+date: '2026-04-11'
+updated: '2026-04-11'
 tags:
   - agile
   - scrum
@@ -13,10 +13,11 @@ tags:
   - backlog
   - retrospective
   - kanban
-summary: "Agile은 철학, Scrum은 프레임워크, Sprint는 실행 단위 — 세 가지 개념의 관계와 핵심을 한눈에 정리"
+related_projects: []
+summary: Agile은 철학, Scrum은 프레임워크, Sprint는 실행 단위 — 세 가지 개념의 관계와 핵심을 한눈에 정리
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 코드 난독화란? R8/ProGuard와 역난독화까지 한 번에 정리
-date: 2026-04-21
-updated: 2026-04-22
+date: '2026-04-21'
+updated: '2026-04-22'
 tags:
   - android
   - proguard
@@ -19,11 +19,12 @@ tags:
   - java
   - release-build
   - play-store
+related_projects: []
 summary: 코드 난독화와 역난독화의 차이, Android의 R8/ProGuard가 실제로 하는 일, mapping.txt의 역할과 실무 적용 시점을 한 흐름으로 정리한다
 ai_agent: Claude & Codex
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ---
 
 # 코드 난독화란? R8/ProGuard와 역난독화까지 한 번에 정리

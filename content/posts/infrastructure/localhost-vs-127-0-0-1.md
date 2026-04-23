@@ -1,7 +1,7 @@
 ---
 title: localhost와 127.0.0.1은 같은가? 루프백과 OSI 7계층으로 이해하기
-date: 2026-04-02
-updated: 2026-04-02
+date: '2026-04-02'
+updated: '2026-04-02'
 tags:
   - networking
   - osi
@@ -11,10 +11,13 @@ tags:
   - protocol
   - dns
   - web
-summary: "localhost와 127.0.0.1의 개념적 차이를 OSI 7계층 기반으로 명확히 구분하고, 자주 쓰이는 특수 IP 주소를 함께 정리"
+related_projects:
+  - nowinseoul
+  - medidaily
+summary: localhost와 127.0.0.1의 개념적 차이를 OSI 7계층 기반으로 명확히 구분하고, 자주 쓰이는 특수 IP 주소를 함께 정리
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 # localhost와 127.0.0.1은 같은가? 루프백과 OSI 7계층으로 이해하기

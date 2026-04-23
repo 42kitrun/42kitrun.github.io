@@ -1,7 +1,7 @@
 ---
 title: MediDaily — 의학적으로 검증된 헬스케어 루틴 API 설계 및 구현
-date: 2026-04-05
-updated: 2026-04-12
+date: '2026-04-05'
+updated: '2026-04-12'
 tags:
   - fastify
   - typescript
@@ -15,6 +15,8 @@ tags:
   - rest-api
   - jwt
   - snomed-ct
+related_projects:
+  - medidaily
 status: published
 excerpt: Fastify 5 + Prisma 기반 헬스케어 플랫폼 백엔드 — SNOMED-CT 증상 매핑, 벡터 검색, 자가진단 세션 흐름을 중심으로
 ---

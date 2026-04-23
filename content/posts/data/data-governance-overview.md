@@ -1,7 +1,7 @@
 ---
-title: "[신뢰할 수 있는 데이터 1편] 데이터 거버넌스 — 전체 지형과 왜 필요한가"
-date: 2026-04-03
-updated: 2026-04-03
+title: '[신뢰할 수 있는 데이터 1편] 데이터 거버넌스 — 전체 지형과 왜 필요한가'
+date: '2026-04-03'
+updated: '2026-04-03'
 tags:
   - data-governance
   - data-engineering
@@ -11,10 +11,11 @@ tags:
   - fundamentals
   - standards
   - database
-summary: "데이터 관리 전체 지형을 한눈에 파악하고, 데이터 거버넌스가 왜 필요한지 구조도 중심으로 정리한다"
+related_projects: []
+summary: 데이터 관리 전체 지형을 한눈에 파악하고, 데이터 거버넌스가 왜 필요한지 구조도 중심으로 정리한다
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

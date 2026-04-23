@@ -1,7 +1,7 @@
 ---
 title: React Native 다국어 앱에서 버전 파편화가 조용히 생기는 이유
-date: 2026-04-20
-updated: 2026-04-20
+date: '2026-04-20'
+updated: '2026-04-20'
 tags:
   - react-native
   - localization
@@ -17,11 +17,13 @@ tags:
   - version-management
   - lymphedema
   - iCON
-summary: "한/영 두 버전을 병렬 개발할 때 조용히 발생하는 코드 파편화의 유형, 탐지 방법, 수정 전략을 실제 사례와 함께 정리한다."
+related_projects:
+  - nowinseoul
+summary: 한/영 두 버전을 병렬 개발할 때 조용히 발생하는 코드 파편화의 유형, 탐지 방법, 수정 전략을 실제 사례와 함께 정리한다.
 ai_agent: Claude-Code
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ---
 
 # React Native 다국어 앱에서 버전 파편화가 조용히 생기는 이유

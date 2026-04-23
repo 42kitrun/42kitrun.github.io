@@ -1,7 +1,7 @@
 ---
 title: React Native에서 Hermes란? 런타임, JSC 차이, 실행 흐름까지
-date: 2026-04-05
-updated: 2026-04-05
+date: '2026-04-05'
+updated: '2026-04-05'
 tags:
   - react-native
   - hermes
@@ -11,10 +11,11 @@ tags:
   - mobile
   - lymphedema
   - iCON
-summary: "React Native에서 Hermes가 무엇인지, 런타임 개념, JSC와의 차이, JS 코드가 앱에서 실행되는 전체 흐름을 핵심만 정리"
+related_projects: []
+summary: React Native에서 Hermes가 무엇인지, 런타임 개념, JSC와의 차이, JS 코드가 앱에서 실행되는 전체 흐름을 핵심만 정리
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 

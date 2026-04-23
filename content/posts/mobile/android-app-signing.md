@@ -1,7 +1,7 @@
 ---
-title: "구글 플레이 앱 서명, 한 번에 이해하기"
-date: 2026-04-07
-updated: 2026-04-07
+title: 구글 플레이 앱 서명, 한 번에 이해하기
+date: '2026-04-07'
+updated: '2026-04-07'
 tags:
   - android
   - app-signing
@@ -14,10 +14,11 @@ tags:
   - pem
   - lymphedema
   - iCON
-summary: "앱 서명의 개념, 비대칭 암호화 원리, Keystore와 PEM 파일의 관계를 논리적으로 정리한다. keystore를 잃어버릴 뻔한 사건의 산물."
+related_projects: []
+summary: 앱 서명의 개념, 비대칭 암호화 원리, Keystore와 PEM 파일의 관계를 논리적으로 정리한다. keystore를 잃어버릴 뻔한 사건의 산물.
 devto: false
-devto_id:
-devto_url:
+devto_id: null
+devto_url: null
 ai_agent: Claude-Code
 ---
 
