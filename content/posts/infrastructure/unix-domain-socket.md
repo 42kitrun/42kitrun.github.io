@@ -1,7 +1,7 @@
 ---
 title: Unix Domain Socket (유닉스 도메인 소켓)
 date: '2026-03-24'
-updated: '2026-03-24'
+updated: '2026-04-26'
 tags:
   - ipc
   - linux
@@ -27,7 +27,7 @@ _written by Claude-Code_
 
 ## 1. 왜 궁금 할까? (Why)
 
-**상황 :** [[nowinseoul]] 프로젝트 t3.small 단일 서버에서 `nginx → gunicorn → flask` 구성 시, 기본값은 TCP 소켓(`localhost:8000`)이다. 
+**상황 :** nowinseoul 프로젝트 t3.small 단일 서버에서 `nginx → gunicorn → flask` 구성 시, 기본값은 TCP 소켓(`localhost:8000`)이다. 
 
 **기존 방식의 한계**
 
