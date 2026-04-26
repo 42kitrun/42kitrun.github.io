@@ -1,7 +1,7 @@
 ---
 title: localhost와 127.0.0.1은 같은가? 루프백과 OSI 7계층으로 이해하기
 date: '2026-04-02'
-updated: '2026-04-02'
+updated: '2026-04-26'
 tags:
   - networking
   - osi
@@ -181,3 +181,11 @@ localhost  = 이름 (hosts 파일에서 해석, L7)
 
 루프백의 핵심은 **L3에서 반환되어 L1/L2에 도달하지 않는다**는 것이다.  
 패킷이 물리 카드 밖으로 나가지 않기 때문에 네트워크 없이도 소켓 통신이 가능하다.
+
+---
+
+## 관련 글
+
+- [[infrastructure/unix-domain-socket|Unix Domain Socket — 루프백보다 빠른 IPC]]
+- [[infrastructure/dns-records|이메일이 스팸함으로 가는 이유 — DNS 레코드]]
+- [[infrastructure/web-infrastructure-loadbalancer-gateway-cdn-webserver|웹 인프라 — CDN, 로드밸런서, 웹서버의 역할]]

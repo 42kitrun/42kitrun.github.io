@@ -1,7 +1,7 @@
 ---
 title: Flask 스케줄링 Extension vs Cron — 무엇을 선택해야 할까?
 date: '2026-04-12'
-updated: '2026-04-12'
+updated: '2026-04-26'
 tags:
   - flask
   - python
@@ -148,3 +148,9 @@ APScheduler는 다중 서버에서 중복 실행을 막으려면 **JobStore를 R
 > **Cron** → 독립적이고 견고하지만 동적 변경이 불편하고 컨테이너 환경에서 번거로움
 
 운영 규모가 커지거나 재시도·모니터링이 중요해지면 **Celery + Celery Beat** 도입을 검토할 시점이다.
+
+---
+
+## 관련 글
+
+- [[infrastructure/dev-vs-production-environment|개발 환경 vs 프로덕션 환경, 무엇이 다른가?]]
