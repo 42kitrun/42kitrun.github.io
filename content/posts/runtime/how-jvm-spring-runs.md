@@ -1,7 +1,7 @@
 ---
 title: HW부터 JVM + Spring까지 — 서버 실행 구조
 date: '2026-04-05'
-updated: '2026-04-05'
+updated: '2026-04-26'
 tags:
   - java
   - jvm
@@ -346,3 +346,10 @@ GET /users 요청
       JVM이 바이트코드를 해석/JIT하고,
       Spring은 그 위에서 HTTP 요청 처리 구조를 제공한다.
 ```
+
+---
+
+## 관련 글
+
+- [[runtime/how-native-code-runs|HW부터 네이티브 코드까지 — C/C++/Rust/Go 실행 구조]]
+- [[runtime/c-language-compilation|C 언어 프로그램은 어떻게 실행될까?]]

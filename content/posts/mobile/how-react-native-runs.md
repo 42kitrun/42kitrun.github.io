@@ -1,7 +1,7 @@
 ---
 title: HW부터 React Native까지 — 모바일 앱 실행 구조
 date: '2026-04-05'
-updated: '2026-04-05'
+updated: '2026-04-26'
 tags:
   - react-native
   - javascript
@@ -20,7 +20,7 @@ tags:
   - jit
   - bytecode
   - lymphedema
-  - iCON
+  - icon
 related_projects: []
 summary: 하드웨어 GPU/CPU부터 React Native 코드가 Hermes와 네이티브 렌더러를 거쳐 iOS/Android UI로 표시되기까지의 전 과정 도식화
 devto: false
@@ -313,3 +313,11 @@ SoC 트랜지스터 (ON/OFF)
 핵심: RN은 WebView가 아니다.
       JS 런타임이 JSI/Fabric을 통해 실제 네이티브 UI 트리를 갱신한다.
 ```
+
+---
+
+## 관련 글
+
+- [[javascript/how-javascript-runs|HW부터 JavaScript까지 — V8 엔진 실행 구조]]
+- [[mobile/react-native-hermes-runtime|React Native Hermes 런타임]]
+- [[mobile/react-native-build-ecosystem|React Native 빌드 생태계 핵심 용어]]

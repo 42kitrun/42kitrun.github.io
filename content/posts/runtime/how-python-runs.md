@@ -1,7 +1,7 @@
 ---
 title: HW부터 Python 스크립트까지 — CPython 실행 구조
 date: '2026-04-05'
-updated: '2026-04-05'
+updated: '2026-04-26'
 tags:
   - python
   - cpython
@@ -290,3 +290,11 @@ C 함수 호출 (CPython 내부)
 핵심: Python 코드는 직접 CPU에서 실행되지 않는다.
       CPython(C 바이너리)이 중간에서 해석하며 실행한다.
 ```
+
+---
+
+## 관련 글
+
+- [[runtime/c-level-optimization|Python C 레벨 최적화란?]]
+- [[runtime/c-language-compilation|C 언어 프로그램은 어떻게 실행될까?]]
+- [[runtime/how-native-code-runs|HW부터 네이티브 코드까지 — C/C++/Rust/Go 실행 구조]]

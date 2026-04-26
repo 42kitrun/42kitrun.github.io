@@ -1,7 +1,7 @@
 ---
 title: React Native에서 Hermes란? 런타임, JSC 차이, 실행 흐름까지
 date: '2026-04-05'
-updated: '2026-04-05'
+updated: '2026-04-26'
 tags:
   - react-native
   - hermes
@@ -10,7 +10,7 @@ tags:
   - jsc
   - mobile
   - lymphedema
-  - iCON
+  - icon
 related_projects: []
 summary: React Native에서 Hermes가 무엇인지, 런타임 개념, JSC와의 차이, JS 코드가 앱에서 실행되는 전체 흐름을 핵심만 정리
 devto: false
@@ -192,3 +192,10 @@ React Native 실행 흐름:
 한 줄 요약:
 
 > React Native에서 `Hermes`는 JavaScript를 실행하는 엔진이고, `런타임`은 그 실행 환경이며, `JSC`는 Hermes의 대안 엔진이다. 그리고 React Native 앱은 JS 코드가 엔진에서 실행된 뒤 네이티브 UI로 연결되어 화면에 표시된다.
+
+---
+
+## 관련 글
+
+- [[mobile/how-react-native-runs|HW부터 React Native까지 — 모바일 앱 실행 구조]]
+- [[mobile/react-native-metro-debug-prod|Metro 번들러와 React Native 앱 실행 구조]]

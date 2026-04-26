@@ -1,7 +1,7 @@
 ---
 title: HW부터 네이티브 코드까지 — C/C++/Rust/Go 실행 구조
 date: '2026-04-05'
-updated: '2026-04-05'
+updated: '2026-04-26'
 tags:
   - native-code
   - c-language
@@ -222,3 +222,11 @@ MIR 단계에서:
     ↓ CPU Fetch-Decode-Execute
 트랜지스터 ON/OFF (전기 신호)
 ```
+
+---
+
+## 관련 글
+
+- [[runtime/c-language-compilation|C 언어 프로그램은 어떻게 실행될까?]]
+- [[runtime/program-driver-engine|프로그램, 드라이버, 엔진의 관계]]
+- [[runtime/how-python-runs|HW부터 Python 스크립트까지 — CPython 실행 구조]]
