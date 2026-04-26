@@ -1,7 +1,7 @@
 ---
 title: 앱 딥링크 기반 비밀번호 재설정 흐름
 date: '2026-04-14'
-updated: '2026-04-14'
+updated: '2026-04-26'
 tags:
   - deep-link
   - password-reset
@@ -125,3 +125,11 @@ React Native 기준으로는 `Linking.getInitialURL()` (콜드 스타트)과 `Li
 - 링크에는 **단기 만료 일회용 토큰**이 포함된다
 - 링크 클릭 → **딥링크로 앱 실행** → 토큰 검증 → 비밀번호 변경
 - 서버는 토큰 저장·검증 API 2개, 앱은 딥링크 핸들러가 추가로 필요하다
+
+---
+
+## 관련 글
+
+- [[security/signing-vs-encryption|서명과 암호화는 다르다]]
+- [[security/https-ssl-certificate|HTTPS와 SSL 인증서 적용 흐름]]
+- [[mobile/android-app-signing|구글 플레이 앱 서명, 한 번에 이해하기]]

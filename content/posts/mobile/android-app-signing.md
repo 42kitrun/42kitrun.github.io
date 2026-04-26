@@ -1,7 +1,7 @@
 ---
 title: 구글 플레이 앱 서명, 한 번에 이해하기
 date: '2026-04-07'
-updated: '2026-04-07'
+updated: '2026-04-26'
 tags:
   - android
   - app-signing
@@ -13,7 +13,7 @@ tags:
   - certificate
   - pem
   - lymphedema
-  - iCON
+  - icon
 related_projects: []
 summary: 앱 서명의 개념, 비대칭 암호화 원리, Keystore와 PEM 파일의 관계를 논리적으로 정리한다. keystore를 잃어버릴 뻔한 사건의 산물.
 devto: false
@@ -159,3 +159,11 @@ Upload Key를 잃어버려도 구글에 재발급 요청이 가능하다.
 > Google Play 앱 서명을 쓰면 도장을 잃어도 구글이 복구해준다.
 > 그래도 잃어버리지 말자. 백업은 꼭하고, 또하고, 또하고, 또 해두기 :)
 
+
+---
+
+## 관련 글
+
+- [[security/signing-vs-encryption|서명과 암호화는 다르다]]
+- [[security/data-encryption-types|암호화 유형 — 대칭키, 비대칭키, 해시 함수]]
+- [[security/code-obfuscation-proguard-r8|코드 난독화란? R8/ProGuard와 역난독화]]

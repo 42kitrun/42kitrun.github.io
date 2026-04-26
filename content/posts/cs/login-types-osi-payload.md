@@ -1,7 +1,7 @@
 ---
 title: 로그인은 어떻게 동작하나 — 페이로드, 세션, 토큰, OSI 7계층
 date: '2026-04-13'
-updated: '2026-04-13'
+updated: '2026-04-26'
 tags:
   - authentication
   - session
@@ -19,7 +19,7 @@ tags:
   - cryptography
   - mobile
   - lymphedema
-  - iCON
+  - icon
 related_projects: []
 summary: 림프부종 자가관리 앱 코드에서 페이로드 개념을 발견하고, 세션·토큰 로그인 방식과 OSI 7계층 흐름을 함께 정리
 devto: false
@@ -126,4 +126,8 @@ function withAuthPayload(string $email, string $password, ?string $authToken = n
 - **토큰(JWT)** = 서버는 서명만 검증, 클라이언트가 토큰 자체를 보유
 - **OSI 관점** = 인증 로직은 L7, 암호화는 L6(TLS), 전송은 L4(TCP)
 
-관련 글: [[signing-vs-encryption|서명과 암호화는 다르다]]
+## 관련 글
+
+- [[security/signing-vs-encryption|서명과 암호화는 다르다]]
+- [[security/https-ssl-certificate|HTTPS와 SSL 인증서 적용 흐름]]
+- [[security/data-encryption-types|암호화 유형 — 대칭키, 비대칭키, 해시 함수]]
