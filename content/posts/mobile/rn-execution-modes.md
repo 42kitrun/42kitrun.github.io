@@ -1,7 +1,7 @@
 ---
 title: RN 앱 실행 모드 4가지 — 실제 앱, 디버그, Fast Refresh, 테스트
 date: '2026-04-13'
-updated: '2026-04-13'
+updated: '2026-04-26'
 tags:
   - react-native
   - metro
@@ -16,7 +16,7 @@ tags:
   - javascript
   - build-process
   - lymphedema
-  - iCON
+  - icon
 related_projects: []
 summary: 디버깅과 기능 개선을 반복하다 보면 마주치는 4가지 실행 모드 — 각각 완전히 다른 스택 위에서 동작한다
 devto: false
