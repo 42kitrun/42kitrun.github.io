@@ -13,8 +13,8 @@ tags:
   - state-diagram
   - component-diagram
   - structured-communication
-summary: "자연어 지시만으로는 AI Agent와 정확히 소통하기 어렵다. UML 다이어그램이 어떻게 그 간극을 메우는지, 어떤 다이어그램이 AI Agent 개발에 효과적인지 정리한다."
-ai_agent: Claude-Code
+summary: 자연어 지시만으로는 AI Agent와 정확히 소통하기 어렵다. UML 다이어그램이 어떻게 그 간극을 메우는지, 어떤 다이어그램이 AI Agent 개발에 효과적인지 정리한다.
+ai_agent: Claude-Code, ChatGPT
 devto: false
 devto_id:
 devto_url:
@@ -22,7 +22,7 @@ devto_url:
 
 # AI Agent 개발에 UML이 필요한 이유
 
-_written by Claude-Code_
+_written by Claude-Code, Chat_GPT_
 
 [[ai-agent-document-types|AI Agent 소통 효율을 높이는 6가지 문서 유형]]에서 UML을 구조화 문서의 하나로 다뤘다. 이번 연재에서는 UML을 더 깊이 파고든다. 단순히 "UML이 무엇인가"가 아니라, **AI Agent에게 어떻게 전달해야 코드로 잘 변환되는가**에 초점을 맞춘다.
 
