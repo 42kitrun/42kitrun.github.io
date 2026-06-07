@@ -29,7 +29,7 @@ AI Agent에게 "유저 로그인 만들어줘"라고 하면 어떻게 되는가?
 
 문서가 구조화될수록 Agent가 더 정확하게 이해한다. 구조화된 문서는 의도를 명확히 전달하고 Agent가 추측할 여지를 줄인다. 아래 6가지 문서 유형은 각자 다른 역할을 하며, 상황에 맞게 조합해 쓰는 것이 핵심이다.
 
-![AI Agent와의 소통 효율을 높이는 주요 문서 유형 인포그래픽|697](/assets/posts/cs/ai_agent_document_types_infographic.svg)
+![AI Agent와의 소통 효율을 높이는 주요 문서 유형 인포그래픽|697](/assets/posts/cs/ai-agent-document-types/ai_agent_document_types_infographic.svg)
 
 ---
 

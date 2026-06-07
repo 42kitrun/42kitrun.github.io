@@ -52,7 +52,7 @@ SELECT * FROM products WHERE name LIKE '%스니커즈%';
 
 Elasticsearch는 이 문제를 역색인(Inverted Index) 구조로 정면 돌파한다.
 
-![Elasticsearch 전체 아키텍처와 핵심 기능 개요|697](/assets/posts/cs/elasticsearch-overview.png)
+![Elasticsearch 전체 아키텍처와 핵심 기능 개요|697](/assets/posts/cs/what-is-elasticsearch/elasticsearch-overview.png)
 
 ---
 
@@ -107,7 +107,7 @@ Document는 JSON 형태로 저장된다.
 
 ## HOW: 데이터가 저장되고 검색되는 흐름
 
-![Elasticsearch WHY / WHAT / HOW / WHERE 기술 다이어그램|697](/assets/posts/cs/elasticsearch-infographic.svg)
+![Elasticsearch WHY / WHAT / HOW / WHERE 기술 다이어그램|697](/assets/posts/cs/what-is-elasticsearch/elasticsearch-infographic.svg)
 
 ### 색인 흐름 (저장할 때)
 
