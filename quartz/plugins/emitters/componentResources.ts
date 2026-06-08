@@ -85,6 +85,23 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
     componentResources.css.push(popoverStyle)
   }
 
+  // Backend Architecture Map widget (content/posts/cs/why-backend-architecture-grows-complex.md)
+  // Loaded as a dynamically-created <script> so it always executes, regardless of whether
+  // the page was loaded directly or reached via SPA navigation (micromorph does not
+  // reliably re-execute <script src> tags embedded in markdown body content).
+  componentResources.afterDOMLoaded.push(`
+    function bamLoadIfNeeded() {
+      if (document.getElementById('bam-list') && !window.__bamLoaded) {
+        window.__bamLoaded = true;
+        const bamScript = document.createElement('script');
+        bamScript.src = '/static/interactive/bam.js';
+        document.head.appendChild(bamScript);
+      }
+    }
+    document.addEventListener('nav', bamLoadIfNeeded);
+    bamLoadIfNeeded();
+  `)
+
   if (cfg.analytics?.provider === "google") {
     const tagId = cfg.analytics.tagId
     componentResources.afterDOMLoaded.push(`

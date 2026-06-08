@@ -221,8 +221,6 @@ API Gateway  ← 단일 진입점
   <div class="bam-content" id="bam-detail">로딩 중...</div>
 </div>
 
-<script src="/static/interactive/bam.js"></script>
-
 ---
 
 ## 복잡해진 이유는 두 가지 축이다
