@@ -21,7 +21,7 @@ devto_url:
 
 # 왜 UML을 다시 꺼내들었을까?
 
-_written by Claude-Code, Chat_GPT_
+_written by Claude-Code, ChatGPT_
 
 [[ai-agent-document-types|AI Agent 소통 효율을 높이는 6가지 문서 유형]]에서 UML을 구조화 문서의 하나로 다뤘다. 이번 연재에서는 UML을 더 깊이 들여다본다. 여기서 말하는 대상은 "AI Agent 자체를 개발하는 방법"이 아니다. **AI Agent와 함께 시스템이나 서비스를 개발할 때, 요구사항과 설계를 더 명확히 전달하기 위해 UML을 어떻게 활용할 수 있는지** 함께 탐구한다.
 
@@ -73,6 +73,8 @@ sequenceDiagram
 | 액티비티 | 어떤 흐름으로 처리되는가? | 업무 흐름, 조건 분기, 예외 흐름 시각화 |
 | 시퀀스 | 누가 누구와 상호작용하는가? | 사용자, 화면, 서버, 외부 API 간 메시지 흐름 표현 |
 | 컴포넌트 | 시스템은 무엇으로 구성되는가? | 서비스, 모듈, 데이터 저장소, 외부 시스템의 구조와 의존성 파악 |
+
+![AI Agent 개발자를 위한 UML 활용 지도|697](/assets/posts/cs/uml-for-ai-agent-intro/uml-for-ai-agent.png)
 
 ### 1. 유스케이스 다이어그램 — 무엇을 할 것인가
 
