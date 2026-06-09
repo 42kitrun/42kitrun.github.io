@@ -16,8 +16,8 @@ tags:
   - mysql
   - execution-plan
 related_projects: []
-summary: "특정 연도의 데이터를 조회할 때 YEAR() 함수, 부등호, BETWEEN 중 어떤 조건이 인덱스를 제대로 타는지 Sargable 개념으로 정리한다"
-ai_agent: Claude-Code
+summary: 특정 연도의 데이터를 조회할 때 YEAR() 함수, 부등호, BETWEEN 중 어떤 조건이 인덱스를 제대로 타는지 Sargable 개념으로 정리한다
+ai_agent: Claude-Code, ChatGPT
 devto: false
 devto_id:
 devto_url:
@@ -25,7 +25,7 @@ devto_url:
 
 # SQL 날짜 조회 최적화 — Sargable, Range Scan, BETWEEN 함정
 
-_written by Claude-Code_
+_written by Claude-Code, ChatGPT_
 
 ## 배경: 어떤 조건절이 맞을까?
 
