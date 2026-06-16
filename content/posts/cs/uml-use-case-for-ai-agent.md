@@ -60,7 +60,7 @@ _written by Codex, ChatGPT_
 
 ![유스케이스 다이어그램으로 AI Agent와 함께 요구사항 범위 정리하기|697](/assets/posts/cs/uml-use-case-for-ai-agent/usecase_diagram_for_ai_agent.png)
 
-이 이미지에서 AI Agent는 시스템 내부의 UML 액터라기보다, 정리된 요구사항을 전달받아 구현을 함께 진행하는 협업 파트너로 보면 된다. 유스케이스 다이어그램 자체가 먼저 드러내야 하는 대상은 실제 사용자, 외부 시스템, 그들이 시스템을 통해 달성하려는 목표다.
+이 유스케이스 다이어그램을 AI Agent와의 협업에서 활용할 때, AI Agent는 정리된 요구사항을 전달받아 구현을 함께 진행하는 협업 파트너로 보면 된다. 유스케이스 다이어그램 자체가 먼저 드러내야 하는 대상은 실제 사용자, 외부 시스템, 그들이 시스템을 통해 달성하려는 목표다.
 
 여기서 중요한 것은 유스케이스를 함수 목록처럼 쓰지 않는 것이다. `retrieveDocuments()`, `validateToken()`, `callExternalApi()`는 구현 내부 행동이다. 유스케이스 다이어그램에서는 보통 너무 낮은 수준이다.
 
