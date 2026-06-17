@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536" role="img" aria-labelledby="title desc">
-  <title id="title">컴포넌트 다이어그램으로 구현 책임과 경계 나누기</title>
+  <title id="title">컴포넌트 다이어그램으로 시스템 구성 요소와 경계 정리하기</title>
   <desc id="desc">자연어 요구사항을 책임, 인터페이스, 의존성으로 나누어 AI Agent와 함께 개발할 때의 모호함을 줄이는 과정을 설명하는 인포그래픽</desc>
   <defs>
     <style>
@@ -39,7 +39,7 @@
   <text x="56" y="54" fill="#ffffff" class="body-bold">AI Agent 개발자를 위한 UML 5편</text>
 
   <text x="32" y="132" class="h1 ink">컴포넌트 다이어그램</text>
-  <text x="32" y="188" class="h2 blue">무엇으로 나누어 개발할 것인가</text>
+  <text x="32" y="188" class="h2 blue">시스템은 무엇으로 구성되는가</text>
   <text x="32" y="240" class="body muted">목적은 AI Agent 시스템을 설계하는 것이 아니라, 자연어 요구사항을</text>
   <text x="32" y="270" class="body muted">구현 가능한 컴포넌트와 계약으로 바꾸어 개발 맥락을 명확하게 하는 것이다.</text>
 
