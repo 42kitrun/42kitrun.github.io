@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536" role="img" aria-labelledby="title desc">
+  <title id="title">컴포넌트 다이어그램으로 구현 책임과 경계 나누기</title>
+  <desc id="desc">자연어 요구사항을 책임, 인터페이스, 의존성으로 나누어 AI Agent와 함께 개발할 때의 모호함을 줄이는 과정을 설명하는 인포그래픽</desc>
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .ink { fill: #0f172a; }
+      .muted { fill: #475569; }
+      .subtle { fill: #64748b; }
+      .blue { fill: #1d4ed8; }
+      .blue-2 { fill: #eff6ff; stroke: #bfdbfe; }
+      .green-2 { fill: #ecfdf5; stroke: #a7f3d0; }
+      .amber-2 { fill: #fffbeb; stroke: #fde68a; }
+      .rose-2 { fill: #fff1f2; stroke: #fecdd3; }
+      .violet-2 { fill: #f5f3ff; stroke: #ddd6fe; }
+      .card { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.5; }
+      .line { stroke: #2563eb; stroke-width: 2.5; fill: none; }
+      .dash { stroke: #64748b; stroke-width: 2; stroke-dasharray: 6 6; fill: none; }
+      .thin { stroke: #94a3b8; stroke-width: 1.5; fill: none; }
+      .small { font: 500 18px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .body { font: 500 21px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .body-bold { font: 700 21px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .h2 { font: 800 26px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .h1 { font: 900 58px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: 0; }
+      .label { font: 800 18px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #1e40af; }
+      .mono { font: 700 18px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#2563eb"/>
+    </marker>
+    <marker id="grayArrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1024" height="1536"/>
+
+  <rect x="32" y="24" width="342" height="44" rx="12" fill="#0f2f75"/>
+  <text x="56" y="54" fill="#ffffff" class="body-bold">AI Agent 개발자를 위한 UML 5편</text>
+
+  <text x="32" y="132" class="h1 ink">컴포넌트 다이어그램</text>
+  <text x="32" y="188" class="h2 blue">무엇으로 나누어 개발할 것인가</text>
+  <text x="32" y="240" class="body muted">목적은 AI Agent 시스템을 설계하는 것이 아니라, 자연어 요구사항을</text>
+  <text x="32" y="270" class="body muted">구현 가능한 컴포넌트와 계약으로 바꾸어 개발 맥락을 명확하게 하는 것이다.</text>
+
+  <rect x="32" y="304" width="960" height="110" rx="14" class="blue-2"/>
+  <text x="60" y="340" class="body-bold blue">핵심 문제</text>
+  <text x="60" y="374" class="body ink">"기능을 만들어줘"라는 지시는 책임, 인터페이스, 의존성을 숨긴다.</text>
+  <text x="60" y="402" class="body ink">컴포넌트 다이어그램은 그 숨은 결정을 먼저 밖으로 꺼낸다.</text>
+
+  <rect x="32" y="424" width="960" height="468" rx="16" class="card"/>
+  <rect x="32" y="424" width="960" height="42" rx="16" fill="#0f2f75"/>
+  <text x="56" y="453" fill="#ffffff" class="body-bold">예시: 고객지원 답변 기능을 컴포넌트로 나누기</text>
+
+  <rect x="62" y="506" width="160" height="74" rx="8" class="green-2"/>
+  <text x="94" y="536" class="body-bold ink">Chat UI</text>
+  <text x="82" y="562" class="small muted">질문 입력, 답변 표시</text>
+
+  <rect x="270" y="506" width="160" height="74" rx="8" class="blue-2"/>
+  <text x="309" y="536" class="body-bold ink">Answer API</text>
+  <text x="290" y="562" class="small muted">인증, 요청 검증</text>
+
+  <rect x="478" y="506" width="190" height="74" rx="8" class="amber-2"/>
+  <text x="509" y="536" class="body-bold ink">Orchestrator</text>
+  <text x="500" y="562" class="small muted">흐름 조율, 정책 적용</text>
+
+  <path d="M222 543 L268 543" class="line" marker-end="url(#arrow)"/>
+  <path d="M430 543 L476 543" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="720" y="490" width="220" height="112" rx="10" class="card"/>
+  <text x="744" y="524" class="body-bold blue">컴포넌트가</text>
+  <text x="744" y="554" class="body-bold blue">드러내는 것</text>
+  <text x="744" y="586" class="small muted">책임, 계약, 의존성</text>
+
+  <rect x="144" y="674" width="180" height="74" rx="8" class="violet-2"/>
+  <text x="172" y="704" class="body-bold ink">Memory Service</text>
+  <text x="165" y="730" class="small muted">대화 이력 저장/조회</text>
+
+  <rect x="394" y="674" width="180" height="74" rx="8" class="green-2"/>
+  <text x="423" y="704" class="body-bold ink">Retrieval Adapter</text>
+  <text x="419" y="730" class="small muted">문서 검색 계약 제공</text>
+
+  <rect x="644" y="674" width="180" height="74" rx="8" class="rose-2"/>
+  <text x="682" y="704" class="body-bold ink">LLM Client</text>
+  <text x="669" y="730" class="small muted">Provider 호출 감싸기</text>
+
+  <path d="M573 580 C573 636 234 622 234 672" class="line" marker-end="url(#arrow)"/>
+  <path d="M573 580 C573 636 484 622 484 672" class="line" marker-end="url(#arrow)"/>
+  <path d="M573 580 C573 636 734 622 734 672" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="144" y="798" width="180" height="54" rx="8" fill="#ffffff" stroke="#94a3b8"/>
+  <text x="175" y="832" class="small muted">Conversation DB</text>
+  <rect x="394" y="798" width="180" height="54" rx="8" fill="#ffffff" stroke="#94a3b8"/>
+  <text x="431" y="832" class="small muted">Vector Store</text>
+  <rect x="644" y="798" width="180" height="54" rx="8" fill="#ffffff" stroke="#94a3b8"/>
+  <text x="679" y="832" class="small muted">LLM Provider</text>
+
+  <path d="M234 748 L234 796" class="dash" marker-end="url(#grayArrow)"/>
+  <path d="M484 748 L484 796" class="dash" marker-end="url(#grayArrow)"/>
+  <path d="M734 748 L734 796" class="dash" marker-end="url(#grayArrow)"/>
+
+  <rect x="32" y="922" width="300" height="292" rx="14" class="card"/>
+  <text x="58" y="962" class="h2 blue">표현하는 것</text>
+  <circle cx="66" cy="1006" r="10" fill="#2563eb"/>
+  <text x="90" y="1013" class="body-bold ink">컴포넌트</text>
+  <text x="90" y="1042" class="small muted">독립적으로 볼 책임 단위</text>
+  <circle cx="66" cy="1086" r="10" fill="#2563eb"/>
+  <text x="90" y="1093" class="body-bold ink">인터페이스</text>
+  <text x="90" y="1122" class="small muted">입력, 출력, 오류 형식</text>
+  <circle cx="66" cy="1166" r="10" fill="#2563eb"/>
+  <text x="90" y="1173" class="body-bold ink">의존성</text>
+  <text x="90" y="1202" class="small muted">교체와 테스트의 영향 범위</text>
+
+  <rect x="362" y="922" width="300" height="292" rx="14" class="card"/>
+  <text x="388" y="962" class="h2 blue">리뷰 질문</text>
+  <text x="388" y="1012" class="body ink">1. 한 문장 책임인가?</text>
+  <text x="388" y="1056" class="body ink">2. 하지 말아야 할 일이</text>
+  <text x="416" y="1086" class="body ink">명확한가?</text>
+  <text x="388" y="1130" class="body ink">3. 입력과 출력이</text>
+  <text x="416" y="1160" class="body ink">테스트 가능한가?</text>
+  <text x="388" y="1204" class="body ink">4. 의존성 방향이 한쪽인가?</text>
+
+  <rect x="692" y="922" width="300" height="292" rx="14" class="card"/>
+  <text x="718" y="962" class="h2 blue">개발 맥락으로 변환</text>
+  <text x="718" y="1010" class="small muted">Before</text>
+  <rect x="718" y="1024" width="248" height="54" rx="8" fill="#f1f5f9"/>
+  <text x="736" y="1058" class="small ink">답변 기능을 만들어줘</text>
+  <path d="M842 1092 L842 1130" class="line" marker-end="url(#arrow)"/>
+  <text x="718" y="1150" class="small muted">After</text>
+  <rect x="718" y="1164" width="248" height="50" rx="8" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="736" y="1195" class="small ink">RetrievalAdapter 계약 구현</text>
+
+  <rect x="32" y="1244" width="960" height="178" rx="16" class="blue-2"/>
+  <text x="58" y="1288" class="h2 blue">이 다이어그램이 해결하는 문제</text>
+  <text x="58" y="1338" class="body-bold ink">책임 혼합 방지</text>
+  <text x="276" y="1338" class="body-bold ink">작업 범위 명확화</text>
+  <text x="494" y="1338" class="body-bold ink">검증 가능성 확보</text>
+  <text x="742" y="1338" class="body-bold ink">교체 가능성 확보</text>
+  <text x="58" y="1382" class="body muted">검색, 생성, 저장을 한 함수에 섞지 않고, 각 컴포넌트를 독립적으로 구현·테스트·리뷰하게 만든다.</text>
+
+  <rect x="32" y="1450" width="960" height="54" rx="12" fill="#0f2f75"/>
+  <text x="58" y="1485" fill="#ffffff" class="body-bold">TIP: UML은 산출물을 남기는 도구가 아니라, 사람과 Agent가 같은 경계를 보고 작업하게 만드는 언어다.</text>
+</svg>
