@@ -53,7 +53,7 @@ _written by Claude-Code_
 
 ## 전체 흐름
 
-![비밀번호 재설정 딥링크 흐름|697](../../assets/posts/security/deeplink_password_reset_flow.svg)
+![비밀번호 재설정 딥링크 흐름|697](/assets/posts/security/deeplink-password-reset/deeplink_password_reset_flow.svg)
 - **보라(Purple)** → 서버가 처리하는 단계 (토큰 생성, 이메일 발송, 검증)
 - **청록(Teal)** → 앱/클라이언트 단계 (사용자 클릭, 앱 실행, 화면 표시, 완료)
 - **회색(Gray)** → 시작 (사용자 요청)
