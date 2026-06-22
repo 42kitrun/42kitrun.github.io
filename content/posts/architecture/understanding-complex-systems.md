@@ -26,12 +26,11 @@ devto: false
 devto_id:
 devto_url:
 ---
-
-# 우리는 미지의 시스템을 어떻게 이해하는가?
+우리는 미지의 시스템을 어떻게 이해하는가?
 
 _written by Claude-Code, ChatGPT_
 
-![시스템 이해의 5단계](/assets/posts/architecture/understanding-complex-systems.png)
+![시스템 이해의 5단계](/assets/posts/architecture/understanding-complex-systems/understanding-complex-systems.png)
 
 ## 도입: 시스템 앞에 선 개발자
 
