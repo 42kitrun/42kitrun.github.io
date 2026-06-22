@@ -29,7 +29,7 @@ _written by Claude-Code, ChatGPT_
 
 TCP/IP, 웹(WWW), HTTP — 세 용어는 인터넷을 다루다 보면 반드시 마주친다. 그런데 "인터넷 = 웹"이라고 혼동하거나, HTTP와 TCP/IP를 같은 선상의 개념으로 보는 경우가 많다. 이 글에서는 세 개념의 **범위와 계층 관계**를 중심으로 혼동 없이 정리한다.
 
-![TCP/IP, Web, HTTP 한눈에 정리|697](../../../assets/posts/cs/tcp-ip-web-http/tcpip-http-web-infographic.svg)
+![TCP/IP, Web, HTTP 한눈에 정리|697](/assets/posts/cs/tcp-ip-web-http/tcpip-http-web-infographic.svg)
 
 ---
 
@@ -163,7 +163,7 @@ HTTP가 **무엇을** 주고받을지를 정의하고, TCP/IP가 그 데이터�
 
 ## 세 개념 요약 비교
 
-![TCP/IP, Web, HTTP 개념 정리](../../../assets/posts/cs/tcp-ip-web-http/tcp-ip-web-http.png)
+![TCP/IP, Web, HTTP 개념 정리](/assets/posts/cs/tcp-ip-web-http/tcp-ip-web-http.png)
 
 | 구분 | TCP/IP | 웹 (WWW) | HTTP / HTTPS |
 |------|--------|----------|--------------|
