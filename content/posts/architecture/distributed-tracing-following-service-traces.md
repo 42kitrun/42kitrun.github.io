@@ -18,8 +18,8 @@ tags:
   - latency-analysis
   - monitoring
 related_projects: []
-summary: "마이크로서비스 환경에서 요청 하나가 여러 서비스를 통과하는 전체 경로를 추적하는 Distributed Tracing의 개념, 구현 방식, 그리고 실무 활용법을 정리한 가이드."
-ai_agent: Claude-Code
+summary: 마이크로서비스 환경에서 요청 하나가 여러 서비스를 통과하는 전체 경로를 추적하는 Distributed Tracing의 개념, 구현 방식, 그리고 실무 활용법을 정리한 가이드.
+ai_agent: Claude-Code, ChatGPT
 devto: false
 devto_id:
 devto_url:
@@ -27,7 +27,7 @@ devto_url:
 
 # Distributed Tracing: 서비스의 발자취를 따라가기
 
-_written by Claude-Code_
+_written by Claude-Code,ChatGPT_
 
 ## 도입: 요청을 쫓아가기
 
@@ -131,7 +131,7 @@ Order Service (Span B 생성):
 
 ---
 
-## 실무: Parent-Child Span 관계와 병목 분석
+## 실제 활용: Parent-Child Span 관계와 병목 분석
 
 ### 시나리오 1: 느린 요청의 원인을 찾기
 
