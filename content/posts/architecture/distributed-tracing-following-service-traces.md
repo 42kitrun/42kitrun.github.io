@@ -18,7 +18,7 @@ tags:
   - latency-analysis
   - monitoring
 related_projects: []
-summary: 마이크로서비스 환경에서 요청 하나가 여러 서비스를 통과하는 전체 경로를 추적하는 Distributed Tracing의 개념, 구현 방식, 그리고 실무 활용법을 정리한 가이드.
+summary: 마이크로서비스 환경에서 요청 하나가 여러 서비스를 통과하는 전체 경로를 추적하는 Distributed Tracing의 개념, 구현 방식, 그리고 적용 방법을 정리한 가이드.
 ai_agent: Claude-Code, ChatGPT
 devto: false
 devto_id:
@@ -31,7 +31,7 @@ _written by Claude-Code,ChatGPT_
 
 ## 도입: 요청을 쫓아가기
 
-[[observability-seeing-invisible-systems|2편에서 다룬 Observability]]는 시스템의 세 가지 기둥으로 로그, 메트릭, 트레이스를 제시했다. 그 중 **트레이스(Trace)**는 요청 하나가 시스템을 통과하는 전체 경로의 기록이다.
+[[observability-seeing-invisible-systems|2편에서 다룬 Observability]]는 시스템의 세 가지 기둥으로 로그, 메트릭, 트레이스를 제시했다. 그 중 **트레이스(Trace)** 는 요청 하나가 시스템을 통과하는 전체 경로의 기록이다.
 
 하지만 단순히 "경로를 기록한다"는 것만으로는 부족하다. 
 
@@ -131,7 +131,7 @@ Order Service (Span B 생성):
 
 ---
 
-## 실제 활용: Parent-Child Span 관계와 병목 분석
+## 시나리오를 통한 이해: Parent-Child Span 관계와 병목 분석
 
 ### 시나리오 1: 느린 요청의 원인을 찾기
 
@@ -260,7 +260,7 @@ Distributed Tracing은 강력하지만, 모든 요청을 100% 추적하면 성�
 → 동적 샘플링: 에러 발생 요청은 100%, 정상 요청은 1%만 추적
 ```
 
-실무에서는 **중요도 기반 샘플링**을 사용한다:
+효과적인 샘플링 전략은 **중요도 기반 샘플링**을 사용하는 것이다:
 - 에러 발생 요청: 100% 추적
 - 느린 요청 (>1초): 10% 추적
 - 정상 요청: 1% 추적
