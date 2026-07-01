@@ -1,7 +1,7 @@
 ---
 title: "Domain Modeling: 시스템보다 먼저 도메인을 이해하라"
 date: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-02
 tags:
   - domain-modeling
   - domain-driven-design
@@ -19,7 +19,7 @@ tags:
   - refactoring
   - microservices
 related_projects: []
-summary: 복잡한 시스템을 이해할 때 코드 구조보다 비즈니스 도메인을 먼저 파악하는 것이 얼마나 중요한지, 그리고 어떻게 하는지를 다룬다. 도메인 주도 설계(DDD)의 핵심 개념들을 통해 미지의 시스템의 진정한 의미를 찾아가는 방법.
+summary: "코드 구조보다 비즈니스 도메인을 먼저 이해해야 하는 이유와, DDD의 핵심 개념으로 미지의 시스템을 읽어내는 방법을 다룬다."
 ai_agent: Claude-Code, ChatGPT
 devto: false
 devto_id:
