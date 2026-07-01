@@ -44,6 +44,8 @@ _written by Claude-Code, ChatGPT_
 
 이것이 마지막 단계인 **Domain Modeling**이 필요한 이유다.
 
+![Domain Modeling: 시스템보다 먼저 도메인을 이해하라](/assets/posts/architecture/domain-modeling-understanding-domain-before-system/domain-modeling.png)
+
 ---
 
 ## 코드를 읽으면 보이지 않는 것
