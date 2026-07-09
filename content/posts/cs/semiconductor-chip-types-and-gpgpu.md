@@ -1,7 +1,7 @@
 ---
 title: 메모리반도체와 시스템반도체, 그리고 GPGPU
 date: 2026-07-09
-updated: 2026-07-09
+updated: 2026-07-10
 tags:
   - semiconductor
   - memory-semiconductor
@@ -36,6 +36,10 @@ _written by Claude-Code,ChatGPT_
 나는 아직 HN 멘토님이 말씀하신 "간!절!함!"이 부족한가보다ㅠㅠ
 
 그래픽카드를 파고들려면 결국 그 안에 박혀 있는 반도체 칩부터 정리해야 한다. 반도체는 크게 **메모리반도체**와 **시스템반도체** 두 갈래로 나뉜다. 이 구분을 명확히 하고 나면 GPU가 왜 그래픽 처리만이 아니라 범용 연산까지 넘보게 됐는지, GPGPU가 왜 등장했는지 이해된다.
+
+![반도체 칩의 두 갈래 — 메모리반도체와 시스템반도체, 그리고 GPGPU|800](/assets/posts/cs/semiconductor-chip-types-and-gpgpu/semiconductor-chip-types-and-gpgpu.png)
+
+이 인포그래픽은 반도체 칩을 **저장(Storage)** 중심의 메모리반도체와 **연산(Compute)** 중심의 시스템반도체로 나누고, GPU가 그래픽 전용 처리에서 범용 병렬 연산인 GPGPU로 확장되는 흐름까지 한 장으로 요약한다.
 
 ---
 
