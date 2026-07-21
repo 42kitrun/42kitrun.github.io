@@ -1,7 +1,7 @@
 ---
 title: 메모리반도체와 시스템반도체, 그리고 GPGPU
 date: 2026-07-09
-updated: 2026-07-14
+updated: 2026-07-21
 tags:
   - semiconductor
   - memory-semiconductor
@@ -138,5 +138,6 @@ GPGPU는 새로운 하드웨어가 아니라 GPU가 가진 병렬 연산 구조�
 
 ## 관련 글
 
+- [[gpu-architecture-simt-execution-model|GPU는 왜 병렬 연산에 강한가 — CPU와의 구조 차이와 SIMT 실행 모델]] — GPU 내부의 다이 구조, SIMT 실행 모델, 메모리 계층을 다루는 다음 미션
 - [[layers-of-ssd-deep-dive|Layers로 이해하는 SSD 깊이 있는 탐구]] — 메모리반도체 중 NAND 플래시가 스토리지로 쓰이는 구체적인 구조
 - [[data/data-processing-units|데이터를 묶어서 처리하는 단위들]] — CPU/메모리 레이어에서 데이터가 처리되는 단위 정리
