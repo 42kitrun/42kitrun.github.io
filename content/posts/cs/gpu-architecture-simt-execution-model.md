@@ -21,8 +21,20 @@ tags:
   - register
   - computer-hardware
   - fundamentals
+  - gpc
+  - tpc
+  - cuda-core
+  - tensor-core
+  - special-function-unit
+  - l2-cache
+  - vga
+  - igpu
+  - unified-memory-architecture
+  - nvidia
+  - amd
+  - intel
 related_projects: []
-summary: "CPU와 GPU의 다이 구조 차이부터 SIMT 실행 모델, 워프, 메모리 계층까지 GPU가 병렬 연산에 강한 이유를 정리한다"
+summary: "CPU-GPU 다이 구조 차이, SIMT 실행 모델과 워프, GPC/TPC/SM 물리 구조, 메모리 계층, VGA와 iGPU 차이까지 GPU가 병렬 연산에 강한 이유를 정리한다"
 ai_agent: Claude-Code
 devto: false
 devto_id:
@@ -231,7 +243,9 @@ L2 캐시는 개별 SM 소속이 아니라 칩 전체, 즉 모든 GPC의 모든 
 - GPU는 SIMT(Single Instruction, Multiple Thread) 모델로 코어 수천 개를 관리한다. 스레드 32개를 워프로 묶어 같은 명령어를 락스텝으로 실행한다.
 - 워프 안에서 분기가 갈리면(Warp Divergence) 경로를 순차적으로 실행해야 해서 처리량이 떨어진다.
 - 실행 단위는 스레드 → 스레드 블록 → 그리드로 쌓이고, 하드웨어는 이를 워프 단위로 잘라 SM에서 스케줄링한다.
-- 메모리는 레지스터(스레드 전용) → 공유 메모리(블록 단위, 온칩) → 글로벌 메모리(그리드 전체, VRAM) 순으로 범위가 넓어지고 속도는 느려진다.
+- 물리적으로는 Command Processor 아래 GPC → TPC → SM이 쌓이고, SM 안에는 CUDA Core·Tensor Core·SFU가 역할을 나눠 맡으며 L1/텍스처/상수 캐시가 각각의 용도로 붙는다. 회사마다 이름은 다르지만(AMD의 WGP·CU, Intel의 Render Slice·Xe Core) 뼈대는 같다.
+- 메모리는 레지스터(스레드 전용) → 공유 메모리/L1(블록 단위, 온칩) → L2 캐시(칩 전체 공유) → 글로벌 메모리(그리드 전체, VRAM) 순으로 범위가 넓어지고 속도는 느려진다.
+- VGA(외장 그래픽)는 전용 VRAM과 PCIe로 처리량을 극대화하고, iGPU(내장 그래픽)는 UMA로 시스템 메모리를 CPU와 공유하며 전력 효율과 지연시간을 우선한다. GPU 내부 구조 자체가 아니라 메모리·전력 배치가 다른 것이다.
 - GPGPU는 이 구조, 즉 단순 코어의 대량 병렬 실행과 계층적 메모리를 그래픽 밖의 범용 연산(딥러닝 등)에 그대로 활용하는 것이다.
 
 작전명 AI, 코드네임 23의 세번째 미션은 여기까지다. GPU가 왜 병렬 연산에 강한지를 다이 구조, 실행 모델, 메모리 계층 세 층위에서 뜯어봤다면 이번 미션도 완료된 셈이다.
