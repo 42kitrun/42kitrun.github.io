@@ -114,6 +114,39 @@ GPU는 여기서 한 걸음 더 나간 **SIMT(Single Instruction, Multiple Threa
 
 ---
 
+## GPU 내부 물리적 구조 — Command Processor, GPC, TPC, SM
+
+앞서 워프와 스레드 블록은 개발자와 하드웨어가 스레드를 다루는 논리적 단위였다. 이 논리적 단위가 실제 다이 위에서 어떤 물리적 회로에 배치되는지를 봐야 그림이 완성된다.
+
+![GPU 내부 구조와 VGA(외장 그래픽) vs 내장 그래픽(iGPU) 구조 비교|800](/assets/posts/cs/gpu-architecture-simt-execution-model/gpu-architecture-overview.png)
+
+GPU 다이는 위에서 아래로 다음과 같이 쌓인다.
+
+```
+GPU
+ └─ Command Processor / Front End   명령 수신, 파싱, 스케줄링
+     └─ GPC (Graphics Processing Cluster)  여러 개
+         └─ TPC (Texture Processing Cluster)  여러 개
+             └─ SM (Streaming Multiprocessor)  여러 개
+ └─ L2 Cache (모든 GPC가 공유)
+```
+
+**Command Processor(Front End)**는 CPU가 보낸 명령(커널 실행 요청)을 받아 GPC들에 파싱·분배하는 관문이다. **GPC(Graphics Processing Cluster)**는 TPC 여러 개를 묶은 큰 단위이고, **TPC(Texture Processing Cluster)**는 SM 여러 개를 묶은 단위다. 실제로 워프가 스케줄링되어 실행되는 물리적 코어 묶음은 결국 **SM**이다. 앞 절에서 "같은 스레드 블록에 속한 스레드는 하나의 SM 위에서 실행된다"고 한 문장이 가리키는 하드웨어가 바로 이 SM이다. GPU 드라이버는 그리드를 스레드 블록 단위로 쪼갠 뒤, 비어 있는 SM을 찾아 블록을 배치하고, SM은 그 블록을 다시 워프 단위로 잘라 스케줄링한다. GPC와 TPC는 이 수많은 SM을 물리적으로 묶어 배선과 캐시 공유 구조를 단순화하기 위한 상위 컨테이너다.
+
+**L2 캐시**는 개별 SM에 속하지 않고 모든 GPC가 공유하는 자원이다. SM 안의 L1 캐시·공유 메모리보다 크지만 느리고, 그 아래의 글로벌 메모리(VRAM)보다는 훨씬 빠르다. 즉 메모리 계층에서 공유 메모리와 글로벌 메모리 사이에 L2 캐시라는 완충 계층이 하나 더 있는 셈이다. 이 부분은 뒤에서 메모리 계층을 다시 정리할 때 반영한다.
+
+이 계층 구조의 세부 명칭은 회사마다 다르다.
+
+| 구분 | 컨테이너 계층 | 실행/연산 유닛 | 특수 유닛 |
+|------|--------------|---------------|-----------|
+| NVIDIA(Ampere/Ada/Hopper) | GPC → TPC → SM | CUDA Core | Tensor Core, RT Core |
+| AMD(RDNA 3) | Shader Engine → WGP(Work Group Processor) | CU(Compute Unit) | Vector ALU, Ray Accelerator |
+| Intel(Arc Alchemist/Battlemage) | Render Slice | Xe Core(Vector Engine) | - |
+
+이름은 회사마다 다르지만 뼈대는 같다. 큰 클러스터 안에 실행 유닛 묶음(SM/CU/Xe Core)이 여러 개 들어 있고, 그 묶음들이 캐시(L2 등)를 공유하며, 실제 스레드/워프 스케줄링은 그 실행 유닛 묶음 단위에서 일어난다.
+
+---
+
 ## 메모리 계층 — 레지스터, 공유 메모리, 글로벌 메모리
 
 코어가 수천 개라도 그 코어들이 데이터를 가져올 메모리가 느리면 아무 의미가 없다. GPU는 이 문제를 CPU와는 다른 방식으로 푼다. 접근 범위와 속도가 다른 메모리를 계층으로 나누고, 어떤 메모리를 쓸지를 상당 부분 개발자에게 맡긴다.
