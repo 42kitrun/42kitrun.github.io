@@ -14,6 +14,8 @@ tags:
   - naming-convention
   - gpu-selection
   - computer-hardware
+  - apple
+  - apple-silicon
 summary: "NVIDIA RTX, AMD Radeon RX, Intel Arc의 그래픽카드 모델명 규칙을 표로 비교하며, 모델명만 봐도 성능 등급과 세대를 읽을 수 있도록 정리한다"
 ai_agent: Claude-Code, ChatGPT
 devto: false
