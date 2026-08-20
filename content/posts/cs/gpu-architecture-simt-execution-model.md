@@ -31,7 +31,7 @@ tags:
   - apple-silicon
 related_projects: []
 summary: "CPU-GPU 구조 차이, SIMT 실행 모델과 워프, SM 구성, 제조사별(NVIDIA·AMD·Intel·Apple) 구조 비교, 메모리 계층까지 GPU의 핵심 구조를 표로 정리한다"
-ai_agent: Claude-Code
+ai_agent: Claude-Code, ChatGPT
 devto: false
 devto_id:
 devto_url:
@@ -39,13 +39,15 @@ devto_url:
 
 # GPU는 왜 병렬 연산에 강한가 — CPU와의 구조 차이와 SIMT 실행 모델
 
-_written by Claude-Code_
+_written by Claude-Code,ChatGPT_
 
 ## 배경: 작전명 AI, 코드네임 23 — 세번째 미션
 
 [[semiconductor-chip-types-and-gpgpu|이전 미션]]에서 반도체 칩을 메모리반도체와 시스템반도체로 나누고, GPU가 그래픽 처리를 넘어 범용 연산에 쓰이는 GPGPU 개념까지 훑었다. 이번 미션은 GPU 안에서 무슨 일이 일어나길래 병렬 연산에 강한지, 핵심 구조만 짚고 넘어간다.
 
-<!-- TODO: 이미지 삽입 - gpu-architecture-overview.png (재생성 예정, ChatGPT 작업 중) -->
+![GPU 아키텍처: 처리량을 만드는 구조 — CPU 비교, SM 내부, 메모리 계층|800](/assets/posts/cs/gpu-architecture-simt-execution-model/gpu-architecture-overview.png)
+
+이 인포그래픽 한 장에 CPU-GPU 비교, SM 내부 구성, 메모리 계층, 제조사별 명칭까지 이 글에서 다룰 내용이 요약되어 있다.
 
 세번째 미션의 범위는 셋이다. CPU와 GPU의 설계 목표 차이, GPU가 수천 개의 코어를 다루는 SIMT 실행 모델, 그리고 그 위에 얹힌 메모리 계층.
 
@@ -81,27 +83,23 @@ SIMT(Single Instruction, Multiple Thread)는 명령어 하나로 여러 스레�
 
 ## SM 내부 구조와 제조사별 비교
 
-SM(Streaming Multiprocessor)은 워프가 실제로 실행되는 연산 장치 묶음이다. 같은 스레드 블록에 속한 스레드는 하나의 SM 위에서 실행된다.
+SM(Streaming Multiprocessor)은 워프가 실제로 실행되는 연산 장치 묶음이다. 같은 스레드 블록에 속한 스레드는 하나의 SM 위에서 실행된다. 아래는 NVIDIA를 기준으로 그 내부를 펼친 구성이다.
 
 | 구성 요소 | 역할 |
 |-----------|------|
 | 워프 스케줄러 | 매 사이클마다 실행 준비된 워프를 골라 실행 유닛에 배정 |
 | CUDA Core | 일반 산술 연산 전담, 개수가 가장 많음 |
 | Tensor Core | 행렬곱-누산(MAC) 전담, 딥러닝 연산 가속 |
-| 특수 함수 연산 | 삼각함수·지수함수 같은 초월함수를 전용 회로로 근사 |
 | L1 캐시 / 공유 메모리 | SM 내부 온칩 자원, 블록 단위로 공유 |
 
-이 구성 요소를 담는 상위 컨테이너와 실행 유닛의 이름은 제조사마다 다르다.
+이 SM에 해당하는 상위 묶음과 실행 단위의 이름은 제조사마다 다르다.
 
 | 계층 | NVIDIA | AMD | Intel | Apple |
 |------|--------|-----|-------|-------|
-| 형태 | 독립형 카드 | 독립형 카드 | 독립형 카드 | 칩 통합 |
-| 컨테이너 | GPC → TPC | Shader Engine → WGP | Render Slice | GPU Cluster |
-| 실행 유닛 | SM | CU | Xe Core | GPU Core |
-| 연산 코어 | CUDA Core | Vector ALU | (통합) | (통합) |
-| 특수 코어 | Tensor Core | — | — | — |
+| 상위 묶음 | GPC → TPC | Shader Engine | Render Slice | 비공개 |
+| 실행 단위 | SM | CU / WGP | Xe-core | GPU 코어 |
 
-이름과 세부 명칭은 다르지만 워프 스케줄링과 메모리 계층의 기본 구조는 회사를 막론하고 동일하다. Apple은 M1~M4 칩에 GPU를 통합해 별도의 그래픽카드 없이 Metal API로 프로그래밍하며, CPU와 메모리를 공유하는 UMA(Unified Memory Architecture) 구조를 쓴다.
+이름과 세부 구조는 다르지만, 병렬 연산 단위를 묶어 처리량을 높인다는 목적은 같다. NVIDIA·AMD·Intel은 독립형 그래픽카드로 판매되는 반면, Apple은 M1~M4 칩에 GPU를 직접 통합해 별도 카드 없이 Metal API로 프로그래밍하며, CPU와 메모리를 공유하는 UMA(Unified Memory Architecture) 구조를 쓴다.
 
 ## 메모리 계층
 
@@ -120,7 +118,7 @@ SM(Streaming Multiprocessor)은 워프가 실제로 실행되는 연산 장치 �
 - GPU는 SIMT 모델로 코어 수천 개를 관리한다. 스레드 32개를 워프로 묶어 같은 명령어를 락스텝으로 실행한다.
 - 워프 안에서 분기가 갈리면(Warp Divergence) 경로를 순차 실행해야 해서 처리량이 떨어진다.
 - 실행 단위는 스레드 → 워프 → 스레드 블록 → 그리드로 쌓이고, SM이 이를 물리적으로 스케줄링한다.
-- SM 안에는 CUDA Core·Tensor Core·특수 함수 유닛이 역할을 나눠 맡는다. 이름은 제조사마다 다르지만(AMD의 CU, Intel의 Xe Core, Apple의 GPU Core) 구조의 뼈대는 같다.
+- SM(NVIDIA 기준) 안에는 CUDA Core와 Tensor Core가 역할을 나눠 맡는다. 실행 단위 이름은 제조사마다 다르지만(AMD의 CU/WGP, Intel의 Xe-core, Apple의 GPU 코어) 병렬 연산 단위를 묶어 처리량을 높인다는 목적은 같다.
 - Apple은 독립형 그래픽카드 없이 M1~M4 칩에 GPU를 통합하고, UMA로 CPU와 메모리를 공유한다.
 - 메모리는 레지스터 → 공유 메모리/L1 → L2 캐시 → 글로벌 메모리 순으로 범위가 넓어지고 속도는 느려진다.
 
