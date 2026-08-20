@@ -15,7 +15,7 @@ tags:
   - gpu-selection
   - computer-hardware
 summary: "NVIDIA RTX, AMD Radeon RX, Intel Arc의 그래픽카드 모델명 규칙을 표로 비교하며, 모델명만 봐도 성능 등급과 세대를 읽을 수 있도록 정리한다"
-ai_agent: Claude-Code
+ai_agent: Claude-Code, ChatGPT
 devto: false
 devto_id:
 devto_url:
@@ -23,13 +23,15 @@ devto_url:
 
 # 그래픽카드 모델명 읽는 법
 
-_written by Claude-Code_
+_written by Claude-Code,ChatGPT_
 
 ## 배경: 작전명 AI, 코드네임 23 — 네번째 미션
 
 [[gpu-architecture-simt-execution-model|이전 미션]]에서 GPU 내부 구조를 파고들었다. SM이 몇 개인지, SM 안에 CUDA Core와 Tensor Core가 어떻게 배치되는지, 워프가 어떻게 스케줄링되는지까지 확인했다. 그런데 정작 매장에 진열된 그래픽카드 앞에 서면 "RTX 4090", "RX 7900 XTX", "Arc A770" 같은 이름만 보일 뿐, 그 안의 SM 개수는 보이지 않는다.
 
-<!-- TODO: 이미지 삽입 - gpu-naming-comparison.png (NVIDIA/AMD/Intel 3사 모델명 비교 인포그래픽) -->
+![그래픽카드 모델명 읽는 법 — NVIDIA·AMD·Intel 명명규칙 비교|800](/assets/posts/cs/how-to-read-gpu-model-names/gpu-naming-comparison.png)
+
+이 인포그래픽 한 장에 세 제조사의 모델명 구조, 세대 코드와 아키텍처의 대응 관계, 제품군상 위치 비교까지 이 글에서 다룰 내용이 요약되어 있다.
 
 이번 미션의 목표는 명확하다. 그래픽카드 모델명이 왜 GPU 모델명과 같은지 이해하고, NVIDIA·AMD·Intel 세 제조사의 명명규칙을 표로 정리해서 모델명만 보고도 세대와 성능 등급을 읽어내는 것이다.
 
@@ -58,6 +60,8 @@ NVIDIA GeForce RTX 시리즈의 모델명은 세대 코드, 성능 등급, 옵�
 - **X6**: 중간 (예: 4060)
 
 같은 세대 안에서는 이 숫자가 클수록 성능이 높고, 세대가 바뀌면 아키텍처 이름도 Turing에서 Ampere, Ada Lovelace, Blackwell 순으로 함께 바뀐다.
+
+옵션 접미사는 같은 등급 안에서의 변형 모델을 나타낸다. **Ti**와 **Super**는 기본 모델보다 코어 수나 메모리를 늘린 상위 버전으로, 같은 세대·같은 등급 안에서 한 단계 더 세분화된 선택지라고 보면 된다(예: RTX 2080 Ti는 RTX 2080보다 상위 모델).
 
 ## AMD Radeon RX 명명규칙
 
