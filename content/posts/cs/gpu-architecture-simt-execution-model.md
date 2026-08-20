@@ -99,7 +99,7 @@ SM(Streaming Multiprocessor)은 워프가 실제로 실행되는 연산 장치 �
 | 상위 묶음 | GPC → TPC | Shader Engine | Render Slice | 비공개 |
 | 실행 단위 | SM | CU / WGP | Xe-core | GPU 코어 |
 
-이름과 세부 구조는 다르지만, 병렬 연산 단위를 묶어 처리량을 높인다는 목적은 같다. NVIDIA·AMD·Intel은 독립형 그래픽카드로 판매되는 반면, Apple은 M1~M4 칩에 GPU를 직접 통합해 별도 카드 없이 Metal API로 프로그래밍하며, CPU와 메모리를 공유하는 UMA(Unified Memory Architecture) 구조를 쓴다.
+이름과 세부 구조는 다르지만, 병렬 연산 단위를 묶어 처리량을 높인다는 목적은 같다. NVIDIA·AMD·Intel은 독립형 그래픽카드로 판매되는 반면, Apple은 M 시리즈 칩에 GPU를 직접 통합해 별도 카드 없이 Metal API로 프로그래밍하며, CPU와 메모리를 공유하는 UMA(Unified Memory Architecture) 구조를 쓴다. 2026년 8월 현재 Apple Silicon은 M5 계열까지 확장됐고, M5 Pro·M5 Max에서는 GPU 코어 안에 Neural Accelerator를 넣어 온디바이스 AI 처리 비중을 더 키웠다.
 
 ## 메모리 계층
 
@@ -119,7 +119,7 @@ SM(Streaming Multiprocessor)은 워프가 실제로 실행되는 연산 장치 �
 - 워프 안에서 분기가 갈리면(Warp Divergence) 경로를 순차 실행해야 해서 처리량이 떨어진다.
 - 실행 단위는 스레드 → 워프 → 스레드 블록 → 그리드로 쌓이고, SM이 이를 물리적으로 스케줄링한다.
 - SM(NVIDIA 기준) 안에는 CUDA Core와 Tensor Core가 역할을 나눠 맡는다. 실행 단위 이름은 제조사마다 다르지만(AMD의 CU/WGP, Intel의 Xe-core, Apple의 GPU 코어) 병렬 연산 단위를 묶어 처리량을 높인다는 목적은 같다.
-- Apple은 독립형 그래픽카드 없이 M1~M4 칩에 GPU를 통합하고, UMA로 CPU와 메모리를 공유한다.
+- Apple은 독립형 그래픽카드 없이 M 시리즈 칩에 GPU를 통합하고, UMA로 CPU와 메모리를 공유한다. 2026년 8월 기준 최신 M5 계열은 GPU 안의 AI 가속 구조도 강화했다.
 - 메모리는 레지스터 → 공유 메모리/L1 → L2 캐시 → 글로벌 메모리 순으로 범위가 넓어지고 속도는 느려진다.
 
 ## 관련 글

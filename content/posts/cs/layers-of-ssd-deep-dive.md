@@ -1,7 +1,7 @@
 ---
 title: Layers로 이해하는 SSD 깊이 있는 탐구
 date: 2026-07-06
-updated: 2026-07-07
+updated: 2026-08-21
 tags:
   - hdd
   - ssd
@@ -37,7 +37,7 @@ _written by Claude-Code,ChatGPT_
 
 ![스토리지 완벽 비교 가이드 — HDD vs SSD 폼팩터부터 프로토콜까지|800](/assets/posts/cs/layers-of-ssd-deep-dive/storage-comparison-guide.png)
 
-이 인포그래픽 한 장에 이 글에서 다룰 4계층 구조와 HDD·SSD 비교가 요약되어 있다. 이미지의 "5. 명령 프로토콜(Communication/Command)"은 이 글 전체에서 **통신 프로토콜**로 표기한다.
+이 인포그래픽 한 장에 이 글에서 다룰 4계층 구조와 HDD·SSD 비교가 요약되어 있다. 이미지의 "5. 명령 프로토콜(Communication/Command)"은 이 글 전체에서 **통신 프로토콜**로 표기한다. 또한 이미지는 소비자용·일반 서버용 SSD에서 실제로 자주 만나는 PCIe 3.0~5.0 조합을 기준으로 단순화했다.
 
 ---
 
@@ -105,7 +105,7 @@ U.3의 물리 커넥터는 SFF-8639(SFF-TA-1001 계열) 규격을 따른다. 이
 ### 전송 인터페이스 (Bus/Transport)
 
 - **SATA**: 최대 6Gbps(약 550MB/s 실효 대역폭). HDD 시절 설계된 규격이라 플래시의 속도를 다 살리지 못한다.
-- **PCIe**: 레인(lane) 단위로 대역폭이 늘어난다. PCIe 4.0 x4 기준 약 8GB/s, PCIe 5.0 x4는 그 두 배에 이른다. 세대가 올라갈수록, 레인 수가 늘수록 대역폭이 커진다.
+- **PCIe**: 레인(lane) 단위로 대역폭이 늘어난다. PCIe 4.0 x4 기준 약 8GB/s, PCIe 5.0 x4는 그 두 배에 이른다. 2026년 8월 현재 규격 문서 기준으로는 PCIe 6.0과 PCIe 7.0까지 승인되어 있지만, 소비자용 SSD와 일반 서버용 SSD 비교에서는 여전히 PCIe 4.0/5.0 기반 제품을 가장 자주 마주친다. 세대가 올라갈수록, 레인 수가 늘수록 대역폭이 커진다.
 
 ### 통신 프로토콜 (Command/Communication Protocol) — 유일하게 물리적이지 않은 계층
 
@@ -124,8 +124,8 @@ U.3의 물리 커넥터는 SFF-8639(SFF-TA-1001 계열) 규격을 따른다. 이
 |------|------|--------|------|----------|---------------------|---------|
 | SATA SSD | 2.5인치 | SATA 포트 | SATA | AHCI | ~550MB/s | HDD 대체, 구형 시스템 |
 | M.2 SATA SSD | M.2 | M.2 슬롯(B key) | SATA | AHCI | ~550MB/s | 초슬림 노트북(구형) |
-| M.2 NVMe SSD | M.2 | M.2 슬롯(M key) | PCIe | NVMe | 3~14GB/s | 소비자용 고성능 |
-| U.2/U.3 SSD | 2.5인치(15mm) | U.2/U.3 슬롯 | PCIe | NVMe | 3~14GB/s | 서버, 데이터센터, 핫스왑 |
+| M.2 NVMe SSD | M.2 | M.2 슬롯(M key) | PCIe | NVMe | 3~14GB/s+ | 소비자용 고성능 |
+| U.2/U.3 SSD | 2.5인치(15mm) | U.2/U.3 슬롯 | PCIe | NVMe | 3~14GB/s+ | 서버, 데이터센터, 핫스왑 |
 | PCIe AIC SSD | PCIe 확장카드 | PCIe 슬롯 | PCIe(x8/x16) | NVMe | 8GB/s 이상 | 엔터프라이즈, AI 스토리지 서버 |
 
 이 표에서 눈여겨볼 지점은 두 번째 줄이다. **M.2는 형태일 뿐 속도를 보장하지 않는다.** M.2 SATA SSD는 M.2 NVMe SSD와 똑같이 생겼지만 전송 인터페이스가 SATA이기 때문에 SATA SSD와 동일한 속도 한계를 갖는다. "M.2니까 빠르겠지"라는 판단은 외형(1계층)만 보고 통신 프로토콜(4계층)을 추측한 오류다.
