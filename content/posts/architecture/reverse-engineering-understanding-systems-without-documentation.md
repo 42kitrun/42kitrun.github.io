@@ -524,7 +524,7 @@ Reverse Engineering은 **문서의 부재를 동작의 관찰로 보완하는 �
 
 Observability와 Distributed Tracing이 시스템을 **보이게** 만든다면, Reverse Engineering은 그 관찰 결과로부터 **의미를 추출**한다. 두 기법은 보완적이다.
 
-[[domain-modeling|다음 편]]에서는 시스템을 읽은 후, 그것이 나타내는 도메인과 비즈니스 개념을 이해하는 방법인 Domain Modeling을 다룬다.
+[[domain-modeling-understanding-domain-before-system|다음 편]]에서는 시스템을 읽은 후, 그것이 나타내는 도메인과 비즈니스 개념을 이해하는 방법인 Domain Modeling을 다룬다.
 
 ---
 

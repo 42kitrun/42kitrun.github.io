@@ -322,7 +322,7 @@ Observability 없이는 어디서부터 시작해야 할지 몰라 시스템 코
 
 이것이 복잡한 시스템을 이해하고 운영하는 데 필수불가결한 기반이다.
 
-[[distributed-tracing|다음 편]]에서는 트레이스의 구체적인 구현 방식과 요청 추적의 기술적 세부사항을 다룬다.
+[[distributed-tracing-following-service-traces|다음 편]]에서는 트레이스의 구체적인 구현 방식과 요청 추적의 기술적 세부사항을 다룬다.
 
 ---
 

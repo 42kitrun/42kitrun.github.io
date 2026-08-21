@@ -274,7 +274,7 @@ Nginx  →  /path/to/gunicorn.sock  →  Gunicorn
 > - 포트 바인딩 불필요 → 포트 충돌 위험 없음
 > - t3.small(2 vCPU 2GB RAM)처럼 리소스가 제한된 환경에서 네트워크 오버헤드 절감 효과가 두드러짐
 
-→ 관련 글: [[posts/cs/unix-domain-socket|Unix Domain Socket이란?]]
+→ 관련 글: [[unix-domain-socket|Unix Domain Socket이란?]]
 
 ---
 
