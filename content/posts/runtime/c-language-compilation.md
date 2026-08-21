@@ -322,7 +322,7 @@ Python 소스 코드
 ## 🔗 관련 개념
 
 **다음 단계:**
-- [[cs/software-architecture-terms|소프트웨어 아키텍처 용어]] - 컴파일러, 인터프리터 등의 역할
+- [[software-architecture-terms|소프트웨어 아키텍처 용어]] - 컴파일러, 인터프리터 등의 역할
 
 **관련 포스트:**
 - [[runtime/program-driver-engine|프로그램, 드라이버, 엔진의 관계]]

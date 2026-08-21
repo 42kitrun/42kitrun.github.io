@@ -85,7 +85,7 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
     componentResources.css.push(popoverStyle)
   }
 
-  // Backend Architecture Map widget (content/posts/cs/why-backend-architecture-grows-complex.md)
+  // Backend Architecture Map widget (content/posts/architecture/why-backend-architecture-grows-complex.md)
   // Loaded as a dynamically-created <script> so it always executes, regardless of whether
   // the page was loaded directly or reached via SPA navigation (micromorph does not
   // reliably re-execute <script src> tags embedded in markdown body content).

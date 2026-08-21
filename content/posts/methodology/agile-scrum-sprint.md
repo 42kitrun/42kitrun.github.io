@@ -152,5 +152,5 @@ Kanban:  ├── 연속 흐름 방식    ├── 역할 구분 유연  ├�
 
 ## 🔗 관련 개념
 
-- [[cs/software-architecture-terms|소프트웨어 아키텍처 용어 정리]]
+- [[software-architecture-terms|소프트웨어 아키텍처 용어 정리]]
 - [[infrastructure/dev-vs-production-environment|개발 환경 vs 프로덕션 환경]]

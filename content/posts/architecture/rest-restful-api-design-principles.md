@@ -34,7 +34,7 @@ _written by Codex_
 
 아래 그림은 이 글의 전체 지도를 먼저 보여준다. REST는 설계 원칙의 집합이고, REST API는 그 원칙을 HTTP API 설계에 적용한 구현이며, RESTful API는 그 구현이 REST 제약 조건을 얼마나 충실히 따르는지를 더 엄격하게 부르는 표현이다.
 
-![REST, REST API, RESTful API 개념 비교 한눈에 정리|860](/assets/posts/cs/rest-restful-api-design-principles/rest-rest-api-restful-api.png)
+![REST, REST API, RESTful API 개념 비교 한눈에 정리|860](/assets/posts/architecture/rest-restful-api-design-principles/rest-rest-api-restful-api.png)
 
 그림에서 핵심은 피라미드 구조다. REST가 가장 아래의 기반이고, 그 위에 REST 원칙을 활용한 REST API가 있으며, 가장 위의 RESTful API는 HATEOAS 같은 조건까지 포함해 REST의 제약을 더 완전하게 만족하는 형태다. 다만 실무에서는 이 경계가 자주 흐려지므로, 먼저 용어를 분리해 두는 것이 중요하다.
 

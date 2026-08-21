@@ -295,7 +295,7 @@ PostgreSQL 엔진이 받은 쿼리:
 
 **다음 단계:**
 - [[runtime/c-language-compilation|C 언어는 어떻게 실행될까?]] - 드라이버와 엔진의 성능 차이
-- [[cs/software-architecture-terms|소프트웨어 아키텍처 용어]] - 드라이버의 다른 이름들
+- [[software-architecture-terms|소프트웨어 아키텍처 용어]] - 드라이버의 다른 이름들
 
 **관련 포스트:**
 - [[data/database-engine|데이터베이스 엔진이란?]]
